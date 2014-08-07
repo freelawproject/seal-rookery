@@ -43,6 +43,14 @@ transparent.
 created by the `jpeg` compression. You'll see it if you zoom in.  
 
 
+Usage
+-----
+
+We know of no instances where courts have requested a take down of their seal, 
+however usage of government seals has caused a [few][3] [stirs][2] in the past. 
+Don't attempt to represent the government or its agents. 
+
+
 Copyright
 ---------
 
@@ -63,3 +71,5 @@ This project inspired by the initial [visualization work][1] of
 @nowherenearithaca.
 
 [1]: https://d57dd304fefca1aa423fea1b4dc59f23c06dd95e.googledrive.com/host/0B2GQktu-wcTiWm82NGt5MTZreHM/
+[2]: http://www.nytimes.com/2010/08/03/us/03fbi.html
+[3]: https://www.publicknowledge.org/news-blog/blogs/nsa-spying-fine-trademark-infringement-crosse
