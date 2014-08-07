@@ -1,0 +1,2132 @@
+[
+    {
+        "id": "scotus",
+        "name": "Supreme Court of the United States",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca1",
+        "name": "Court of Appeals for the First Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca2",
+        "name": "Court of Appeals for the Second Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca3",
+        "name": "Court of Appeals for the Third Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca4",
+        "name": "Court of Appeals for the Fourth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca5",
+        "name": "Court of Appeals for the Fifth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca6",
+        "name": "Court of Appeals for the Sixth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca7",
+        "name": "Court of Appeals for the Seventh Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca8",
+        "name": "Court of Appeals for the Eighth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca9",
+        "name": "Court of Appeals for the Ninth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca10",
+        "name": "Court of Appeals for the Tenth Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ca11",
+        "name": "Court of Appeals for the Eleventh Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "cadc",
+        "name": "Court of Appeals for the D.C. Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "cafc",
+        "name": "Court of Appeals for the Federal Circuit",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "armfor",
+        "name": "Court of Appeals for the Armed Forces",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "cc",
+        "name": "United States Court of Claims",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "uscfc",
+        "name": "United States Court of Federal Claims",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "com",
+        "name": "Commerce Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ccpa",
+        "name": "Court of Customs and Patent Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cusc",
+        "name": "United States Customs Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tax",
+        "name": "United States Tax Court",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mc",
+        "name": "U.S. Court of Military Commission Review",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cavc",
+        "name": "United States Court of Appeals for Veterans Claims",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "eca",
+        "name": "Emergency Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tecoa",
+        "name": "Temporary Emergency Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "fiscr",
+        "name": "Foreign Intelligence Surveillance Court of Review",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "fisc",
+        "name": "Foreign Intelligence Surveillance Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "reglrailreorgct",
+        "name": "Special Court under the Regional Rail Reorganization Act",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cit",
+        "name": "United States Court of International Trade",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "bap1",
+        "name": "Bankruptcy Appellate Panel of the First Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bap2",
+        "name": "Bankruptcy Appellate Panel of the Second Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bap6",
+        "name": "Bankruptcy Appellate Panel of the Sixth Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bap8",
+        "name": "United States Bankruptcy Appellate Panel for the Eighth Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bap9",
+        "name": "United States Bankruptcy Appellate Panel for the Ninth Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bap10",
+        "name": "Bankruptcy Appellate Panel of the Tenth Circuit",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bapme",
+        "name": "Bankruptcy Appellate Panel, D. Maine",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "bapma",
+        "name": "Bankruptcy Appellate Panel of Massachusetts",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "almb",
+        "name": "United States Bankruptcy Court, M.D. Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alnb",
+        "name": "United States Bankruptcy Court, N.D. Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alsb",
+        "name": "United States Bankruptcy Court, S.D. Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "akb",
+        "name": "United States Bankruptcy Court, D. Alaska",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "arb",
+        "name": "United States Bankruptcy Court, D. Arizona",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "areb",
+        "name": "United States Bankruptcy Court, E.D. Arkansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "arwb",
+        "name": "United States Bankruptcy Court, W.D. Arkansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cacb",
+        "name": "United States Bankruptcy Court, C.D. California",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "caeb",
+        "name": "United States Bankruptcy Court, E.D. California",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "canb",
+        "name": "United States Bankruptcy Court, N.D. California",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "casb",
+        "name": "United States Bankruptcy Court, S.D. California",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cob",
+        "name": "United States Bankruptcy Court, D. Colorado",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ctb",
+        "name": "United States Bankruptcy Court, D. Connecticut",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "deb",
+        "name": "United States Bankruptcy Court, D. Delaware",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "dcb",
+        "name": "United States Bankruptcy Court, District of Columbia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "flmb",
+        "name": "United States Bankruptcy Court, M.D. Florida",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "flnb",
+        "name": "United States Bankruptcy Court, N.D. Florida",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "flsb",
+        "name": "United States Bankruptcy Court, S.D. Florida.",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "gamb",
+        "name": "United States Bankruptcy Court, M.D. Georgia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ganb",
+        "name": "United States Bankruptcy Court, N.D. Georgia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "gasb",
+        "name": "United States Bankruptcy Court, S.D. Georgia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "hib",
+        "name": "United States Bankruptcy Court, D. Hawaii",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "idb",
+        "name": "United States Bankruptcy Court, D. Idaho",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ilcb",
+        "name": "  United States Bankruptcy Court, C.D. Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ilnb",
+        "name": "  United States Bankruptcy Court, N.D. Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ilsb",
+        "name": "United States Bankruptcy Court, S.D. Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "innb",
+        "name": "United States Bankruptcy Court, N.D. Indiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "insb",
+        "name": "United States Bankruptcy Court, S.D. Indiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ianb",
+        "name": "United States Bankruptcy Court, N.D. Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "iasb",
+        "name": "United States Bankruptcy Court, S.D. Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ksb",
+        "name": "United States Bankruptcy Court, D. Kansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kyeb",
+        "name": "United States Bankruptcy Court, E.D. Kentucky",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kywb",
+        "name": "United States Bankruptcy Court, W.D. Kentucky",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "laeb",
+        "name": "United States Bankruptcy Court, E.D. Louisiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "lamb",
+        "name": "United States Bankruptcy Court, M.D. Louisiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "lawb",
+        "name": "United States Bankruptcy Court, W.D. Louisiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "meb",
+        "name": "  United States Bankruptcy Court, D. Maine",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mdb",
+        "name": "United States Bankruptcy Court, D. Maryland",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mab",
+        "name": "United States Bankruptcy Court, D. Massachusetts",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mieb",
+        "name": "United States Bankruptcy Court, E.D. Michigan",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "miwb",
+        "name": "United States Bankruptcy Court, W.D. Michigan",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mnb",
+        "name": "United States Bankruptcy Court, D. Minnesota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "msnb",
+        "name": "United States Bankruptcy Court, N.D. Mississippi",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mssb",
+        "name": "United States Bankruptcy Court, S.D. Mississippi",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "moeb",
+        "name": "United States Bankruptcy Court, E.D. Missouri",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mowb",
+        "name": "United States Bankruptcy Court, W.D. Missouri",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mtb",
+        "name": "United States Bankruptcy Court, D. Montana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nebraskab",
+        "name": "United States Bankruptcy Court, D. Nebraska",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nvb",
+        "name": "United States Bankruptcy Court, D. Nevada",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nhb",
+        "name": "United States Bankruptcy Court, D. New Hampshire",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "njb",
+        "name": "United States Bankruptcy Court, D. New Jersey",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nmb",
+        "name": "United States Bankruptcy Court, D. New Mexico",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nyeb",
+        "name": "United States Bankruptcy Court, E.D. New York",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nynb",
+        "name": "United States Bankruptcy Court, N.D. New York",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nysb",
+        "name": "United States Bankruptcy Court, S.D. New York",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nywb",
+        "name": "United States Bankruptcy Court, W.D. New York",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nceb",
+        "name": "United States Bankruptcy Court, E.D. North Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ncmb",
+        "name": "United States Bankruptcy Court, M.D. North Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ncwb",
+        "name": "United States Bankruptcy Court, W.D. North Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ndb",
+        "name": "  United States Bankruptcy Court, D. North Dakota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ohnb",
+        "name": "United States Bankruptcy Court, N.D. Ohio",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ohsb",
+        "name": "United States Bankruptcy Court, S.D. Ohio",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "okeb",
+        "name": "United States Bankruptcy Court, E.D. Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oknb",
+        "name": "United States Bankruptcy Court, N.D. Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "okwb",
+        "name": "United States Bankruptcy Court, W.D. Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "orb",
+        "name": "United States Bankruptcy Court, D. Oregon",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "paeb",
+        "name": "United States Bankruptcy Court, E.D. Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "pamb",
+        "name": "United States Bankruptcy Court, M.D. Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "pawb",
+        "name": "United States Bankruptcy Court, W.D. Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "rib",
+        "name": "United States Bankruptcy Court, D. Rhode Island",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "scb",
+        "name": "United States Bankruptcy Court, District of South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "sdb",
+        "name": "United States Bankruptcy Court, D. South Dakota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tneb",
+        "name": "United States Bankruptcy Court, E.D. Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tnmb",
+        "name": "United States Bankruptcy Court, M.D. Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tnwb",
+        "name": "United States Bankruptcy Court, W.D. Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tennesseeb",
+        "name": "United States Bankruptcy Court, D. Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "txeb",
+        "name": "United States Bankruptcy Court, E.D. Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "txnb",
+        "name": "United States Bankruptcy Court, N.D. Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "txsb",
+        "name": "United States Bankruptcy Court, S.D. Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "txwb",
+        "name": "United States District Court, W.D. Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "utb",
+        "name": "United States Bankruptcy Court, D. Utah",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "vtb",
+        "name": "United States Bankruptcy Court, D. Vermont",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "vaeb",
+        "name": "United States Bankruptcy Court, E.D. Virginia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "vawb",
+        "name": "United States Bankruptcy Court, W.D. Virginia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "waeb",
+        "name": "United States Bankruptcy Court, E.D. Washington",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wawb",
+        "name": "United States Bankruptcy Court, W.D. Washington",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wvnb",
+        "name": "United States District Court, N.D. West Virginia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wvsb",
+        "name": "United States Bankruptcy Court, S.D. West Virginia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wieb",
+        "name": "United States Bankruptcy Court, E.D. Wisconsin",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wiwb",
+        "name": "United States Bankruptcy Court, W.D. Wisconsin",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wyb",
+        "name": "United States Bankruptcy Court, D. Wyoming",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "gub",
+        "name": "United States Bankruptcy Court, D. Guam",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nmib",
+        "name": "United States Bankruptcy Court, Northern Mariana Islands",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "prb",
+        "name": "United States Bankruptcy Court, D. Puerto Rico",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "vib",
+        "name": "United States Bankruptcy Court, D. Virgin Islands",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "dcd",
+        "name": "District Court, District of Columbia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "almd",
+        "name": "District Court, M.D. Alabama",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "alnd",
+        "name": "District Court, N.D. Alabama",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "alsd",
+        "name": "District Court, S.D. Alabama",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "akd",
+        "name": "District Court, D. Alaska",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "azd",
+        "name": "District Court, D. Arizona",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ared",
+        "name": "District Court, E.D. Arkansas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "arwd",
+        "name": "District Court, W.D. Arkansas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "californiad",
+        "name": "District Court, D. California",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cacd",
+        "name": "District Court, C.D. California",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "caed",
+        "name": "District Court, E.D. California",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "cand",
+        "name": "District Court, N.D. California",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "casd",
+        "name": "District Court, S.D. California",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "cod",
+        "name": "District Court, D. Colorado",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ctd",
+        "name": "District Court, D. Connecticut",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ded",
+        "name": "District Court, D. Delaware",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "flmd",
+        "name": "District Court, M.D. Florida",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "flnd",
+        "name": "District Court, N.D. Florida",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "flsd",
+        "name": "District Court, S.D. Florida",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "gamd",
+        "name": "District Court, M.D. Georgia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "gand",
+        "name": "District Court, N.D. Georgia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "gasd",
+        "name": "District Court, S.D. Georgia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "hid",
+        "name": "District Court, D. Hawaii",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "idd",
+        "name": "District Court, D. Idaho",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ilcd",
+        "name": "District Court, C.D. Illinois",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ilnd",
+        "name": "District Court, N.D. Illinois",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ilsd",
+        "name": "District Court, S.D. Illinois",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "illinoised",
+        "name": "District Court, E.D. Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "illinoisd",
+        "name": "District Court, D. Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "innd",
+        "name": "District Court, N.D. Indiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "insd",
+        "name": "District Court, S.D. Indiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "indianad",
+        "name": "District Court, D. Indiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "iand",
+        "name": "District Court, N.D. Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "iasd",
+        "name": "District Court, S.D. Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ksd",
+        "name": "District Court, D. Kansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kyed",
+        "name": "District Court, E.D. Kentucky",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "kywd",
+        "name": "District Court, W.D. Kentucky",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "laed",
+        "name": "District Court, E.D. Louisiana.",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "lamd",
+        "name": "District Court, M.D. Louisiana",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "lawd",
+        "name": "District Court, W.D. Louisiana",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "med",
+        "name": "District Court, D. Maine",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mdd",
+        "name": "District Court, D. Maryland",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mad",
+        "name": "District Court, D. Massachusetts",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mied",
+        "name": "District Court, E.D. Michigan",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "miwd",
+        "name": "District Court, W.D. Michigan",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mnd",
+        "name": "District Court, D. Minnesota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "msnd",
+        "name": "District Court, N.D. Mississippi",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mssd",
+        "name": "District Court, S.D. Mississippi",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mocd",
+        "name": "District Court, C.D. Missouri",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "moed",
+        "name": "District Court, E.D. Missouri",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mowd",
+        "name": "District Court, W.D. Missouri",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "mosd",
+        "name": "District Court, S.D. Missouri",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mtd",
+        "name": "District Court, D. Montana",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ned",
+        "name": "District Court, D. Nebraska",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nvd",
+        "name": "District Court, D. Nevada",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nhd",
+        "name": "District Court, D. New Hampshire",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "njd",
+        "name": "District Court, D. New Jersey",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nmd",
+        "name": "District Court, D. New Mexico",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nyed",
+        "name": "District Court, E.D. New York",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nynd",
+        "name": "District Court, N.D. New York",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nysd",
+        "name": "District Court, S.D. New York",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nywd",
+        "name": "District Court, W.D. New York",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nced",
+        "name": "District Court, E.D. North Carolina",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ncmd",
+        "name": "District Court, M.D. North Carolina",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ncwd",
+        "name": "District Court, W.D. North Carolina",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ndd",
+        "name": "District Court, D. North Dakota",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ohnd",
+        "name": "District Court, N.D. Ohio",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ohsd",
+        "name": "District Court, S.D. Ohio",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ohiod",
+        "name": "District Court, D. Ohio",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oked",
+        "name": "District Court, E.D. Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oknd",
+        "name": "District Court, N.D. Oklahoma",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "okwd",
+        "name": "District Court, W.D. Oklahoma",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ord",
+        "name": "District Court, D. Oregon",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "paed",
+        "name": "District Court, E.D. Pennsylvania",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "pamd",
+        "name": "District Court, M.D. Pennsylvania",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "pawd",
+        "name": "District Court, W.D. Pennsylvania",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "pennsylvaniad",
+        "name": "District Court, D. Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "rid",
+        "name": "District Court, D. Rhode Island",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "scd",
+        "name": "United States District Court, D. South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "southcarolinaed",
+        "name": "District Court, E.D. South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "southcarolinawd",
+        "name": "District Court, W.D. South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "sdd",
+        "name": "District Court, D. South Dakota",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "tned",
+        "name": "District Court, E.D. Tennessee",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "tnmd",
+        "name": "District Court, M.D. Tennessee",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "tnwd",
+        "name": "District Court, W.D. Tennessee",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "tennessed",
+        "name": "District Court, D. Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "txed",
+        "name": "District Court, E.D. Texas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "txnd",
+        "name": "District Court, N.D. Texas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "txsd",
+        "name": "District Court, S.D. Texas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "txwd",
+        "name": "District Court, W.D. Texas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "utd",
+        "name": "United States District Court, D. Utah",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "vtd",
+        "name": "District Court, D. Vermont",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "vaed",
+        "name": "District Court, E.D. Virginia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "vawd",
+        "name": "District Court, W.D. Virginia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "waed",
+        "name": "District Court, E.D. Washington",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wawd",
+        "name": "District Court, W.D. Washington",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wvnd",
+        "name": "District Court, N.D. West Virginia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wvsd",
+        "name": "District Court, S.D. West Virginia.",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wied",
+        "name": "District Court, E.D. Wisconsin",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wiwd",
+        "name": "District Court, W.D. Wisconsin",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wyd",
+        "name": "District Court, D. Wyoming",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "canalzoned",
+        "name": "District Court, Canal Zone",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "gud",
+        "name": "District Court, D. Guam",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "nmid",
+        "name": "District Court, Northern Mariana Islands",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "prd",
+        "name": "District Court, D. Puerto Rico",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "vid",
+        "name": "District Court, Virgin Islands",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ala",
+        "name": "Supreme Court of Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alactapp",
+        "name": "Alabama Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alacrimapp",
+        "name": "Court of Criminal Appeals of Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alacivapp",
+        "name": "Court of Civil Appeals of Alabama",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alaska",
+        "name": "Alaska Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "alaskactapp",
+        "name": "Court of Appeals of Alaska",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ariz",
+        "name": "Arizona Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "arizctapp",
+        "name": "Court of Appeals of Arizona",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ariztaxct",
+        "name": "Arizona Tax Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ark",
+        "name": "Supreme Court of Arkansas",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "arkctapp",
+        "name": "Court of Appeals of Arkansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cal",
+        "name": "California Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "calctapp",
+        "name": "California Court of Appeal",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "colo",
+        "name": "Supreme Court of Colorado",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "coloctapp",
+        "name": "Colorado Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "conn",
+        "name": "Supreme Court of Connecticut",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "connappct",
+        "name": "Connecticut Appellate Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "connsuperct",
+        "name": "Connecticut Superior Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "del",
+        "name": "Supreme Court of Delaware",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "delch",
+        "name": "Court of Chancery of Delaware",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "delsuperct",
+        "name": "Superior Court of Delaware",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "delctcompl",
+        "name": "Delaware Court of Common Pleas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "delfamct",
+        "name": "Delaware Family Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "deljudct",
+        "name": "Court on the Judiciary of Delaware.",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "dc",
+        "name": "District of Columbia Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "fla",
+        "name": "Supreme Court of Florida",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "fladistctapp",
+        "name": "District Court of Appeal of Florida",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ga",
+        "name": "Supreme Court of Georgia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "gactapp",
+        "name": "Court of Appeals of Georgia.",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "haw",
+        "name": "Hawaii Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "hawapp",
+        "name": "Hawaii Intermediate Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "idaho",
+        "name": "Idaho Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "idahoctapp",
+        "name": "Idaho Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ill",
+        "name": "Illinois Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "illappct",
+        "name": "Appellate Court of Illinois",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ind",
+        "name": "Indiana Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "indctapp",
+        "name": "Indiana Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "indtc",
+        "name": "Indiana Tax Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "iowa",
+        "name": "Supreme Court of Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "iowactapp",
+        "name": "Court of Appeals of Iowa",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kan",
+        "name": "Supreme Court of Kansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kanctapp",
+        "name": "Court of Appeals of Kansas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ky",
+        "name": "Kentucky Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "kyctapp",
+        "name": "Court of Appeals of Kentucky",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "la",
+        "name": "Supreme Court of Louisiana",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "lactapp",
+        "name": "Louisiana Court of Appeal",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "me",
+        "name": "Supreme Judicial Court of Maine",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "md",
+        "name": "Court of Appeals of Maryland",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mdctspecapp",
+        "name": "Court of Special Appeals of Maryland",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mass",
+        "name": "Massachusetts Supreme Judicial Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "massappct",
+        "name": "Massachusetts Appeals Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mich",
+        "name": "Michigan Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "michctapp",
+        "name": "Michigan Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "minn",
+        "name": "Supreme Court of Minnesota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "minnctapp",
+        "name": "Court of Appeals of Minnesota",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "miss",
+        "name": "Mississippi Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "missctapp",
+        "name": "Court of Appeals of Mississippi",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mo",
+        "name": "Supreme Court of Missouri",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "moctapp",
+        "name": "Missouri Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "mont",
+        "name": "Montana Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "neb",
+        "name": "Nebraska Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nebctapp",
+        "name": "Nebraska Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nev",
+        "name": "Nevada Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nh",
+        "name": "Supreme Court of New Hampshire",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nj",
+        "name": "Supreme Court of New Jersey",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "njsuperctappdiv",
+        "name": "New Jersey Superior Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "njtaxct",
+        "name": "New Jersey Tax Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nm",
+        "name": "New Mexico Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nmctapp",
+        "name": "New Mexico Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ny",
+        "name": "New York Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nyappdiv",
+        "name": "Appellate Division of the Supreme Court of the State of New York",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nyfamct",
+        "name": "New York Family Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nysurct",
+        "name": "New York Surrogate's Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nc",
+        "name": "Supreme Court of North Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ncctapp",
+        "name": "Court of Appeals of North Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "nd",
+        "name": "North Dakota Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ndctapp",
+        "name": "North Dakota Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ohio",
+        "name": "Ohio Supreme Court",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "ohioctapp",
+        "name": "Ohio Court of Appeals",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ohioctcl",
+        "name": "Ohio Court of Claims",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "okla",
+        "name": "Supreme Court of Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oklacivapp",
+        "name": "Court of Civil Appeals of Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oklacrimapp",
+        "name": "Court of Criminal Appeals of Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oklajeap",
+        "name": "Oklahoma Judicial Ethics Advisory Panel",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oklacoj",
+        "name": "Court on the Judiciary of Oklahoma",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "oklaag",
+        "name": "Oklahoma Attorney General Reports",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "or",
+        "name": "Oregon Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "orctapp",
+        "name": "Court of Appeals of Oregon",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "pa",
+        "name": "Supreme Court of Pennsylvania",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "pasuperct",
+        "name": "Superior Court of Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "pacommwct",
+        "name": "Commonwealth Court of Pennsylvania.",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "cjdpa",
+        "name": "Court of Judicial Discipline of Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "ri",
+        "name": "Supreme Court of Rhode Island",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "sc",
+        "name": "Supreme Court of South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "scctapp",
+        "name": "Court of Appeals of South Carolina",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "sd",
+        "name": "South Dakota Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tenn",
+        "name": "Tennessee Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tennctapp",
+        "name": "Court of Appeals of Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tenncrimapp",
+        "name": "Court of Criminal Appeals of Tennessee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "tex",
+        "name": "Texas Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "texapp",
+        "name": "Court of Appeals of Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "texcrimapp",
+        "name": "Court of Criminal Appeals of Texas",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "texreview",
+        "name": "Texas Special Court of Review",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "utah",
+        "name": "Utah Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "utahctapp",
+        "name": "Court of Appeals of Utah",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "vt",
+        "name": "Supreme Court of Vermont",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "va",
+        "name": "Supreme Court of Virginia",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "vactapp",
+        "name": "Court of Appeals of Virginia",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wash",
+        "name": "Washington Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "washctapp",
+        "name": "Court of Appeals of Washington",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wva",
+        "name": "West Virginia Supreme Court",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wis",
+        "name": "Wisconsin Supreme Court",
+        "seal_completed": true,
+        "notes": "Completed as part of initial version."
+    },
+    {
+        "id": "wisctapp",
+        "name": "Court of Appeals of Wisconsin",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "wyo",
+        "name": "Wyoming Supreme Court",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "usjc",
+        "name": "United States Judicial Conference Committee",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "jpml",
+        "name": "United States Judicial Panel on Multidistrict Litigation",
+        "seal_completed": false,
+        "notes": ""
+    },
+    {
+        "id": "stp",
+        "name": "U.S. Special Tribunal of Pennsylvania",
+        "seal_completed": false,
+        "notes": ""
+    }
+]

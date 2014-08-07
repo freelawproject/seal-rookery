@@ -54,3 +54,12 @@ and this is a good way to protect a project.
 Second, if you're just curious about the copyright of this repository, see the 
 License file for details. The short version of this is you can pretty much use 
 it however you desire.
+
+
+Credits Where Due
+-----------------
+
+This project inspired by the initial [visualization work][1] of 
+@nowherenearithaca.
+
+[1]: https://d57dd304fefca1aa423fea1b4dc59f23c06dd95e.googledrive.com/host/0B2GQktu-wcTiWm82NGt5MTZreHM/
