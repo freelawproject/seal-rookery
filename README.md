@@ -43,6 +43,22 @@ transparent.
 created by the `jpeg` compression. You'll see it if you zoom in.  
 
 
+Installation
+------------
+
+Basic usage doesn't require any installation, but if you wish to import the 
+`seals.json` file into a Python program, you may want to install the Seal 
+Rookery as a Python module in your system. To do so:
+
+    sudo git clone https://github.com/freelawproject/seal-rookery /usr/local/seal_rookery
+    sudo ln -s /usr/local/seal_rookery /usr/lib/python2.7/dist-packages/seal_rookery
+
+You can then import the `seals.json` information into your project using:
+
+    from seal_rookery import seals_data
+    
+And you can test 
+
 Usage
 -----
 
