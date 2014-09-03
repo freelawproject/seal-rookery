@@ -2,1776 +2,1776 @@
     "akb": {
         "name": "United States Bankruptcy Court, D. Alaska",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "akd": {
         "name": "District Court, D. Alaska",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ala": {
         "name": "Supreme Court of Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alacivapp": {
         "name": "Court of Civil Appeals of Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alacrimapp": {
         "name": "Court of Criminal Appeals of Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alactapp": {
         "name": "Alabama Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alaska": {
         "name": "Alaska Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alaskactapp": {
         "name": "Court of Appeals of Alaska",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "almb": {
         "name": "United States Bankruptcy Court, M.D. Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "almd": {
         "name": "District Court, M.D. Alabama",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "alnb": {
         "name": "United States Bankruptcy Court, N.D. Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alnd": {
         "name": "District Court, N.D. Alabama",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "alsb": {
         "name": "United States Bankruptcy Court, S.D. Alabama",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "alsd": {
         "name": "District Court, S.D. Alabama",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "arb": {
         "name": "United States Bankruptcy Court, D. Arizona",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "areb": {
         "name": "United States Bankruptcy Court, E.D. Arkansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ared": {
         "name": "District Court, E.D. Arkansas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ariz": {
         "name": "Arizona Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "arizctapp": {
         "name": "Court of Appeals of Arizona",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ariztaxct": {
         "name": "Arizona Tax Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ark": {
         "name": "Supreme Court of Arkansas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "arkctapp": {
         "name": "Court of Appeals of Arkansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "armfor": {
         "name": "Court of Appeals for the Armed Forces",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "arwb": {
         "name": "United States Bankruptcy Court, W.D. Arkansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "arwd": {
         "name": "District Court, W.D. Arkansas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "azd": {
         "name": "District Court, D. Arizona",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "bap1": {
         "name": "Bankruptcy Appellate Panel of the First Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bap10": {
         "name": "Bankruptcy Appellate Panel of the Tenth Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bap2": {
         "name": "Bankruptcy Appellate Panel of the Second Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bap6": {
         "name": "Bankruptcy Appellate Panel of the Sixth Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bap8": {
         "name": "United States Bankruptcy Appellate Panel for the Eighth Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bap9": {
         "name": "United States Bankruptcy Appellate Panel for the Ninth Circuit",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bapma": {
         "name": "Bankruptcy Appellate Panel of Massachusetts",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "bapme": {
         "name": "Bankruptcy Appellate Panel, D. Maine",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ca1": {
         "name": "Court of Appeals for the First Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca10": {
         "name": "Court of Appeals for the Tenth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca11": {
         "name": "Court of Appeals for the Eleventh Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca2": {
         "name": "Court of Appeals for the Second Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca3": {
         "name": "Court of Appeals for the Third Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca4": {
         "name": "Court of Appeals for the Fourth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca5": {
         "name": "Court of Appeals for the Fifth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca6": {
         "name": "Court of Appeals for the Sixth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca7": {
         "name": "Court of Appeals for the Seventh Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca8": {
         "name": "Court of Appeals for the Eighth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ca9": {
         "name": "Court of Appeals for the Ninth Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cacb": {
         "name": "United States Bankruptcy Court, C.D. California",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "cacd": {
         "name": "District Court, C.D. California",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cadc": {
         "name": "Court of Appeals for the D.C. Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "caeb": {
         "name": "United States Bankruptcy Court, E.D. California",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "caed": {
         "name": "District Court, E.D. California",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cafc": {
         "name": "Court of Appeals for the Federal Circuit",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cal": {
         "name": "California Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "calctapp": {
         "name": "California Court of Appeal",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "californiad": {
         "name": "District Court, D. California",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "canalzoned": {
         "name": "District Court, Canal Zone",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "canb": {
         "name": "United States Bankruptcy Court, N.D. California",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "cand": {
         "name": "District Court, N.D. California",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "casb": {
         "name": "United States Bankruptcy Court, S.D. California",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "casd": {
         "name": "District Court, S.D. California",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cavc": {
         "name": "United States Court of Appeals for Veterans Claims",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cc": {
         "name": "United States Court of Claims",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ccpa": {
         "name": "Court of Customs and Patent Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "cit": {
         "name": "United States Court of International Trade",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cjdpa": {
         "name": "Court of Judicial Discipline of Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "cob": {
         "name": "United States Bankruptcy Court, D. Colorado",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "cod": {
         "name": "District Court, D. Colorado",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "colo": {
         "name": "Supreme Court of Colorado",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "coloctapp": {
         "name": "Colorado Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "com": {
         "name": "Commerce Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "conn": {
         "name": "Supreme Court of Connecticut",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "connappct": {
         "name": "Connecticut Appellate Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "connsuperct": {
         "name": "Connecticut Superior Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ctb": {
         "name": "United States Bankruptcy Court, D. Connecticut",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ctd": {
         "name": "District Court, D. Connecticut",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "cusc": {
         "name": "United States Customs Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "dc": {
         "name": "District of Columbia Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "dcb": {
         "name": "United States Bankruptcy Court, District of Columbia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "dcd": {
         "name": "District Court, District of Columbia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "deb": {
         "name": "United States Bankruptcy Court, D. Delaware",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ded": {
         "name": "District Court, D. Delaware",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "del": {
         "name": "Supreme Court of Delaware",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "delch": {
         "name": "Court of Chancery of Delaware",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "delctcompl": {
         "name": "Delaware Court of Common Pleas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "delfamct": {
         "name": "Delaware Family Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "deljudct": {
         "name": "Court on the Judiciary of Delaware.",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "delsuperct": {
         "name": "Superior Court of Delaware",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "eca": {
         "name": "Emergency Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "fisc": {
         "name": "Foreign Intelligence Surveillance Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "fiscr": {
         "name": "Foreign Intelligence Surveillance Court of Review",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "fla": {
         "name": "Supreme Court of Florida",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "fladistctapp": {
         "name": "District Court of Appeal of Florida",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "flmb": {
         "name": "United States Bankruptcy Court, M.D. Florida",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "flmd": {
         "name": "District Court, M.D. Florida",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "flnb": {
         "name": "United States Bankruptcy Court, N.D. Florida",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "flnd": {
         "name": "District Court, N.D. Florida",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "flsb": {
         "name": "United States Bankruptcy Court, S.D. Florida.",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "flsd": {
         "name": "District Court, S.D. Florida",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ga": {
         "name": "Supreme Court of Georgia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "gactapp": {
         "name": "Court of Appeals of Georgia.",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "gamb": {
         "name": "United States Bankruptcy Court, M.D. Georgia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "gamd": {
         "name": "District Court, M.D. Georgia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ganb": {
         "name": "United States Bankruptcy Court, N.D. Georgia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "gand": {
         "name": "District Court, N.D. Georgia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "gasb": {
         "name": "United States Bankruptcy Court, S.D. Georgia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "gasd": {
         "name": "District Court, S.D. Georgia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "gub": {
         "name": "United States Bankruptcy Court, D. Guam",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "gud": {
         "name": "District Court, D. Guam",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "haw": {
         "name": "Hawaii Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "hawapp": {
         "name": "Hawaii Intermediate Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "hib": {
         "name": "United States Bankruptcy Court, D. Hawaii",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "hid": {
         "name": "District Court, D. Hawaii",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ianb": {
         "name": "United States Bankruptcy Court, N.D. Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "iand": {
         "name": "District Court, N.D. Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "iasb": {
         "name": "United States Bankruptcy Court, S.D. Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "iasd": {
         "name": "District Court, S.D. Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "idaho": {
         "name": "Idaho Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "idahoctapp": {
         "name": "Idaho Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "idb": {
         "name": "United States Bankruptcy Court, D. Idaho",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "idd": {
         "name": "District Court, D. Idaho",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ilcb": {
         "name": "  United States Bankruptcy Court, C.D. Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ilcd": {
         "name": "District Court, C.D. Illinois",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ill": {
         "name": "Illinois Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "illappct": {
         "name": "Appellate Court of Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "illinoisd": {
         "name": "District Court, D. Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "illinoised": {
         "name": "District Court, E.D. Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ilnb": {
         "name": "  United States Bankruptcy Court, N.D. Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ilnd": {
         "name": "District Court, N.D. Illinois",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ilsb": {
         "name": "United States Bankruptcy Court, S.D. Illinois",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ilsd": {
         "name": "District Court, S.D. Illinois",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ind": {
         "name": "Indiana Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "indctapp": {
         "name": "Indiana Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "indianad": {
         "name": "District Court, D. Indiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "indtc": {
         "name": "Indiana Tax Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "innb": {
         "name": "United States Bankruptcy Court, N.D. Indiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "innd": {
         "name": "District Court, N.D. Indiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "insb": {
         "name": "United States Bankruptcy Court, S.D. Indiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "insd": {
         "name": "District Court, S.D. Indiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "iowa": {
         "name": "Supreme Court of Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "iowactapp": {
         "name": "Court of Appeals of Iowa",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "jpml": {
         "name": "United States Judicial Panel on Multidistrict Litigation",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kan": {
         "name": "Supreme Court of Kansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kanctapp": {
         "name": "Court of Appeals of Kansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ksb": {
         "name": "United States Bankruptcy Court, D. Kansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ksd": {
         "name": "District Court, D. Kansas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ky": {
         "name": "Kentucky Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kyctapp": {
         "name": "Court of Appeals of Kentucky",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kyeb": {
         "name": "United States Bankruptcy Court, E.D. Kentucky",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kyed": {
         "name": "District Court, E.D. Kentucky",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "kywb": {
         "name": "United States Bankruptcy Court, W.D. Kentucky",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "kywd": {
         "name": "District Court, W.D. Kentucky",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "la": {
         "name": "Supreme Court of Louisiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "lactapp": {
         "name": "Louisiana Court of Appeal",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "laeb": {
         "name": "United States Bankruptcy Court, E.D. Louisiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "laed": {
         "name": "District Court, E.D. Louisiana.",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "lamb": {
         "name": "United States Bankruptcy Court, M.D. Louisiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "lamd": {
         "name": "District Court, M.D. Louisiana",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "lawb": {
         "name": "United States Bankruptcy Court, W.D. Louisiana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "lawd": {
         "name": "District Court, W.D. Louisiana",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mab": {
         "name": "United States Bankruptcy Court, D. Massachusetts",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mad": {
         "name": "District Court, D. Massachusetts",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mass": {
         "name": "Massachusetts Supreme Judicial Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "massappct": {
         "name": "Massachusetts Appeals Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mc": {
         "name": "U.S. Court of Military Commission Review",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "md": {
         "name": "Court of Appeals of Maryland",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mdb": {
         "name": "United States Bankruptcy Court, D. Maryland",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mdctspecapp": {
         "name": "Court of Special Appeals of Maryland",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mdd": {
         "name": "District Court, D. Maryland",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "me": {
         "name": "Supreme Judicial Court of Maine",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "meb": {
         "name": "  United States Bankruptcy Court, D. Maine",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "med": {
         "name": "District Court, D. Maine",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mich": {
         "name": "Michigan Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "michctapp": {
         "name": "Michigan Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mieb": {
         "name": "United States Bankruptcy Court, E.D. Michigan",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mied": {
         "name": "District Court, E.D. Michigan",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "minn": {
         "name": "Supreme Court of Minnesota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "minnctapp": {
         "name": "Court of Appeals of Minnesota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "miss": {
         "name": "Mississippi Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "missctapp": {
         "name": "Court of Appeals of Mississippi",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "miwb": {
         "name": "United States Bankruptcy Court, W.D. Michigan",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "miwd": {
         "name": "District Court, W.D. Michigan",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mnb": {
         "name": "United States Bankruptcy Court, D. Minnesota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mnd": {
         "name": "District Court, D. Minnesota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mo": {
         "name": "Supreme Court of Missouri",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mocd": {
         "name": "District Court, C.D. Missouri",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "moctapp": {
         "name": "Missouri Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "moeb": {
         "name": "United States Bankruptcy Court, E.D. Missouri",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "moed": {
         "name": "District Court, E.D. Missouri",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mont": {
         "name": "Montana Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mosd": {
         "name": "District Court, S.D. Missouri",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mowb": {
         "name": "United States Bankruptcy Court, W.D. Missouri",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mowd": {
         "name": "District Court, W.D. Missouri",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "msnb": {
         "name": "United States Bankruptcy Court, N.D. Mississippi",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "msnd": {
         "name": "District Court, N.D. Mississippi",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mssb": {
         "name": "United States Bankruptcy Court, S.D. Mississippi",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mssd": {
         "name": "District Court, S.D. Mississippi",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "mtb": {
         "name": "United States Bankruptcy Court, D. Montana",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "mtd": {
         "name": "District Court, D. Montana",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nc": {
         "name": "Supreme Court of North Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ncctapp": {
         "name": "Court of Appeals of North Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nceb": {
         "name": "United States Bankruptcy Court, E.D. North Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nced": {
         "name": "District Court, E.D. North Carolina",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ncmb": {
         "name": "United States Bankruptcy Court, M.D. North Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ncmd": {
         "name": "District Court, M.D. North Carolina",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ncwb": {
         "name": "United States Bankruptcy Court, W.D. North Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ncwd": {
         "name": "District Court, W.D. North Carolina",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nd": {
         "name": "North Dakota Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ndb": {
         "name": "  United States Bankruptcy Court, D. North Dakota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ndctapp": {
         "name": "North Dakota Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ndd": {
         "name": "District Court, D. North Dakota",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "neb": {
         "name": "Nebraska Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nebctapp": {
         "name": "Nebraska Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nebraskab": {
         "name": "United States Bankruptcy Court, D. Nebraska",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ned": {
         "name": "District Court, D. Nebraska",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nev": {
         "name": "Nevada Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nh": {
         "name": "Supreme Court of New Hampshire",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nhb": {
         "name": "United States Bankruptcy Court, D. New Hampshire",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nhd": {
         "name": "District Court, D. New Hampshire",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nj": {
         "name": "Supreme Court of New Jersey",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "njb": {
         "name": "United States Bankruptcy Court, D. New Jersey",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "njd": {
         "name": "District Court, D. New Jersey",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "njsuperctappdiv": {
         "name": "New Jersey Superior Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "njtaxct": {
         "name": "New Jersey Tax Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nm": {
         "name": "New Mexico Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nmb": {
         "name": "United States Bankruptcy Court, D. New Mexico",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nmctapp": {
         "name": "New Mexico Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nmd": {
         "name": "District Court, D. New Mexico",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nmib": {
         "name": "United States Bankruptcy Court, Northern Mariana Islands",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nmid": {
         "name": "District Court, Northern Mariana Islands",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nvb": {
         "name": "United States Bankruptcy Court, D. Nevada",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nvd": {
         "name": "District Court, D. Nevada",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ny": {
         "name": "New York Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nyappdiv": {
         "name": "Appellate Division of the Supreme Court of the State of New York",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nyeb": {
         "name": "United States Bankruptcy Court, E.D. New York",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nyed": {
         "name": "District Court, E.D. New York",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nyfamct": {
         "name": "New York Family Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nynb": {
         "name": "United States Bankruptcy Court, N.D. New York",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nynd": {
         "name": "District Court, N.D. New York",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nysb": {
         "name": "United States Bankruptcy Court, S.D. New York",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nysd": {
         "name": "District Court, S.D. New York",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "nysurct": {
         "name": "New York Surrogate's Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nywb": {
         "name": "United States Bankruptcy Court, W.D. New York",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "nywd": {
         "name": "District Court, W.D. New York",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ohio": {
         "name": "Ohio Supreme Court",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ohioctapp": {
         "name": "Ohio Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ohioctcl": {
         "name": "Ohio Court of Claims",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ohiod": {
         "name": "District Court, D. Ohio",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ohnb": {
         "name": "United States Bankruptcy Court, N.D. Ohio",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ohnd": {
         "name": "District Court, N.D. Ohio",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "ohsb": {
         "name": "United States Bankruptcy Court, S.D. Ohio",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ohsd": {
         "name": "District Court, S.D. Ohio",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "okeb": {
         "name": "United States Bankruptcy Court, E.D. Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oked": {
         "name": "District Court, E.D. Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "okla": {
         "name": "Supreme Court of Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oklaag": {
         "name": "Oklahoma Attorney General Reports",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oklacivapp": {
         "name": "Court of Civil Appeals of Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oklacoj": {
         "name": "Court on the Judiciary of Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oklacrimapp": {
         "name": "Court of Criminal Appeals of Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oklajeap": {
         "name": "Oklahoma Judicial Ethics Advisory Panel",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oknb": {
         "name": "United States Bankruptcy Court, N.D. Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "oknd": {
         "name": "District Court, N.D. Oklahoma",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "okwb": {
         "name": "United States Bankruptcy Court, W.D. Oklahoma",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "okwd": {
         "name": "District Court, W.D. Oklahoma",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "or": {
         "name": "Oregon Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "orb": {
         "name": "United States Bankruptcy Court, D. Oregon",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "orctapp": {
         "name": "Court of Appeals of Oregon",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ord": {
         "name": "District Court, D. Oregon",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "pa": {
         "name": "Supreme Court of Pennsylvania",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "pacommwct": {
         "name": "Commonwealth Court of Pennsylvania.",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "paeb": {
         "name": "United States Bankruptcy Court, E.D. Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "paed": {
         "name": "District Court, E.D. Pennsylvania",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "pamb": {
         "name": "United States Bankruptcy Court, M.D. Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "pamd": {
         "name": "District Court, M.D. Pennsylvania",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "pasuperct": {
         "name": "Superior Court of Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "pawb": {
         "name": "United States Bankruptcy Court, W.D. Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "pawd": {
         "name": "District Court, W.D. Pennsylvania",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "pennsylvaniad": {
         "name": "District Court, D. Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "prb": {
         "name": "United States Bankruptcy Court, D. Puerto Rico",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "prd": {
         "name": "District Court, D. Puerto Rico",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "reglrailreorgct": {
         "name": "Special Court under the Regional Rail Reorganization Act",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "ri": {
         "name": "Supreme Court of Rhode Island",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "rib": {
         "name": "United States Bankruptcy Court, D. Rhode Island",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "rid": {
         "name": "District Court, D. Rhode Island",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "sc": {
         "name": "Supreme Court of South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "scb": {
         "name": "United States Bankruptcy Court, District of South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "scctapp": {
         "name": "Court of Appeals of South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "scd": {
         "name": "United States District Court, D. South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "scotus": {
         "name": "Supreme Court of the United States",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "sd": {
         "name": "South Dakota Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "sdb": {
         "name": "United States Bankruptcy Court, D. South Dakota",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "sdd": {
         "name": "District Court, D. South Dakota",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "southcarolinaed": {
         "name": "District Court, E.D. South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "southcarolinawd": {
         "name": "District Court, W.D. South Carolina",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "stp": {
         "name": "U.S. Special Tribunal of Pennsylvania",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tax": {
         "name": "United States Tax Court",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "tecoa": {
         "name": "Temporary Emergency Court of Appeals",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tenn": {
         "name": "Tennessee Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tenncrimapp": {
         "name": "Court of Criminal Appeals of Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tennctapp": {
         "name": "Court of Appeals of Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tennessed": {
         "name": "District Court, D. Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tennesseeb": {
         "name": "United States Bankruptcy Court, D. Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tex": {
         "name": "Texas Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "texapp": {
         "name": "Court of Appeals of Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "texcrimapp": {
         "name": "Court of Criminal Appeals of Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "texreview": {
         "name": "Texas Special Court of Review",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tneb": {
         "name": "United States Bankruptcy Court, E.D. Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tned": {
         "name": "District Court, E.D. Tennessee",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "tnmb": {
         "name": "United States Bankruptcy Court, M.D. Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tnmd": {
         "name": "District Court, M.D. Tennessee",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "tnwb": {
         "name": "United States Bankruptcy Court, W.D. Tennessee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "tnwd": {
         "name": "District Court, W.D. Tennessee",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "txeb": {
         "name": "United States Bankruptcy Court, E.D. Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "txed": {
         "name": "District Court, E.D. Texas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "txnb": {
         "name": "United States Bankruptcy Court, N.D. Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "txnd": {
         "name": "District Court, N.D. Texas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "txsb": {
         "name": "United States Bankruptcy Court, S.D. Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "txsd": {
         "name": "District Court, S.D. Texas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "txwb": {
         "name": "United States District Court, W.D. Texas",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "txwd": {
         "name": "District Court, W.D. Texas",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "uscfc": {
         "name": "United States Court of Federal Claims",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "usjc": {
         "name": "United States Judicial Conference Committee",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "utah": {
         "name": "Utah Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "utahctapp": {
         "name": "Court of Appeals of Utah",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "utb": {
         "name": "United States Bankruptcy Court, D. Utah",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "utd": {
         "name": "United States District Court, D. Utah",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "va": {
         "name": "Supreme Court of Virginia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "vactapp": {
         "name": "Court of Appeals of Virginia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vaeb": {
         "name": "United States Bankruptcy Court, E.D. Virginia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vaed": {
         "name": "District Court, E.D. Virginia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "vawb": {
         "name": "United States Bankruptcy Court, W.D. Virginia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vawd": {
         "name": "District Court, W.D. Virginia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "vib": {
         "name": "United States Bankruptcy Court, D. Virgin Islands",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vid": {
         "name": "District Court, Virgin Islands",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "vt": {
         "name": "Supreme Court of Vermont",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vtb": {
         "name": "United States Bankruptcy Court, D. Vermont",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "vtd": {
         "name": "District Court, D. Vermont",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "waeb": {
         "name": "United States Bankruptcy Court, E.D. Washington",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "waed": {
         "name": "District Court, E.D. Washington",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wash": {
         "name": "Washington Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "washctapp": {
         "name": "Court of Appeals of Washington",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wawb": {
         "name": "United States Bankruptcy Court, W.D. Washington",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wawd": {
         "name": "District Court, W.D. Washington",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wieb": {
         "name": "United States Bankruptcy Court, E.D. Wisconsin",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wied": {
         "name": "District Court, E.D. Wisconsin",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wis": {
         "name": "Wisconsin Supreme Court",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wisctapp": {
         "name": "Court of Appeals of Wisconsin",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wiwb": {
         "name": "United States Bankruptcy Court, W.D. Wisconsin",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wiwd": {
         "name": "District Court, W.D. Wisconsin",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wva": {
         "name": "West Virginia Supreme Court",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wvnb": {
         "name": "United States District Court, N.D. West Virginia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wvnd": {
         "name": "District Court, N.D. West Virginia",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wvsb": {
         "name": "United States Bankruptcy Court, S.D. West Virginia",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wvsd": {
         "name": "District Court, S.D. West Virginia.",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wyb": {
         "name": "United States Bankruptcy Court, D. Wyoming",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     },
     "wyd": {
         "name": "District Court, D. Wyoming",
         "notes": "Completed as part of initial version.",
-        "seal_completed": true
+        "has_seal": true
     },
     "wyo": {
         "name": "Wyoming Supreme Court",
         "notes": "",
-        "seal_completed": false
+        "has_seal": false
     }
 }
