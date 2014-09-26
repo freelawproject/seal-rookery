@@ -8,7 +8,7 @@ for image in os.listdir('.'):
     print "Processing: %s" % image
     final_name = image.split('.')[0] + '.png'
     for size in ['128', '256', '512', '1024']:
-        print "  - Making %sx%s image..." % (size, size),
+        print "  - Making {size}x{size} image...".format(size=size)
         command = [
             'convert',
             '-resize',
