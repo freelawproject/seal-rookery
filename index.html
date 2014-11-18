@@ -1,3 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Seal Rookery Preview</title>
+        <style>
+            .has td:last-child {
+                background-color: green;
+            }
+            .missing td:last-child {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+    	<h1>Seal Rookery Preview</h1>
+    	<p id="counts"></p>
+    	<table id="preview" class="table" border="1"></table>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+        /* To update this tool paste the contents of the
+        "seals.json" file in here after the "var seals ="" */
+var seals =
 {
     "akb": {
         "name": "United States Bankruptcy Court, D. Alaska",
@@ -1775,3 +1797,26 @@
         "has_seal": false
     }
 }
+        </script>
+        <script>
+            $( document ).ready(function() {
+                'use strict';
+                var items = [],
+                    has = 0,
+                    missing = 0;
+                $.each(seals, function( key, val ) {
+                    items.push('<tr class="' + ((val.has_seal) ? 'has' : 'missing') + '"><td>' + val.name + '</td><td>' + val.notes + '</td><td>' + ((val.has_seal) ? '<img src="128/' + key + '.png"/>' : '') + '</td></tr>');
+                    if (val.has_seal) {
+                        has += 1;
+                    } else {
+                        missing += 1;
+                    }
+                });
+                $('<tbody/>', {
+                    html: items.join('')
+                }).appendTo('table');
+                $('#counts').text('We have ' + has + ' and are missing ' + missing);
+            });
+        </script>
+    </body>
+</html>
