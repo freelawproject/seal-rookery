@@ -57,8 +57,6 @@ You can then import the `seals.json` information into your project using:
 
     from seal_rookery import seals_data
     
-And you can test 
-
 Usage
 -----
 
