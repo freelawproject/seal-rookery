@@ -12,9 +12,18 @@
         </style>
     </head>
     <body>
-    	<h1>Seal Rookery Preview</h1>
-    	<p id="counts"></p>
-    	<table id="preview" class="table" border="1"></table>
+        <h1>Seal Rookery Preview</h1>
+        <p id="counts"></p>
+        <table id="preview" class="table" border="1">
+            <thead>
+                <tr>
+                    <th>Court Name</th>
+                    <th>Notes</th>
+                    <th>Identifier</th>
+                    <th>Seal</th>
+                </tr>
+            </thead>
+        </table>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script>
         /* To update this tool paste the contents of the
@@ -1805,7 +1814,7 @@ var seals =
                     has = 0,
                     missing = 0;
                 $.each(seals, function( key, val ) {
-                    items.push('<tr class="' + ((val.has_seal) ? 'has' : 'missing') + '"><td>' + val.name + '</td><td>' + val.notes + '</td><td>' + ((val.has_seal) ? '<img src="128/' + key + '.png"/>' : '') + '</td></tr>');
+                    items.push('<tr class="' + ((val.has_seal) ? 'has' : 'missing') + '"><td>' + val.name + '</td><td>' + val.notes + '</td><td>' + key + '</td><td>' + ((val.has_seal) ? '<img src="128/' + key + '.png"/>' : '') + '</td></tr>');
                     if (val.has_seal) {
                         has += 1;
                     } else {
