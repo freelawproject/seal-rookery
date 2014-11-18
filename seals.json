@@ -647,12 +647,12 @@
     "ind": {
         "name": "Indiana Supreme Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "indctapp": {
         "name": "Indiana Court of Appeals",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "indianad": {
         "name": "District Court, D. Indiana",
@@ -662,7 +662,7 @@
     "indtc": {
         "name": "Indiana Tax Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "innb": {
         "name": "United States Bankruptcy Court, N.D. Indiana",
@@ -682,7 +682,7 @@
     "insd": {
         "name": "District Court, S.D. Indiana",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "iowa": {
         "name": "Supreme Court of Iowa",
