@@ -13,6 +13,8 @@ for image in os.listdir('.'):
             'convert',
             '-resize',
             '%sx%s' % (size, size),
+            '-background',
+            'transparent',
             image,
             '../%s/%s' % (size, final_name),
         ]
