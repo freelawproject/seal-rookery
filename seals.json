@@ -267,7 +267,7 @@
     "cal": {
         "name": "California Supreme Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "calctapp": {
         "name": "California Court of Appeal",
