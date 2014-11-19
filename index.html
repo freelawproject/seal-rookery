@@ -17,6 +17,10 @@
     <body>
         <h1>Seal Rookery Preview</h1>
         <p id="counts"></p>
+        <p>
+            <a id="have" href="#">have</a>
+            <a id="missing" href="#">missing</a>
+        </p>
         <table id="preview" class="table" border="1">
             <thead>
                 <tr>
@@ -1858,6 +1862,12 @@ var seals =
                     html: items.join('')
                 }).appendTo('table');
                 $('#counts').text('We have ' + has + ' and are missing ' + missing);
+                $('#have').click(function () {
+                    $('.has').toggle();
+                });
+                $('#missing').click(function () {
+                    $('.missing').toggle();
+                });
             });
         </script>
     </body>
