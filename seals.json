@@ -12,7 +12,7 @@
     "ala": {
         "name": "Supreme Court of Alabama",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "alacivapp": {
         "name": "Court of Civil Appeals of Alabama",
@@ -347,7 +347,7 @@
     "conn": {
         "name": "Supreme Court of Connecticut",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "connappct": {
         "name": "Connecticut Appellate Court",
@@ -702,7 +702,7 @@
     "kan": {
         "name": "Supreme Court of Kansas",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "kanctapp": {
         "name": "Court of Appeals of Kansas",
@@ -752,7 +752,7 @@
     "la": {
         "name": "Supreme Court of Louisiana",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "lactapp": {
         "name": "Louisiana Court of Appeal",
@@ -872,7 +872,7 @@
     "minn": {
         "name": "Supreme Court of Minnesota",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "minnctapp": {
         "name": "Court of Appeals of Minnesota",
@@ -912,7 +912,7 @@
     "mo": {
         "name": "Supreme Court of Missouri",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "mocd": {
         "name": "District Court, C.D. Missouri",
@@ -987,7 +987,7 @@
     "nc": {
         "name": "Supreme Court of North Carolina",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "ncctapp": {
         "name": "Court of Appeals of North Carolina",
@@ -1087,7 +1087,7 @@
     "nj": {
         "name": "Supreme Court of New Jersey",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "njb": {
         "name": "United States Bankruptcy Court, D. New Jersey",
@@ -1152,7 +1152,7 @@
     "ny": {
         "name": "New York Court of Appeals",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "nyappdiv": {
         "name": "Appellate Division of the Supreme Court of the State of New York",
@@ -1412,7 +1412,7 @@
     "sc": {
         "name": "Supreme Court of South Carolina",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "scb": {
         "name": "United States Bankruptcy Court, District of South Carolina",
@@ -1662,7 +1662,7 @@
     "vt": {
         "name": "Supreme Court of Vermont",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "vtb": {
         "name": "United States Bankruptcy Court, D. Vermont",
