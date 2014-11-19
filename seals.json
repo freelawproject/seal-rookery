@@ -457,7 +457,7 @@
     "fisc": {
         "name": "Foreign Intelligence Surveillance Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "fiscr": {
         "name": "Foreign Intelligence Surveillance Court of Review",
@@ -512,7 +512,7 @@
     "gactapp": {
         "name": "Court of Appeals of Georgia.",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "gamb": {
         "name": "United States Bankruptcy Court, M.D. Georgia",
@@ -627,7 +627,7 @@
     "ill": {
         "name": "Illinois Supreme Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "illappct": {
         "name": "Appellate Court of Illinois",
