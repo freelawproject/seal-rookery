@@ -287,7 +287,7 @@
     "canb": {
         "name": "United States Bankruptcy Court, N.D. California",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "cand": {
         "name": "District Court, N.D. California",
@@ -332,12 +332,12 @@
     "cjdpa": {
         "name": "Court of Judicial Discipline of Pennsylvania",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "cob": {
         "name": "United States Bankruptcy Court, D. Colorado",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "cod": {
         "name": "District Court, D. Colorado",
@@ -382,7 +382,7 @@
     "ctb": {
         "name": "United States Bankruptcy Court, D. Connecticut",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "ctd": {
         "name": "District Court, D. Connecticut",
@@ -397,22 +397,22 @@
     "dc": {
         "name": "District of Columbia Court of Appeals",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "dcb": {
         "name": "United States Bankruptcy Court, District of Columbia",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "dcd": {
         "name": "District Court, District of Columbia",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "deb": {
         "name": "United States Bankruptcy Court, D. Delaware",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "ded": {
         "name": "District Court, D. Delaware",
