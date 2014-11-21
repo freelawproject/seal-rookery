@@ -872,12 +872,12 @@
     "mich": {
         "name": "Michigan Supreme Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "michctapp": {
         "name": "Michigan Court of Appeals",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "mieb": {
         "name": "United States Bankruptcy Court, E.D. Michigan",
