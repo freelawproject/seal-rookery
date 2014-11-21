@@ -822,7 +822,7 @@
     "mass": {
         "name": "Massachusetts Supreme Judicial Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "massappct": {
         "name": "Massachusetts Appeals Court",
@@ -832,12 +832,12 @@
     "mc": {
         "name": "U.S. Court of Military Commission Review",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "md": {
         "name": "Court of Appeals of Maryland",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "mdb": {
         "name": "United States Bankruptcy Court, D. Maryland",
@@ -862,7 +862,7 @@
     "meb": {
         "name": "  United States Bankruptcy Court, D. Maine",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "med": {
         "name": "District Court, D. Maine",
