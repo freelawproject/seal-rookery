@@ -882,7 +882,7 @@
     "mieb": {
         "name": "United States Bankruptcy Court, E.D. Michigan",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "mied": {
         "name": "District Court, E.D. Michigan",
