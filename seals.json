@@ -1342,7 +1342,7 @@
     "or": {
         "name": "Oregon Supreme Court",
         "notes": "",
-        "has_seal": false
+        "has_seal": true
     },
     "orb": {
         "name": "United States Bankruptcy Court, D. Oregon",
