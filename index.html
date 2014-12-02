@@ -4,7 +4,16 @@
         <title>Seal Rookery Preview</title>
         <style>
             .has td:last-child {
-                background-color: green;
+                background-image:
+                -moz-linear-gradient(45deg, #939393 25%, transparent 25%,transparent 75%, #939393 75%, #939393 100%),
+                -moz-linear-gradient(45deg, #939393 25%, transparent 25%,transparent 75%, #939393 75%, #939393 100%);
+                background-image:
+                -webkit-linear-gradient(45deg, #939393 25%, transparent 25%,transparent 75%, #939393 75%, #939393 100%),
+                -webkit-linear-gradient(45deg, #939393 25%, transparent 25%,transparent 75%, #939393 75%, #939393 100%);
+                -moz-background-size:10px 10px;
+                background-size:10px 10px;
+                -webkit-background-size:11px 11px;
+                background-position:0 0, 5px 5px;
             }
             .missing td:last-child {
                 background-color: red;
