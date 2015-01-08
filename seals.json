@@ -1,2066 +1,2066 @@
 {
     "acca": {
-        "has_seal": true,
-        "hash": "",
-        "name": "United States Army Court of Criminal Appeals",
+        "has_seal": true, 
+        "hash": "21f4f02e35e5c6e352ae71bb0a7e7b7d75f5236dbe4185876366d79b24f381c7", 
+        "name": "United States Army Court of Criminal Appeals", 
         "notes": ""
-    },
+    }, 
     "afcca": {
-        "has_seal": true,
-        "hash": "35b32b6ee181a001d1c0df5347e4cf32d450fe604baa405c34b77d50c3d357bb",
-        "name": "United States Air Force Court of Criminal Appeals",
+        "has_seal": true, 
+        "hash": "35b32b6ee181a001d1c0df5347e4cf32d450fe604baa405c34b77d50c3d357bb", 
+        "name": "United States Air Force Court of Criminal Appeals", 
         "notes": ""
-    },
+    }, 
     "akb": {
-        "has_seal": true,
-        "hash": "49ac27aefdca2e3a42d7c71c15ed7afc850ed17e50363c7181ceb3d2b121cb3a",
-        "name": "United States Bankruptcy Court, D. Alaska",
+        "has_seal": true, 
+        "hash": "49ac27aefdca2e3a42d7c71c15ed7afc850ed17e50363c7181ceb3d2b121cb3a", 
+        "name": "United States Bankruptcy Court, D. Alaska", 
         "notes": ""
-    },
+    }, 
     "akd": {
-        "has_seal": true,
-        "hash": "94762917c952332656d56dab042868c9d8aaf3a01643413788967dff8c013bf4",
-        "name": "District Court, D. Alaska",
+        "has_seal": true, 
+        "hash": "94762917c952332656d56dab042868c9d8aaf3a01643413788967dff8c013bf4", 
+        "name": "District Court, D. Alaska", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ala": {
-        "has_seal": true,
-        "hash": "d5708cbd00f5e1f51ecdc97b2d56f0ad95c3fb6925134555ba64fe94609b8634",
-        "name": "Supreme Court of Alabama",
+        "has_seal": true, 
+        "hash": "d5708cbd00f5e1f51ecdc97b2d56f0ad95c3fb6925134555ba64fe94609b8634", 
+        "name": "Supreme Court of Alabama", 
         "notes": ""
-    },
+    }, 
     "alacivapp": {
-        "has_seal": false,
-        "name": "Court of Civil Appeals of Alabama",
+        "has_seal": false, 
+        "name": "Court of Civil Appeals of Alabama", 
         "notes": ""
-    },
+    }, 
     "alacrimapp": {
-        "has_seal": false,
-        "name": "Court of Criminal Appeals of Alabama",
+        "has_seal": false, 
+        "name": "Court of Criminal Appeals of Alabama", 
         "notes": ""
-    },
+    }, 
     "alactapp": {
-        "has_seal": false,
-        "name": "Alabama Court of Appeals",
+        "has_seal": false, 
+        "name": "Alabama Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "alaska": {
-        "has_seal": false,
-        "name": "Alaska Supreme Court",
+        "has_seal": false, 
+        "name": "Alaska Supreme Court", 
         "notes": ""
-    },
+    }, 
     "alaskactapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Alaska",
+        "has_seal": false, 
+        "name": "Court of Appeals of Alaska", 
         "notes": ""
-    },
+    }, 
     "almb": {
-        "has_seal": true,
-        "hash": "ce6cc08631d12874b9d03b913bbf70b3f55c82c49b7dbe8e57123c39c330525b",
-        "name": "United States Bankruptcy Court, M.D. Alabama",
+        "has_seal": true, 
+        "hash": "ce6cc08631d12874b9d03b913bbf70b3f55c82c49b7dbe8e57123c39c330525b", 
+        "name": "United States Bankruptcy Court, M.D. Alabama", 
         "notes": ""
-    },
+    }, 
     "almd": {
-        "has_seal": true,
-        "hash": "d1f1b16f22334c61e7ff4adbde20deff4e84e961bf16dd6c734ae05def8b0c10",
-        "name": "District Court, M.D. Alabama",
+        "has_seal": true, 
+        "hash": "d1f1b16f22334c61e7ff4adbde20deff4e84e961bf16dd6c734ae05def8b0c10", 
+        "name": "District Court, M.D. Alabama", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "alnb": {
-        "has_seal": true,
-        "hash": "598d188dd04eb719bb296ffb621ae6f89e8d575d64a13727bafe7f58278ac6bc",
-        "name": "United States Bankruptcy Court, N.D. Alabama",
+        "has_seal": true, 
+        "hash": "598d188dd04eb719bb296ffb621ae6f89e8d575d64a13727bafe7f58278ac6bc", 
+        "name": "United States Bankruptcy Court, N.D. Alabama", 
         "notes": ""
-    },
+    }, 
     "alnd": {
-        "has_seal": true,
-        "hash": "62e2f548e510d066f705ce533338e5eac69e5cb3a3ddc0e8cf026c746d9a0177",
-        "name": "District Court, N.D. Alabama",
+        "has_seal": true, 
+        "hash": "62e2f548e510d066f705ce533338e5eac69e5cb3a3ddc0e8cf026c746d9a0177", 
+        "name": "District Court, N.D. Alabama", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "alsb": {
-        "has_seal": true,
-        "hash": "50b370399372aae494a5cc564ed267087d0bc8f4aeeff4bda57f05166a5faeb1",
-        "name": "United States Bankruptcy Court, S.D. Alabama",
+        "has_seal": true, 
+        "hash": "50b370399372aae494a5cc564ed267087d0bc8f4aeeff4bda57f05166a5faeb1", 
+        "name": "United States Bankruptcy Court, S.D. Alabama", 
         "notes": ""
-    },
+    }, 
     "alsd": {
-        "has_seal": true,
-        "hash": "ac05c3b01d1f6e836a7d1f14b0927437ce31cfa9f10ff2e3e8ed70ef34e5f7a1",
-        "name": "District Court, S.D. Alabama",
+        "has_seal": true, 
+        "hash": "ac05c3b01d1f6e836a7d1f14b0927437ce31cfa9f10ff2e3e8ed70ef34e5f7a1", 
+        "name": "District Court, S.D. Alabama", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "aoc": {
-        "has_seal": true,
-        "hash": "aa1f9662cb9132ea77ff67a54b6af26f18f1f9d52a1cda8bd0c1af18dc908c85",
-        "name": "Administrative Office of the United States Courts",
+        "has_seal": true, 
+        "hash": "aa1f9662cb9132ea77ff67a54b6af26f18f1f9d52a1cda8bd0c1af18dc908c85", 
+        "name": "Administrative Office of the United States Courts", 
         "notes": ""
-    },
+    }, 
     "arb": {
-        "has_seal": true,
-        "hash": "ddd85061901f799444e6736eb6826f6b162073c39985456e23ac72b4c1a0234f",
-        "name": "United States Bankruptcy Court, D. Arizona",
+        "has_seal": true, 
+        "hash": "ddd85061901f799444e6736eb6826f6b162073c39985456e23ac72b4c1a0234f", 
+        "name": "United States Bankruptcy Court, D. Arizona", 
         "notes": ""
-    },
+    }, 
     "areb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, E.D. Arkansas",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, E.D. Arkansas", 
         "notes": ""
-    },
+    }, 
     "ared": {
-        "has_seal": true,
-        "hash": "97c7d1497fc2cdbee53d813998f7a75cda563cb3e44681a7e0adc7c78ad089cc",
-        "name": "District Court, E.D. Arkansas",
+        "has_seal": true, 
+        "hash": "97c7d1497fc2cdbee53d813998f7a75cda563cb3e44681a7e0adc7c78ad089cc", 
+        "name": "District Court, E.D. Arkansas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ariz": {
-        "has_seal": true,
-        "hash": "b4741f7e9b23f54228571475861f431a67b3d92e42caa4fcc27f81249537e8d2",
-        "name": "Arizona Supreme Court",
+        "has_seal": true, 
+        "hash": "b4741f7e9b23f54228571475861f431a67b3d92e42caa4fcc27f81249537e8d2", 
+        "name": "Arizona Supreme Court", 
         "notes": ""
-    },
+    }, 
     "arizctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Arizona",
+        "has_seal": false, 
+        "name": "Court of Appeals of Arizona", 
         "notes": ""
-    },
+    }, 
     "ariztaxct": {
-        "has_seal": false,
-        "name": "Arizona Tax Court",
+        "has_seal": false, 
+        "name": "Arizona Tax Court", 
         "notes": ""
-    },
+    }, 
     "ark": {
-        "has_seal": true,
-        "hash": "5b95be990264aa4cb01d230b89738e17a6cb70d483c4448ae9f7d0f3abcac9cd",
-        "name": "Supreme Court of Arkansas",
+        "has_seal": true, 
+        "hash": "5b95be990264aa4cb01d230b89738e17a6cb70d483c4448ae9f7d0f3abcac9cd", 
+        "name": "Supreme Court of Arkansas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "arkctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Arkansas",
+        "has_seal": false, 
+        "name": "Court of Appeals of Arkansas", 
         "notes": ""
-    },
+    }, 
     "armfor": {
-        "has_seal": true,
-        "hash": "24e16b49e619cd9b723f95214b6e2ecab133a76ffcd023eacad340c534595ec8",
-        "name": "Court of Appeals for the Armed Forces",
+        "has_seal": true, 
+        "hash": "24e16b49e619cd9b723f95214b6e2ecab133a76ffcd023eacad340c534595ec8", 
+        "name": "Court of Appeals for the Armed Forces", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "arwb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, W.D. Arkansas",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, W.D. Arkansas", 
         "notes": ""
-    },
+    }, 
     "arwd": {
-        "has_seal": true,
-        "hash": "83b006db945e4f25ca320415af35ce5197f1d2b350db5b29ecf6d90728a13d3d",
-        "name": "District Court, W.D. Arkansas",
+        "has_seal": true, 
+        "hash": "83b006db945e4f25ca320415af35ce5197f1d2b350db5b29ecf6d90728a13d3d", 
+        "name": "District Court, W.D. Arkansas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "asbca": {
-        "has_seal": true,
-        "hash": "d1aef19ddde01b48bc82ea6b4990a9979cfb41a0fce96ca05b44413f9173176f",
-        "name": "Armed Services Board of Contract Appeals",
+        "has_seal": true, 
+        "hash": "d1aef19ddde01b48bc82ea6b4990a9979cfb41a0fce96ca05b44413f9173176f", 
+        "name": "Armed Services Board of Contract Appeals", 
         "notes": ""
-    },
+    }, 
     "azd": {
-        "has_seal": true,
-        "hash": "13117c59c5793ab6592534927d5469f3fc5c6864186a9f480816894f92f5e201",
-        "name": "District Court, D. Arizona",
+        "has_seal": true, 
+        "hash": "13117c59c5793ab6592534927d5469f3fc5c6864186a9f480816894f92f5e201", 
+        "name": "District Court, D. Arizona", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "bap1": {
-        "has_seal": true,
-        "hash": "bbd69a6723682cb95f2b577e2d358a1df53702dbf00675ced4b733766d3d2b5f",
-        "name": "Bankruptcy Appellate Panel of the First Circuit",
+        "has_seal": true, 
+        "hash": "bbd69a6723682cb95f2b577e2d358a1df53702dbf00675ced4b733766d3d2b5f", 
+        "name": "Bankruptcy Appellate Panel of the First Circuit", 
         "notes": ""
-    },
+    }, 
     "bap10": {
-        "has_seal": false,
-        "name": "Bankruptcy Appellate Panel of the Tenth Circuit",
+        "has_seal": false, 
+        "name": "Bankruptcy Appellate Panel of the Tenth Circuit", 
         "notes": ""
-    },
+    }, 
     "bap2": {
-        "has_seal": false,
-        "name": "Bankruptcy Appellate Panel of the Second Circuit",
+        "has_seal": false, 
+        "name": "Bankruptcy Appellate Panel of the Second Circuit", 
         "notes": ""
-    },
+    }, 
     "bap6": {
-        "has_seal": false,
-        "name": "Bankruptcy Appellate Panel of the Sixth Circuit",
+        "has_seal": false, 
+        "name": "Bankruptcy Appellate Panel of the Sixth Circuit", 
         "notes": ""
-    },
+    }, 
     "bap8": {
-        "has_seal": true,
-        "hash": "8ef3d4b9c17ebf79736f203fa066aac7173536326572fdbe0bf5602e7826feb6",
-        "name": "United States Bankruptcy Appellate Panel for the Eighth Circuit",
+        "has_seal": true, 
+        "hash": "8ef3d4b9c17ebf79736f203fa066aac7173536326572fdbe0bf5602e7826feb6", 
+        "name": "United States Bankruptcy Appellate Panel for the Eighth Circuit", 
         "notes": ""
-    },
+    }, 
     "bap9": {
-        "has_seal": true,
-        "hash": "69715882b12c8ac2c0e4296e5c6ecd124cad3aa0be0f0cda5a3a9422cd9dd440",
-        "name": "United States Bankruptcy Appellate Panel for the Ninth Circuit",
+        "has_seal": true, 
+        "hash": "69715882b12c8ac2c0e4296e5c6ecd124cad3aa0be0f0cda5a3a9422cd9dd440", 
+        "name": "United States Bankruptcy Appellate Panel for the Ninth Circuit", 
         "notes": ""
-    },
+    }, 
     "bapma": {
-        "has_seal": false,
-        "name": "Bankruptcy Appellate Panel of Massachusetts",
+        "has_seal": false, 
+        "name": "Bankruptcy Appellate Panel of Massachusetts", 
         "notes": ""
-    },
+    }, 
     "bapme": {
-        "has_seal": false,
-        "name": "Bankruptcy Appellate Panel, D. Maine",
+        "has_seal": false, 
+        "name": "Bankruptcy Appellate Panel, D. Maine", 
         "notes": ""
-    },
+    }, 
     "ca1": {
-        "has_seal": true,
-        "hash": "8c12c173d4336237efe52b806d592128c4bd6fdf0d86089e2a4ac94465138cd7",
-        "name": "Court of Appeals for the First Circuit",
+        "has_seal": true, 
+        "hash": "8c12c173d4336237efe52b806d592128c4bd6fdf0d86089e2a4ac94465138cd7", 
+        "name": "Court of Appeals for the First Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca10": {
-        "has_seal": true,
-        "hash": "ffbd2363141984b4cd00e7dc475185fe0c5261fc29041c543f80dbdb5a149f5d",
-        "name": "Court of Appeals for the Tenth Circuit",
+        "has_seal": true, 
+        "hash": "ffbd2363141984b4cd00e7dc475185fe0c5261fc29041c543f80dbdb5a149f5d", 
+        "name": "Court of Appeals for the Tenth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca11": {
-        "has_seal": true,
-        "hash": "c4f1cf7cbdd70f49e996f461d4e91c71e74388990f6d9273329a2576da0cd78f",
-        "name": "Court of Appeals for the Eleventh Circuit",
+        "has_seal": true, 
+        "hash": "c4f1cf7cbdd70f49e996f461d4e91c71e74388990f6d9273329a2576da0cd78f", 
+        "name": "Court of Appeals for the Eleventh Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca2": {
-        "has_seal": true,
-        "hash": "7050999c7f55c10fff6d654c6b7303c6729e154778e10edba76b267727c676ad",
-        "name": "Court of Appeals for the Second Circuit",
+        "has_seal": true, 
+        "hash": "7050999c7f55c10fff6d654c6b7303c6729e154778e10edba76b267727c676ad", 
+        "name": "Court of Appeals for the Second Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca3": {
-        "has_seal": true,
-        "hash": "4e9bd63efd8a42cda669dafd3fed4466ba9e5eb4789a3913ea793d31c25f4c0d",
-        "name": "Court of Appeals for the Third Circuit",
+        "has_seal": true, 
+        "hash": "4e9bd63efd8a42cda669dafd3fed4466ba9e5eb4789a3913ea793d31c25f4c0d", 
+        "name": "Court of Appeals for the Third Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca4": {
-        "has_seal": true,
-        "hash": "10541ca32bed7ac19b913593252878d072298ae98e0e7ff890d70961e32d2b6c",
-        "name": "Court of Appeals for the Fourth Circuit",
+        "has_seal": true, 
+        "hash": "10541ca32bed7ac19b913593252878d072298ae98e0e7ff890d70961e32d2b6c", 
+        "name": "Court of Appeals for the Fourth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca5": {
-        "has_seal": true,
-        "hash": "1fbad592bf6068560dc3cc75b61387022457a8be1f56f163ee2168ce50532cb5",
-        "name": "Court of Appeals for the Fifth Circuit",
+        "has_seal": true, 
+        "hash": "1fbad592bf6068560dc3cc75b61387022457a8be1f56f163ee2168ce50532cb5", 
+        "name": "Court of Appeals for the Fifth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca6": {
-        "has_seal": true,
-        "hash": "bf3a6f1e306aed599a8239aabded1267c2c60390d803fed2279d35af8c584d0e",
-        "name": "Court of Appeals for the Sixth Circuit",
+        "has_seal": true, 
+        "hash": "bf3a6f1e306aed599a8239aabded1267c2c60390d803fed2279d35af8c584d0e", 
+        "name": "Court of Appeals for the Sixth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca7": {
-        "has_seal": true,
-        "hash": "b559a85df7d1eb64ffbc822e4d364e1ae86c892d4a162617474d3307a7769327",
-        "name": "Court of Appeals for the Seventh Circuit",
+        "has_seal": true, 
+        "hash": "b559a85df7d1eb64ffbc822e4d364e1ae86c892d4a162617474d3307a7769327", 
+        "name": "Court of Appeals for the Seventh Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca8": {
-        "has_seal": true,
-        "hash": "fe10ff078a21a238825278b61be2506bb8b34383daf3a00c35058616656c4652",
-        "name": "Court of Appeals for the Eighth Circuit",
+        "has_seal": true, 
+        "hash": "fe10ff078a21a238825278b61be2506bb8b34383daf3a00c35058616656c4652", 
+        "name": "Court of Appeals for the Eighth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ca9": {
-        "has_seal": true,
-        "hash": "e52806b67b8a3fd8452a8b7324e92adabccbda5983d360f20a404a2042e542d0",
-        "name": "Court of Appeals for the Ninth Circuit",
+        "has_seal": true, 
+        "hash": "e52806b67b8a3fd8452a8b7324e92adabccbda5983d360f20a404a2042e542d0", 
+        "name": "Court of Appeals for the Ninth Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cacb": {
-        "has_seal": true,
-        "hash": "75c1390151191bf0e8b80a392e8b04b46607f1893179a860080b9431e5c7f773",
-        "name": "United States Bankruptcy Court, C.D. California",
+        "has_seal": true, 
+        "hash": "75c1390151191bf0e8b80a392e8b04b46607f1893179a860080b9431e5c7f773", 
+        "name": "United States Bankruptcy Court, C.D. California", 
         "notes": ""
-    },
+    }, 
     "cacd": {
-        "has_seal": true,
-        "hash": "acaa0e5c4c4c4b59057d931a3071dd0bfadc8d919543d4d69756f0999764c596",
-        "name": "District Court, C.D. California",
+        "has_seal": true, 
+        "hash": "acaa0e5c4c4c4b59057d931a3071dd0bfadc8d919543d4d69756f0999764c596", 
+        "name": "District Court, C.D. California", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cadc": {
-        "has_seal": true,
-        "hash": "811b95e9de1cb71a8a2beb7256fda59f17e3a282db88bea28d8b63b4ee3d50c5",
-        "name": "Court of Appeals for the D.C. Circuit",
+        "has_seal": true, 
+        "hash": "811b95e9de1cb71a8a2beb7256fda59f17e3a282db88bea28d8b63b4ee3d50c5", 
+        "name": "Court of Appeals for the D.C. Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "caeb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, E.D. California",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, E.D. California", 
         "notes": ""
-    },
+    }, 
     "caed": {
-        "has_seal": true,
-        "hash": "258533d683b7621e9831e55c3073ecf8ddaa028ea824b56b7d2d5da3ebc99f7e",
-        "name": "District Court, E.D. California",
+        "has_seal": true, 
+        "hash": "258533d683b7621e9831e55c3073ecf8ddaa028ea824b56b7d2d5da3ebc99f7e", 
+        "name": "District Court, E.D. California", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cafc": {
-        "has_seal": true,
-        "hash": "948b7c34a3e3adc04a0d792a73df7d8b47e93ebe91a1a35df32742f7207de2d3",
-        "name": "Court of Appeals for the Federal Circuit",
+        "has_seal": true, 
+        "hash": "948b7c34a3e3adc04a0d792a73df7d8b47e93ebe91a1a35df32742f7207de2d3", 
+        "name": "Court of Appeals for the Federal Circuit", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cal": {
-        "has_seal": true,
-        "hash": "c497703f9a2222f5abc7542f062220d0f307cddb6b2a4539520ef419f4651443",
-        "name": "California Supreme Court",
+        "has_seal": true, 
+        "hash": "c497703f9a2222f5abc7542f062220d0f307cddb6b2a4539520ef419f4651443", 
+        "name": "California Supreme Court", 
         "notes": ""
-    },
+    }, 
     "calctapp": {
-        "has_seal": false,
-        "name": "California Court of Appeal",
+        "has_seal": false, 
+        "name": "California Court of Appeal", 
         "notes": ""
-    },
+    }, 
     "californiad": {
-        "has_seal": false,
-        "name": "District Court, D. California",
+        "has_seal": false, 
+        "name": "District Court, D. California", 
         "notes": ""
-    },
+    }, 
     "canalzoned": {
-        "has_seal": false,
-        "name": "District Court, Canal Zone",
+        "has_seal": false, 
+        "name": "District Court, Canal Zone", 
         "notes": ""
-    },
+    }, 
     "canb": {
-        "has_seal": true,
-        "hash": "59808f03b3047dd4d633c3efd8d7fed38a15e28490150bf352b36e69946c11a8",
-        "name": "United States Bankruptcy Court, N.D. California",
+        "has_seal": true, 
+        "hash": "59808f03b3047dd4d633c3efd8d7fed38a15e28490150bf352b36e69946c11a8", 
+        "name": "United States Bankruptcy Court, N.D. California", 
         "notes": ""
-    },
+    }, 
     "cand": {
-        "has_seal": true,
-        "hash": "7dee029e6d8aa256d15a8dd9056c495f4007d8d5f479393ca1d1e748951af779",
-        "name": "District Court, N.D. California",
+        "has_seal": true, 
+        "hash": "7dee029e6d8aa256d15a8dd9056c495f4007d8d5f479393ca1d1e748951af779", 
+        "name": "District Court, N.D. California", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "casb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, S.D. California",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, S.D. California", 
         "notes": ""
-    },
+    }, 
     "casd": {
-        "has_seal": true,
-        "hash": "5a66979edbd57ad0a10299259291391111196dfd352897c29103b92b6589e980",
-        "name": "District Court, S.D. California",
+        "has_seal": true, 
+        "hash": "5a66979edbd57ad0a10299259291391111196dfd352897c29103b92b6589e980", 
+        "name": "District Court, S.D. California", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cavc": {
-        "has_seal": true,
-        "hash": "d5238aac54b201ecbc94df33a363ef574b1a0dc93dd7f8ed8e96655f1b9a4f99",
-        "name": "United States Court of Appeals for Veterans Claims",
+        "has_seal": true, 
+        "hash": "d5238aac54b201ecbc94df33a363ef574b1a0dc93dd7f8ed8e96655f1b9a4f99", 
+        "name": "United States Court of Appeals for Veterans Claims", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cbca": {
-        "has_seal": true,
-        "hash": "89729e8220682f2db6f51ac5c2fe30ea41cadc3e95955ea5d8a36280a5800c5d",
-        "name": "Civilian Board of Contract Appeals",
+        "has_seal": true, 
+        "hash": "89729e8220682f2db6f51ac5c2fe30ea41cadc3e95955ea5d8a36280a5800c5d", 
+        "name": "Civilian Board of Contract Appeals", 
         "notes": ""
-    },
+    }, 
     "cc": {
-        "has_seal": false,
-        "name": "United States Court of Claims",
+        "has_seal": false, 
+        "name": "United States Court of Claims", 
         "notes": ""
-    },
+    }, 
     "ccpa": {
-        "has_seal": false,
-        "name": "Court of Customs and Patent Appeals",
+        "has_seal": false, 
+        "name": "Court of Customs and Patent Appeals", 
         "notes": ""
-    },
+    }, 
     "cit": {
-        "has_seal": true,
-        "hash": "75b61133527cd138b7beb24e83eff0adadab4f465e2b5d2f200d0f5b6cf6ecea",
-        "name": "United States Court of International Trade",
+        "has_seal": true, 
+        "hash": "75b61133527cd138b7beb24e83eff0adadab4f465e2b5d2f200d0f5b6cf6ecea", 
+        "name": "United States Court of International Trade", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cjdpa": {
-        "has_seal": true,
-        "hash": "cb1bea702e0ad99813e16889b9848cd3b65e8360af9554139d363fb24c8e982c",
-        "name": "Court of Judicial Discipline of Pennsylvania",
+        "has_seal": true, 
+        "hash": "cb1bea702e0ad99813e16889b9848cd3b65e8360af9554139d363fb24c8e982c", 
+        "name": "Court of Judicial Discipline of Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "cob": {
-        "has_seal": true,
-        "hash": "fe165d658bfc2b9c25e02f772fd8e5853cfee7ad9d71e17f8a594e00d6222238",
-        "name": "United States Bankruptcy Court, D. Colorado",
+        "has_seal": true, 
+        "hash": "fe165d658bfc2b9c25e02f772fd8e5853cfee7ad9d71e17f8a594e00d6222238", 
+        "name": "United States Bankruptcy Court, D. Colorado", 
         "notes": ""
-    },
+    }, 
     "cod": {
-        "has_seal": true,
-        "hash": "dd712448abdee9fe188de2c895d1f11d2a3048507809b222b3ae132ef0ae8993",
-        "name": "District Court, D. Colorado",
+        "has_seal": true, 
+        "hash": "dd712448abdee9fe188de2c895d1f11d2a3048507809b222b3ae132ef0ae8993", 
+        "name": "District Court, D. Colorado", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "colo": {
-        "has_seal": false,
-        "name": "Supreme Court of Colorado",
+        "has_seal": false, 
+        "name": "Supreme Court of Colorado", 
         "notes": ""
-    },
+    }, 
     "coloctapp": {
-        "has_seal": false,
-        "name": "Colorado Court of Appeals",
+        "has_seal": false, 
+        "name": "Colorado Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "com": {
-        "has_seal": false,
-        "name": "Commerce Court",
+        "has_seal": false, 
+        "name": "Commerce Court", 
         "notes": ""
-    },
+    }, 
     "compliance": {
-        "has_seal": true,
-        "hash": "12f356783e0d20a370c54c6dcc7de20b62ae8cd228a0ce74f9bc4aec244b2007",
-        "name": "Office of Compliance, United States Congress",
+        "has_seal": true, 
+        "hash": "12f356783e0d20a370c54c6dcc7de20b62ae8cd228a0ce74f9bc4aec244b2007", 
+        "name": "Office of Compliance, United States Congress", 
         "notes": ""
-    },
+    }, 
     "conn": {
-        "has_seal": true,
-        "hash": "b594fa7835f30f26e6cefb87064eb5aa31af53c9159ff898731e59759488e8b8",
-        "name": "Supreme Court of Connecticut",
+        "has_seal": true, 
+        "hash": "b594fa7835f30f26e6cefb87064eb5aa31af53c9159ff898731e59759488e8b8", 
+        "name": "Supreme Court of Connecticut", 
         "notes": ""
-    },
+    }, 
     "connappct": {
-        "has_seal": false,
-        "name": "Connecticut Appellate Court",
+        "has_seal": false, 
+        "name": "Connecticut Appellate Court", 
         "notes": ""
-    },
+    }, 
     "connsuperct": {
-        "has_seal": false,
-        "name": "Connecticut Superior Court",
+        "has_seal": false, 
+        "name": "Connecticut Superior Court", 
         "notes": ""
-    },
+    }, 
     "ctb": {
-        "has_seal": true,
-        "hash": "d17c542628e67a5aaf3f85d447032b3cddb65428867e83e99d68b8edb49df3c9",
-        "name": "United States Bankruptcy Court, D. Connecticut",
+        "has_seal": true, 
+        "hash": "d17c542628e67a5aaf3f85d447032b3cddb65428867e83e99d68b8edb49df3c9", 
+        "name": "United States Bankruptcy Court, D. Connecticut", 
         "notes": ""
-    },
+    }, 
     "ctd": {
-        "has_seal": true,
-        "hash": "228515c426ac7f7002b5a505efbb2ad27b2ea16cfe87d191ae37b7f97d23aa8b",
-        "name": "District Court, D. Connecticut",
+        "has_seal": true, 
+        "hash": "228515c426ac7f7002b5a505efbb2ad27b2ea16cfe87d191ae37b7f97d23aa8b", 
+        "name": "District Court, D. Connecticut", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "cusc": {
-        "has_seal": false,
-        "name": "United States Customs Court",
+        "has_seal": false, 
+        "name": "United States Customs Court", 
         "notes": ""
-    },
+    }, 
     "dc": {
-        "has_seal": true,
-        "hash": "e965cb89f8ffc381984a81f63577be17f8017a2ad9a1cd9632e4e48ef4f2bc16",
-        "name": "District of Columbia Court of Appeals",
+        "has_seal": true, 
+        "hash": "e965cb89f8ffc381984a81f63577be17f8017a2ad9a1cd9632e4e48ef4f2bc16", 
+        "name": "District of Columbia Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "dcb": {
-        "has_seal": true,
-        "hash": "b3aa465518087f8e482f062bb44d7a14ccad7ed1aa93ffd12a310eddf3725411",
-        "name": "United States Bankruptcy Court, District of Columbia",
+        "has_seal": true, 
+        "hash": "b3aa465518087f8e482f062bb44d7a14ccad7ed1aa93ffd12a310eddf3725411", 
+        "name": "United States Bankruptcy Court, District of Columbia", 
         "notes": ""
-    },
+    }, 
     "dcd": {
-        "has_seal": true,
-        "hash": "f7cf9f8105fc8bfbc49b96908bc00fcdc31b6684ce6aa42306eb9c19d75d01ee",
-        "name": "District Court, District of Columbia",
+        "has_seal": true, 
+        "hash": "f7cf9f8105fc8bfbc49b96908bc00fcdc31b6684ce6aa42306eb9c19d75d01ee", 
+        "name": "District Court, District of Columbia", 
         "notes": ""
-    },
+    }, 
     "deb": {
-        "has_seal": true,
-        "hash": "ca651b2e069973d04993b5be47cb586d9a55d4e1bf659dc1077e6a4303ed3447",
-        "name": "United States Bankruptcy Court, D. Delaware",
+        "has_seal": true, 
+        "hash": "ca651b2e069973d04993b5be47cb586d9a55d4e1bf659dc1077e6a4303ed3447", 
+        "name": "United States Bankruptcy Court, D. Delaware", 
         "notes": ""
-    },
+    }, 
     "ded": {
-        "has_seal": true,
-        "hash": "f344d2dd0e498495f88422a58029ad81a3df7186e9d80eccdebbc111536583a0",
-        "name": "District Court, D. Delaware",
+        "has_seal": true, 
+        "hash": "f344d2dd0e498495f88422a58029ad81a3df7186e9d80eccdebbc111536583a0", 
+        "name": "District Court, D. Delaware", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "del": {
-        "has_seal": true,
-        "hash": "497d9bd24728489b217f920838de5eb60acaa090a2324755d0ffe2e16af94a93",
-        "name": "Supreme Court of Delaware",
+        "has_seal": true, 
+        "hash": "497d9bd24728489b217f920838de5eb60acaa090a2324755d0ffe2e16af94a93", 
+        "name": "Supreme Court of Delaware", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "delch": {
-        "has_seal": true,
-        "hash": "7651c75faeb416f6ea3b505acb95421c913639c2e339a769d1ccf2976e4ea633",
-        "name": "Court of Chancery of Delaware",
+        "has_seal": true, 
+        "hash": "7651c75faeb416f6ea3b505acb95421c913639c2e339a769d1ccf2976e4ea633", 
+        "name": "Court of Chancery of Delaware", 
         "notes": ""
-    },
+    }, 
     "delctcompl": {
-        "has_seal": true,
-        "hash": "e0f2618563f76a5e52433321969fef385f0f1a936e9fe6a32bdc848065b1c287",
-        "name": "Delaware Court of Common Pleas",
+        "has_seal": true, 
+        "hash": "e0f2618563f76a5e52433321969fef385f0f1a936e9fe6a32bdc848065b1c287", 
+        "name": "Delaware Court of Common Pleas", 
         "notes": ""
-    },
+    }, 
     "delfamct": {
-        "has_seal": true,
-        "hash": "60b2b6f2d7c20f1bfbc8427ea1c30ae8c5a61121aa143c59758a65885a833626",
-        "name": "Delaware Family Court",
+        "has_seal": true, 
+        "hash": "60b2b6f2d7c20f1bfbc8427ea1c30ae8c5a61121aa143c59758a65885a833626", 
+        "name": "Delaware Family Court", 
         "notes": ""
-    },
+    }, 
     "deljudct": {
-        "has_seal": false,
-        "name": "Court on the Judiciary of Delaware.",
+        "has_seal": false, 
+        "name": "Court on the Judiciary of Delaware.", 
         "notes": ""
-    },
+    }, 
     "delsuperct": {
-        "has_seal": false,
-        "name": "Superior Court of Delaware",
+        "has_seal": false, 
+        "name": "Superior Court of Delaware", 
         "notes": ""
-    },
+    }, 
     "eca": {
-        "has_seal": false,
-        "name": "Emergency Court of Appeals",
+        "has_seal": false, 
+        "name": "Emergency Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "fisc": {
-        "has_seal": true,
-        "hash": "8e2c7481693b6297f51c30d29954d730def2810f418113e513cefde277820350",
-        "name": "Foreign Intelligence Surveillance Court",
+        "has_seal": true, 
+        "hash": "8e2c7481693b6297f51c30d29954d730def2810f418113e513cefde277820350", 
+        "name": "Foreign Intelligence Surveillance Court", 
         "notes": ""
-    },
+    }, 
     "fiscr": {
-        "has_seal": false,
-        "name": "Foreign Intelligence Surveillance Court of Review",
+        "has_seal": false, 
+        "name": "Foreign Intelligence Surveillance Court of Review", 
         "notes": ""
-    },
+    }, 
     "fla": {
-        "has_seal": true,
-        "hash": "8b1f36d6c068ecf3d2e9d84cc68f5b9022701888e27ab4568e2c5cad1b447f32",
-        "name": "Supreme Court of Florida",
+        "has_seal": true, 
+        "hash": "8b1f36d6c068ecf3d2e9d84cc68f5b9022701888e27ab4568e2c5cad1b447f32", 
+        "name": "Supreme Court of Florida", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "fladistctapp": {
-        "has_seal": false,
-        "name": "District Court of Appeal of Florida",
+        "has_seal": false, 
+        "name": "District Court of Appeal of Florida", 
         "notes": ""
-    },
+    }, 
     "flmb": {
-        "has_seal": true,
-        "hash": "97a735652bb7b533c50b1b37e8814bc15b56fe2af2e22a10100ac83b4da3a4ab",
-        "name": "United States Bankruptcy Court, M.D. Florida",
+        "has_seal": true, 
+        "hash": "97a735652bb7b533c50b1b37e8814bc15b56fe2af2e22a10100ac83b4da3a4ab", 
+        "name": "United States Bankruptcy Court, M.D. Florida", 
         "notes": ""
-    },
+    }, 
     "flmd": {
-        "has_seal": true,
-        "hash": "88fc84b20c3a3e43a4f9e7bba516798192c2c45fe07346f4dce5951b77fad18d",
-        "name": "District Court, M.D. Florida",
+        "has_seal": true, 
+        "hash": "88fc84b20c3a3e43a4f9e7bba516798192c2c45fe07346f4dce5951b77fad18d", 
+        "name": "District Court, M.D. Florida", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "flnb": {
-        "has_seal": true,
-        "hash": "fed846440457e54d1b3f4650777449cafb25c34775822b6b6e87ba26c30c541e",
-        "name": "United States Bankruptcy Court, N.D. Florida",
+        "has_seal": true, 
+        "hash": "fed846440457e54d1b3f4650777449cafb25c34775822b6b6e87ba26c30c541e", 
+        "name": "United States Bankruptcy Court, N.D. Florida", 
         "notes": ""
-    },
+    }, 
     "flnd": {
-        "has_seal": true,
-        "hash": "a359b6ca259f3c4ea5aceda4285252a60a575988cad9226afe924e895336a517",
-        "name": "District Court, N.D. Florida",
+        "has_seal": true, 
+        "hash": "a359b6ca259f3c4ea5aceda4285252a60a575988cad9226afe924e895336a517", 
+        "name": "District Court, N.D. Florida", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "flsb": {
-        "has_seal": true,
-        "hash": "002a2fb312dd242bddc417e5b1625aa7540b8cb925069b34226627c64062761b",
-        "name": "United States Bankruptcy Court, S.D. Florida.",
+        "has_seal": true, 
+        "hash": "002a2fb312dd242bddc417e5b1625aa7540b8cb925069b34226627c64062761b", 
+        "name": "United States Bankruptcy Court, S.D. Florida.", 
         "notes": ""
-    },
+    }, 
     "flsd": {
-        "has_seal": true,
-        "hash": "d9d51f8fe3d77edb64d2eb559df67cb61cd8920efff19e17b351be7f1333351d",
-        "name": "District Court, S.D. Florida",
+        "has_seal": true, 
+        "hash": "d9d51f8fe3d77edb64d2eb559df67cb61cd8920efff19e17b351be7f1333351d", 
+        "name": "District Court, S.D. Florida", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ga": {
-        "has_seal": true,
-        "hash": "ec386529f4f3fe0c4600d763cb1aa5d8876e2029d3802321a3d36383d89a8615",
-        "name": "Supreme Court of Georgia",
+        "has_seal": true, 
+        "hash": "ec386529f4f3fe0c4600d763cb1aa5d8876e2029d3802321a3d36383d89a8615", 
+        "name": "Supreme Court of Georgia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "gactapp": {
-        "has_seal": true,
-        "hash": "532b4e4a0575fd786a5cf9c9a0c86c0c3f8e73b61435a1e756cfd1a68de8f702",
-        "name": "Court of Appeals of Georgia.",
+        "has_seal": true, 
+        "hash": "532b4e4a0575fd786a5cf9c9a0c86c0c3f8e73b61435a1e756cfd1a68de8f702", 
+        "name": "Court of Appeals of Georgia.", 
         "notes": ""
-    },
+    }, 
     "gamb": {
-        "has_seal": true,
-        "hash": "ba8c1089dfc77a81ede12831a66fcbf76dcd5539cad00b7f0f230b74c04f6e83",
-        "name": "United States Bankruptcy Court, M.D. Georgia",
+        "has_seal": true, 
+        "hash": "ba8c1089dfc77a81ede12831a66fcbf76dcd5539cad00b7f0f230b74c04f6e83", 
+        "name": "United States Bankruptcy Court, M.D. Georgia", 
         "notes": ""
-    },
+    }, 
     "gamd": {
-        "has_seal": true,
-        "hash": "176476cb6f3520c7d8d9ff43a085baaba573b7bfe0e60256ed0d7277a7fa6707",
-        "name": "District Court, M.D. Georgia",
+        "has_seal": true, 
+        "hash": "176476cb6f3520c7d8d9ff43a085baaba573b7bfe0e60256ed0d7277a7fa6707", 
+        "name": "District Court, M.D. Georgia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ganb": {
-        "has_seal": true,
-        "hash": "33ae3f53c0b781eda100e5a058a42928c32a070b4fae3f925998e0c8dfc62a24",
-        "name": "United States Bankruptcy Court, N.D. Georgia",
+        "has_seal": true, 
+        "hash": "33ae3f53c0b781eda100e5a058a42928c32a070b4fae3f925998e0c8dfc62a24", 
+        "name": "United States Bankruptcy Court, N.D. Georgia", 
         "notes": ""
-    },
+    }, 
     "gand": {
-        "has_seal": true,
-        "hash": "bc4cdb654f38e72ca44b0c24761ec4146a637764d758534cf6074bdc53289b41",
-        "name": "District Court, N.D. Georgia",
+        "has_seal": true, 
+        "hash": "bc4cdb654f38e72ca44b0c24761ec4146a637764d758534cf6074bdc53289b41", 
+        "name": "District Court, N.D. Georgia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "gasb": {
-        "has_seal": true,
-        "hash": "92efcb1212e67bf44378cf071e4d662a42268330183fca89c5676af5afe2f881",
-        "name": "United States Bankruptcy Court, S.D. Georgia",
+        "has_seal": true, 
+        "hash": "92efcb1212e67bf44378cf071e4d662a42268330183fca89c5676af5afe2f881", 
+        "name": "United States Bankruptcy Court, S.D. Georgia", 
         "notes": ""
-    },
+    }, 
     "gasd": {
-        "has_seal": true,
-        "hash": "f81e30b389c8f044212a9e08c219cee223b891dab61a7e1fda69ef1ba394d8b2",
-        "name": "District Court, S.D. Georgia",
+        "has_seal": true, 
+        "hash": "f81e30b389c8f044212a9e08c219cee223b891dab61a7e1fda69ef1ba394d8b2", 
+        "name": "District Court, S.D. Georgia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "gub": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Guam",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Guam", 
         "notes": ""
-    },
+    }, 
     "gud": {
-        "has_seal": true,
-        "hash": "5f9264a2dedc3300f6ecf730a6780bb2f341049ca4ec2e4cace77ae2ea11f536",
-        "name": "District Court, D. Guam",
+        "has_seal": true, 
+        "hash": "5f9264a2dedc3300f6ecf730a6780bb2f341049ca4ec2e4cace77ae2ea11f536", 
+        "name": "District Court, D. Guam", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "haw": {
-        "has_seal": true,
-        "hash": "44e9366de7d6f8bba677235a5114ae3a003f7040bdcc52371bc1dc84c6b88d01",
-        "name": "Hawaii Supreme Court",
+        "has_seal": true, 
+        "hash": "44e9366de7d6f8bba677235a5114ae3a003f7040bdcc52371bc1dc84c6b88d01", 
+        "name": "Hawaii Supreme Court", 
         "notes": ""
-    },
+    }, 
     "hawapp": {
-        "has_seal": false,
-        "name": "Hawaii Intermediate Court of Appeals",
+        "has_seal": false, 
+        "name": "Hawaii Intermediate Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "hib": {
-        "has_seal": true,
-        "hash": "72c881380909313177454a02c0745869edf1aa9c17e4c9f7e647990e230f0794",
-        "name": "United States Bankruptcy Court, D. Hawaii",
+        "has_seal": true, 
+        "hash": "72c881380909313177454a02c0745869edf1aa9c17e4c9f7e647990e230f0794", 
+        "name": "United States Bankruptcy Court, D. Hawaii", 
         "notes": ""
-    },
+    }, 
     "hid": {
-        "has_seal": true,
-        "hash": "747ec46dc4f67891af825ad78fe1e950da513f30fd8a83ee7b6902e05985788a",
-        "name": "District Court, D. Hawaii",
+        "has_seal": true, 
+        "hash": "747ec46dc4f67891af825ad78fe1e950da513f30fd8a83ee7b6902e05985788a", 
+        "name": "District Court, D. Hawaii", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ianb": {
-        "has_seal": true,
-        "hash": "15684393fa5f2011477aab99624bff0321cef3453886dfb2ed398664b183b9c9",
-        "name": "United States Bankruptcy Court, N.D. Iowa",
+        "has_seal": true, 
+        "hash": "15684393fa5f2011477aab99624bff0321cef3453886dfb2ed398664b183b9c9", 
+        "name": "United States Bankruptcy Court, N.D. Iowa", 
         "notes": ""
-    },
+    }, 
     "iand": {
-        "has_seal": true,
-        "hash": "b4d65c148724da827b9e11119e4b34a2547d54fc1ee0468513d9266101fe410d",
-        "name": "District Court, N.D. Iowa",
+        "has_seal": true, 
+        "hash": "b4d65c148724da827b9e11119e4b34a2547d54fc1ee0468513d9266101fe410d", 
+        "name": "District Court, N.D. Iowa", 
         "notes": ""
-    },
+    }, 
     "iasb": {
-        "has_seal": true,
-        "hash": "9d877f7106d5cbb8b146465e875e64f6ddee1eb46d17df432827ed044843cfc9",
-        "name": "United States Bankruptcy Court, S.D. Iowa",
+        "has_seal": true, 
+        "hash": "9d877f7106d5cbb8b146465e875e64f6ddee1eb46d17df432827ed044843cfc9", 
+        "name": "United States Bankruptcy Court, S.D. Iowa", 
         "notes": ""
-    },
+    }, 
     "iasd": {
-        "has_seal": true,
-        "hash": "210958e5bb3adc0dc32c65e63181d8094cfc7df0ea28840eef4a568bffcd3d99",
-        "name": "District Court, S.D. Iowa",
+        "has_seal": true, 
+        "hash": "210958e5bb3adc0dc32c65e63181d8094cfc7df0ea28840eef4a568bffcd3d99", 
+        "name": "District Court, S.D. Iowa", 
         "notes": ""
-    },
+    }, 
     "idaho": {
-        "has_seal": false,
-        "name": "Idaho Supreme Court",
+        "has_seal": false, 
+        "name": "Idaho Supreme Court", 
         "notes": ""
-    },
+    }, 
     "idahoctapp": {
-        "has_seal": false,
-        "name": "Idaho Court of Appeals",
+        "has_seal": false, 
+        "name": "Idaho Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "idb": {
-        "has_seal": true,
-        "hash": "651a4750ab123d3ff1914d27f301dc3b9b0b567e366d7ff9dcac42a14598c1b3",
-        "name": "United States Bankruptcy Court, D. Idaho",
+        "has_seal": true, 
+        "hash": "651a4750ab123d3ff1914d27f301dc3b9b0b567e366d7ff9dcac42a14598c1b3", 
+        "name": "United States Bankruptcy Court, D. Idaho", 
         "notes": ""
-    },
+    }, 
     "idd": {
-        "has_seal": true,
-        "hash": "aaf3f5af249baddc0108f10cb4b35d19a99e09ebcb99999019a7a218492763d0",
-        "name": "District Court, D. Idaho",
+        "has_seal": true, 
+        "hash": "aaf3f5af249baddc0108f10cb4b35d19a99e09ebcb99999019a7a218492763d0", 
+        "name": "District Court, D. Idaho", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ilcb": {
-        "has_seal": true,
-        "hash": "1d6b9c5717595d1f33c1dc98ffdc5b8eacd7903adf6bdfab54cee9bbaec63b7f",
-        "name": "  United States Bankruptcy Court, C.D. Illinois",
+        "has_seal": true, 
+        "hash": "1d6b9c5717595d1f33c1dc98ffdc5b8eacd7903adf6bdfab54cee9bbaec63b7f", 
+        "name": "  United States Bankruptcy Court, C.D. Illinois", 
         "notes": ""
-    },
+    }, 
     "ilcd": {
-        "has_seal": true,
-        "hash": "29a183f4633b30fc5e227c53969e5efa44be08eee4bf5939a1ed1e7022f57ae3",
-        "name": "District Court, C.D. Illinois",
+        "has_seal": true, 
+        "hash": "29a183f4633b30fc5e227c53969e5efa44be08eee4bf5939a1ed1e7022f57ae3", 
+        "name": "District Court, C.D. Illinois", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ill": {
-        "has_seal": true,
-        "hash": "daabdec27c0b429e825949a32be049762e25525eeec514eb89dbed3093b76084",
-        "name": "Illinois Supreme Court",
+        "has_seal": true, 
+        "hash": "daabdec27c0b429e825949a32be049762e25525eeec514eb89dbed3093b76084", 
+        "name": "Illinois Supreme Court", 
         "notes": ""
-    },
+    }, 
     "illappct": {
-        "has_seal": false,
-        "name": "Appellate Court of Illinois",
+        "has_seal": false, 
+        "name": "Appellate Court of Illinois", 
         "notes": ""
-    },
+    }, 
     "illinoisd": {
-        "has_seal": false,
-        "name": "District Court, D. Illinois",
+        "has_seal": false, 
+        "name": "District Court, D. Illinois", 
         "notes": ""
-    },
+    }, 
     "illinoised": {
-        "has_seal": false,
-        "name": "District Court, E.D. Illinois",
+        "has_seal": false, 
+        "name": "District Court, E.D. Illinois", 
         "notes": ""
-    },
+    }, 
     "ilnb": {
-        "has_seal": true,
-        "hash": "0c2d5766e91a1b79340575bdb0b9346577c19c237e405b9baded37047f91e80f",
-        "name": "  United States Bankruptcy Court, N.D. Illinois",
+        "has_seal": true, 
+        "hash": "0c2d5766e91a1b79340575bdb0b9346577c19c237e405b9baded37047f91e80f", 
+        "name": "  United States Bankruptcy Court, N.D. Illinois", 
         "notes": ""
-    },
+    }, 
     "ilnd": {
-        "has_seal": true,
-        "hash": "1a5c00ac2c9573c7b66981504c747099f707bed2b151e0239508b53d020fa573",
-        "name": "District Court, N.D. Illinois",
+        "has_seal": true, 
+        "hash": "1a5c00ac2c9573c7b66981504c747099f707bed2b151e0239508b53d020fa573", 
+        "name": "District Court, N.D. Illinois", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ilsb": {
-        "has_seal": true,
-        "hash": "701ee84c1c29525920d946eed7dafb4c25633861ec607acf79cb5d31b54ac95d",
-        "name": "United States Bankruptcy Court, S.D. Illinois",
+        "has_seal": true, 
+        "hash": "701ee84c1c29525920d946eed7dafb4c25633861ec607acf79cb5d31b54ac95d", 
+        "name": "United States Bankruptcy Court, S.D. Illinois", 
         "notes": ""
-    },
+    }, 
     "ilsd": {
-        "has_seal": true,
-        "hash": "f02a755270174f4c733bc58e95b78271a5c12eee44f5a0ba9ef2837d97b6e39f",
-        "name": "District Court, S.D. Illinois",
+        "has_seal": true, 
+        "hash": "f02a755270174f4c733bc58e95b78271a5c12eee44f5a0ba9ef2837d97b6e39f", 
+        "name": "District Court, S.D. Illinois", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ind": {
-        "has_seal": true,
-        "hash": "c73974c2d20b6f8ca08d387737ee85c23b9ad6b0360a83b834499c8f98a1780c",
-        "name": "Indiana Supreme Court",
+        "has_seal": true, 
+        "hash": "c73974c2d20b6f8ca08d387737ee85c23b9ad6b0360a83b834499c8f98a1780c", 
+        "name": "Indiana Supreme Court", 
         "notes": ""
-    },
+    }, 
     "indctapp": {
-        "has_seal": true,
-        "hash": "4050add58af78afbff736f741d88256af4236251ab10dc4581379f1c8e42a34d",
-        "name": "Indiana Court of Appeals",
+        "has_seal": true, 
+        "hash": "4050add58af78afbff736f741d88256af4236251ab10dc4581379f1c8e42a34d", 
+        "name": "Indiana Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "indianad": {
-        "has_seal": false,
-        "name": "District Court, D. Indiana",
+        "has_seal": false, 
+        "name": "District Court, D. Indiana", 
         "notes": ""
-    },
+    }, 
     "indtc": {
-        "has_seal": true,
-        "hash": "d32f1b029ec69bd14aa7447401a9368edaf02cbdc8ae297e1ecabb2e562be949",
-        "name": "Indiana Tax Court",
+        "has_seal": true, 
+        "hash": "d32f1b029ec69bd14aa7447401a9368edaf02cbdc8ae297e1ecabb2e562be949", 
+        "name": "Indiana Tax Court", 
         "notes": ""
-    },
+    }, 
     "innb": {
-        "has_seal": true,
-        "hash": "4d02f5a3269d8c2522feb0d86ee9a9bfc27e5c1bec163a1c2eb6103cb7e8d615",
-        "name": "United States Bankruptcy Court, N.D. Indiana",
+        "has_seal": true, 
+        "hash": "4d02f5a3269d8c2522feb0d86ee9a9bfc27e5c1bec163a1c2eb6103cb7e8d615", 
+        "name": "United States Bankruptcy Court, N.D. Indiana", 
         "notes": ""
-    },
+    }, 
     "innd": {
-        "has_seal": true,
-        "hash": "3dca0e3ac0a087530be50670cfe5a9a107c5c7d040f2423436008b8a463dc1aa",
-        "name": "District Court, N.D. Indiana",
+        "has_seal": true, 
+        "hash": "3dca0e3ac0a087530be50670cfe5a9a107c5c7d040f2423436008b8a463dc1aa", 
+        "name": "District Court, N.D. Indiana", 
         "notes": ""
-    },
+    }, 
     "insb": {
-        "has_seal": true,
-        "hash": "71db4fa84a0805e63130de2c2fe60fd039802534aff9b2dc2f67d041e919c2fe",
-        "name": "United States Bankruptcy Court, S.D. Indiana",
+        "has_seal": true, 
+        "hash": "71db4fa84a0805e63130de2c2fe60fd039802534aff9b2dc2f67d041e919c2fe", 
+        "name": "United States Bankruptcy Court, S.D. Indiana", 
         "notes": ""
-    },
+    }, 
     "insd": {
-        "has_seal": true,
-        "hash": "d1e0b35896dcca52a6d2e0e525bc9f3d01aea92860f17dc6ddd59796b9acecad",
-        "name": "District Court, S.D. Indiana",
+        "has_seal": true, 
+        "hash": "d1e0b35896dcca52a6d2e0e525bc9f3d01aea92860f17dc6ddd59796b9acecad", 
+        "name": "District Court, S.D. Indiana", 
         "notes": ""
-    },
+    }, 
     "iowa": {
-        "has_seal": false,
-        "name": "Supreme Court of Iowa",
+        "has_seal": false, 
+        "name": "Supreme Court of Iowa", 
         "notes": ""
-    },
+    }, 
     "iowactapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Iowa",
+        "has_seal": false, 
+        "name": "Court of Appeals of Iowa", 
         "notes": ""
-    },
+    }, 
     "jpml": {
-        "has_seal": true,
-        "hash": "aa1eb5efe20a9933059498fca59352e8999449481b5842e6f3a99ced03da63b7",
-        "name": "United States Judicial Panel on Multidistrict Litigation",
+        "has_seal": true, 
+        "hash": "aa1eb5efe20a9933059498fca59352e8999449481b5842e6f3a99ced03da63b7", 
+        "name": "United States Judicial Panel on Multidistrict Litigation", 
         "notes": ""
-    },
+    }, 
     "kan": {
-        "has_seal": true,
-        "hash": "a7de789b0e2a5d43800bf5c22fa1aaaf18289be554455e69dde927dc4480c553",
-        "name": "Supreme Court of Kansas",
+        "has_seal": true, 
+        "hash": "a7de789b0e2a5d43800bf5c22fa1aaaf18289be554455e69dde927dc4480c553", 
+        "name": "Supreme Court of Kansas", 
         "notes": ""
-    },
+    }, 
     "kanctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Kansas",
+        "has_seal": false, 
+        "name": "Court of Appeals of Kansas", 
         "notes": ""
-    },
+    }, 
     "ksb": {
-        "has_seal": true,
-        "hash": "ab405bf81ef2186867bd1e56d0f8ca66737a7b2d85046a03dbd118e61a930b97",
-        "name": "United States Bankruptcy Court, D. Kansas",
+        "has_seal": true, 
+        "hash": "ab405bf81ef2186867bd1e56d0f8ca66737a7b2d85046a03dbd118e61a930b97", 
+        "name": "United States Bankruptcy Court, D. Kansas", 
         "notes": ""
-    },
+    }, 
     "ksd": {
-        "has_seal": true,
-        "hash": "c884be4d98381c2e46289bb929b18a3b278d7483ff2efc16d8139d4af7277c66",
-        "name": "District Court, D. Kansas",
+        "has_seal": true, 
+        "hash": "c884be4d98381c2e46289bb929b18a3b278d7483ff2efc16d8139d4af7277c66", 
+        "name": "District Court, D. Kansas", 
         "notes": ""
-    },
+    }, 
     "ky": {
-        "has_seal": false,
-        "name": "Kentucky Supreme Court",
+        "has_seal": false, 
+        "name": "Kentucky Supreme Court", 
         "notes": ""
-    },
+    }, 
     "kyctapp": {
-        "has_seal": true,
-        "hash": "1b89524d67f39b8b5fca45aae5de3baeca74bc6aff3b29e06d5425a3020b67ea",
-        "name": "Court of Appeals of Kentucky",
+        "has_seal": true, 
+        "hash": "1b89524d67f39b8b5fca45aae5de3baeca74bc6aff3b29e06d5425a3020b67ea", 
+        "name": "Court of Appeals of Kentucky", 
         "notes": ""
-    },
+    }, 
     "kyeb": {
-        "has_seal": true,
-        "hash": "bab503619f1f3e12a295fbe005e52cc0684b503f67d6892fcb03257183597922",
-        "name": "United States Bankruptcy Court, E.D. Kentucky",
+        "has_seal": true, 
+        "hash": "bab503619f1f3e12a295fbe005e52cc0684b503f67d6892fcb03257183597922", 
+        "name": "United States Bankruptcy Court, E.D. Kentucky", 
         "notes": ""
-    },
+    }, 
     "kyed": {
-        "has_seal": true,
-        "hash": "c2cb18742bfd6d825739f040a5b685e6ad8fb0d90a582e28f46e2054fb29f5e8",
-        "name": "District Court, E.D. Kentucky",
+        "has_seal": true, 
+        "hash": "c2cb18742bfd6d825739f040a5b685e6ad8fb0d90a582e28f46e2054fb29f5e8", 
+        "name": "District Court, E.D. Kentucky", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "kywb": {
-        "has_seal": true,
-        "hash": "6edfa55119e42c712ef61f24fc32a8048aed13653643b88bc0bcdf8ef0fdacb3",
-        "name": "United States Bankruptcy Court, W.D. Kentucky",
+        "has_seal": true, 
+        "hash": "6edfa55119e42c712ef61f24fc32a8048aed13653643b88bc0bcdf8ef0fdacb3", 
+        "name": "United States Bankruptcy Court, W.D. Kentucky", 
         "notes": ""
-    },
+    }, 
     "kywd": {
-        "has_seal": true,
-        "hash": "4bcb664458c98d6bdcc178ea85c66cdbbf3372cca2b18814f78403e83d0b0dd3",
-        "name": "District Court, W.D. Kentucky",
+        "has_seal": true, 
+        "hash": "4bcb664458c98d6bdcc178ea85c66cdbbf3372cca2b18814f78403e83d0b0dd3", 
+        "name": "District Court, W.D. Kentucky", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "la": {
-        "has_seal": true,
-        "hash": "b21e58f9b5eaadd9adef1356ebb3d82c1e8379ab75a0ff744dfefeef90a8ee42",
-        "name": "Supreme Court of Louisiana",
+        "has_seal": true, 
+        "hash": "b21e58f9b5eaadd9adef1356ebb3d82c1e8379ab75a0ff744dfefeef90a8ee42", 
+        "name": "Supreme Court of Louisiana", 
         "notes": ""
-    },
+    }, 
     "lactapp": {
-        "has_seal": false,
-        "name": "Louisiana Court of Appeal",
+        "has_seal": false, 
+        "name": "Louisiana Court of Appeal", 
         "notes": ""
-    },
+    }, 
     "laeb": {
-        "has_seal": true,
-        "hash": "27b87f3a875bc69aaf3e3244d8669b66cb0ee31243a00b479ca343c1d2506aa3",
-        "name": "United States Bankruptcy Court, E.D. Louisiana",
+        "has_seal": true, 
+        "hash": "27b87f3a875bc69aaf3e3244d8669b66cb0ee31243a00b479ca343c1d2506aa3", 
+        "name": "United States Bankruptcy Court, E.D. Louisiana", 
         "notes": ""
-    },
+    }, 
     "laed": {
-        "has_seal": true,
-        "hash": "98c6959340bf066ba4ecd237a21196be5cc21a291efaee62244f34af2d578a63",
-        "name": "District Court, E.D. Louisiana.",
+        "has_seal": true, 
+        "hash": "98c6959340bf066ba4ecd237a21196be5cc21a291efaee62244f34af2d578a63", 
+        "name": "District Court, E.D. Louisiana.", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "lamb": {
-        "has_seal": true,
-        "hash": "06fcd5d31277195c042e9439b21cefbb445b0bf4096cbb9ebaf205b876f6b54f",
-        "name": "United States Bankruptcy Court, M.D. Louisiana",
+        "has_seal": true, 
+        "hash": "06fcd5d31277195c042e9439b21cefbb445b0bf4096cbb9ebaf205b876f6b54f", 
+        "name": "United States Bankruptcy Court, M.D. Louisiana", 
         "notes": ""
-    },
+    }, 
     "lamd": {
-        "has_seal": true,
-        "hash": "4864b286aa8a42350b6f5e19d405aedfe8fa6244775160fd1d1f74c1b915ed6e",
-        "name": "District Court, M.D. Louisiana",
+        "has_seal": true, 
+        "hash": "4864b286aa8a42350b6f5e19d405aedfe8fa6244775160fd1d1f74c1b915ed6e", 
+        "name": "District Court, M.D. Louisiana", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "lawb": {
-        "has_seal": true,
-        "hash": "d1229058140bac2a42fe79555362a32e97893de1131bfc98ba100f91faaba263",
-        "name": "United States Bankruptcy Court, W.D. Louisiana",
+        "has_seal": true, 
+        "hash": "d1229058140bac2a42fe79555362a32e97893de1131bfc98ba100f91faaba263", 
+        "name": "United States Bankruptcy Court, W.D. Louisiana", 
         "notes": ""
-    },
+    }, 
     "lawd": {
-        "has_seal": true,
-        "hash": "6c81d6beee8a318bb2a010f6bf4e41aa568659f93d5eebce30f93a981f34c394",
-        "name": "District Court, W.D. Louisiana",
+        "has_seal": true, 
+        "hash": "6c81d6beee8a318bb2a010f6bf4e41aa568659f93d5eebce30f93a981f34c394", 
+        "name": "District Court, W.D. Louisiana", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mab": {
-        "has_seal": true,
-        "hash": "04c1441a87cbf121c6086a27ca0d6e22237aaf4c79d962e0083f63797c6c022b",
-        "name": "United States Bankruptcy Court, D. Massachusetts",
+        "has_seal": true, 
+        "hash": "04c1441a87cbf121c6086a27ca0d6e22237aaf4c79d962e0083f63797c6c022b", 
+        "name": "United States Bankruptcy Court, D. Massachusetts", 
         "notes": ""
-    },
+    }, 
     "mad": {
-        "has_seal": true,
-        "hash": "9d921e2e4686f0c4c0a85c6287c4a1e526e257241e09a80519cf4b373f0ec7ca",
-        "name": "District Court, D. Massachusetts",
+        "has_seal": true, 
+        "hash": "9d921e2e4686f0c4c0a85c6287c4a1e526e257241e09a80519cf4b373f0ec7ca", 
+        "name": "District Court, D. Massachusetts", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mass": {
-        "has_seal": true,
-        "hash": "a609f2aeae310fa491dd682c2b7e681e9dd0b1f46971423ea0616fb77f3e5889",
-        "name": "Massachusetts Supreme Judicial Court",
+        "has_seal": true, 
+        "hash": "a609f2aeae310fa491dd682c2b7e681e9dd0b1f46971423ea0616fb77f3e5889", 
+        "name": "Massachusetts Supreme Judicial Court", 
         "notes": ""
-    },
+    }, 
     "massappct": {
-        "has_seal": false,
-        "name": "Massachusetts Appeals Court",
+        "has_seal": false, 
+        "name": "Massachusetts Appeals Court", 
         "notes": ""
-    },
+    }, 
     "mc": {
-        "has_seal": true,
-        "hash": "b1e9f02c7537876fc47f0a393b7bcc6191dcde72326cca8ef91e876376ea76b1",
-        "name": "U.S. Court of Military Commission Review",
+        "has_seal": true, 
+        "hash": "b1e9f02c7537876fc47f0a393b7bcc6191dcde72326cca8ef91e876376ea76b1", 
+        "name": "U.S. Court of Military Commission Review", 
         "notes": ""
-    },
+    }, 
     "md": {
-        "has_seal": true,
-        "hash": "95884ca9f4b1e6d8f94eff955aa24fec7b74228cff0223610d4a21cd3db15347",
-        "name": "Court of Appeals of Maryland",
+        "has_seal": true, 
+        "hash": "95884ca9f4b1e6d8f94eff955aa24fec7b74228cff0223610d4a21cd3db15347", 
+        "name": "Court of Appeals of Maryland", 
         "notes": ""
-    },
+    }, 
     "mdb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Maryland",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Maryland", 
         "notes": ""
-    },
+    }, 
     "mdctspecapp": {
-        "has_seal": true,
-        "hash": "36c4778a03a45ee8482e0a1860de0884c4fbd14bb2b2fc5fe21b91fb4788b742",
-        "name": "Court of Special Appeals of Maryland",
+        "has_seal": true, 
+        "hash": "36c4778a03a45ee8482e0a1860de0884c4fbd14bb2b2fc5fe21b91fb4788b742", 
+        "name": "Court of Special Appeals of Maryland", 
         "notes": ""
-    },
+    }, 
     "mdd": {
-        "has_seal": true,
-        "hash": "765eb8d602a53855335581e7d334095da24af0d8008ac3aca05c111a79cb22a3",
-        "name": "District Court, D. Maryland",
+        "has_seal": true, 
+        "hash": "765eb8d602a53855335581e7d334095da24af0d8008ac3aca05c111a79cb22a3", 
+        "name": "District Court, D. Maryland", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "me": {
-        "has_seal": false,
-        "name": "Supreme Judicial Court of Maine",
+        "has_seal": false, 
+        "name": "Supreme Judicial Court of Maine", 
         "notes": ""
-    },
+    }, 
     "meb": {
-        "has_seal": true,
-        "hash": "7b7751631c8372d4af8f29e16b5ae93248aec31ec2d85c21601a9e25b5832571",
-        "name": "  United States Bankruptcy Court, D. Maine",
+        "has_seal": true, 
+        "hash": "7b7751631c8372d4af8f29e16b5ae93248aec31ec2d85c21601a9e25b5832571", 
+        "name": "  United States Bankruptcy Court, D. Maine", 
         "notes": ""
-    },
+    }, 
     "med": {
-        "has_seal": true,
-        "hash": "43df14caf300980ae4ea94f381af16b6d37f7813551da865bc98f647a2422cc8",
-        "name": "District Court, D. Maine",
+        "has_seal": true, 
+        "hash": "43df14caf300980ae4ea94f381af16b6d37f7813551da865bc98f647a2422cc8", 
+        "name": "District Court, D. Maine", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mich": {
-        "has_seal": true,
-        "hash": "96d22971203f919f24947f15c4c4e62b82274534dd275e061ac6b0c0ac8c3605",
-        "name": "Michigan Supreme Court",
+        "has_seal": true, 
+        "hash": "96d22971203f919f24947f15c4c4e62b82274534dd275e061ac6b0c0ac8c3605", 
+        "name": "Michigan Supreme Court", 
         "notes": ""
-    },
+    }, 
     "michctapp": {
-        "has_seal": true,
-        "hash": "bfd799b37afa922eef2836b8282bb9f7464cf33174bc8bc94336b331247255b4",
-        "name": "Michigan Court of Appeals",
+        "has_seal": true, 
+        "hash": "bfd799b37afa922eef2836b8282bb9f7464cf33174bc8bc94336b331247255b4", 
+        "name": "Michigan Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "mieb": {
-        "has_seal": true,
-        "hash": "125a20c3f91272aff20359d092a798fcd066babe3ccdf7dac040097f70fed783",
-        "name": "United States Bankruptcy Court, E.D. Michigan",
+        "has_seal": true, 
+        "hash": "125a20c3f91272aff20359d092a798fcd066babe3ccdf7dac040097f70fed783", 
+        "name": "United States Bankruptcy Court, E.D. Michigan", 
         "notes": ""
-    },
+    }, 
     "mied": {
-        "has_seal": true,
-        "hash": "cb75440f16f2ddcdaa1f1af33a56c073699f77bb326f965d0d62772a0569a063",
-        "name": "District Court, E.D. Michigan",
+        "has_seal": true, 
+        "hash": "cb75440f16f2ddcdaa1f1af33a56c073699f77bb326f965d0d62772a0569a063", 
+        "name": "District Court, E.D. Michigan", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "minn": {
-        "has_seal": true,
-        "hash": "7433aa6e2fafd90df997916cda9b7c67cccd293d4b1478f8483aea6f94f8e070",
-        "name": "Supreme Court of Minnesota",
+        "has_seal": true, 
+        "hash": "7433aa6e2fafd90df997916cda9b7c67cccd293d4b1478f8483aea6f94f8e070", 
+        "name": "Supreme Court of Minnesota", 
         "notes": ""
-    },
+    }, 
     "minnctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Minnesota",
+        "has_seal": false, 
+        "name": "Court of Appeals of Minnesota", 
         "notes": ""
-    },
+    }, 
     "miss": {
-        "has_seal": false,
-        "name": "Mississippi Supreme Court",
+        "has_seal": false, 
+        "name": "Mississippi Supreme Court", 
         "notes": ""
-    },
+    }, 
     "missctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Mississippi",
+        "has_seal": false, 
+        "name": "Court of Appeals of Mississippi", 
         "notes": ""
-    },
+    }, 
     "miwb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, W.D. Michigan",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, W.D. Michigan", 
         "notes": ""
-    },
+    }, 
     "miwd": {
-        "has_seal": true,
-        "hash": "ef6ba174605886f9b0aa267fb8e215dd343afbac56b4099e14fa0bf56e4d01b7",
-        "name": "District Court, W.D. Michigan",
+        "has_seal": true, 
+        "hash": "ef6ba174605886f9b0aa267fb8e215dd343afbac56b4099e14fa0bf56e4d01b7", 
+        "name": "District Court, W.D. Michigan", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mnb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Minnesota",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Minnesota", 
         "notes": ""
-    },
+    }, 
     "mnd": {
-        "has_seal": false,
-        "name": "District Court, D. Minnesota",
+        "has_seal": false, 
+        "name": "District Court, D. Minnesota", 
         "notes": ""
-    },
+    }, 
     "mo": {
-        "has_seal": true,
-        "hash": "5e19cc45cfd06d4980031dd9a658428343e841e26840de0488b6256a4c8b8352",
-        "name": "Supreme Court of Missouri",
+        "has_seal": true, 
+        "hash": "5e19cc45cfd06d4980031dd9a658428343e841e26840de0488b6256a4c8b8352", 
+        "name": "Supreme Court of Missouri", 
         "notes": ""
-    },
+    }, 
     "mocd": {
-        "has_seal": false,
-        "name": "District Court, C.D. Missouri",
+        "has_seal": false, 
+        "name": "District Court, C.D. Missouri", 
         "notes": ""
-    },
+    }, 
     "moctapp": {
-        "has_seal": false,
-        "name": "Missouri Court of Appeals",
+        "has_seal": false, 
+        "name": "Missouri Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "moeb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, E.D. Missouri",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, E.D. Missouri", 
         "notes": ""
-    },
+    }, 
     "moed": {
-        "has_seal": true,
-        "hash": "b2350352880ad88198f9ccd3b06d49c2ae69bc0d7f9a69b4322a459b6f8a61bc",
-        "name": "District Court, E.D. Missouri",
+        "has_seal": true, 
+        "hash": "b2350352880ad88198f9ccd3b06d49c2ae69bc0d7f9a69b4322a459b6f8a61bc", 
+        "name": "District Court, E.D. Missouri", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mont": {
-        "has_seal": true,
-        "hash": "ded4f0165720b6017d747507e1511faaf86aee69c7b03beb37a38fb97e552649",
-        "name": "Montana Supreme Court",
+        "has_seal": true, 
+        "hash": "ded4f0165720b6017d747507e1511faaf86aee69c7b03beb37a38fb97e552649", 
+        "name": "Montana Supreme Court", 
         "notes": ""
-    },
+    }, 
     "mosd": {
-        "has_seal": false,
-        "name": "District Court, S.D. Missouri",
+        "has_seal": false, 
+        "name": "District Court, S.D. Missouri", 
         "notes": ""
-    },
+    }, 
     "mowb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, W.D. Missouri",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, W.D. Missouri", 
         "notes": ""
-    },
+    }, 
     "mowd": {
-        "has_seal": true,
-        "hash": "3a1c0616ee9f91efea18da5c7a02a6d54e06d82c70ac4c1cbb6904921b8a6e3a",
-        "name": "District Court, W.D. Missouri",
+        "has_seal": true, 
+        "hash": "3a1c0616ee9f91efea18da5c7a02a6d54e06d82c70ac4c1cbb6904921b8a6e3a", 
+        "name": "District Court, W.D. Missouri", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "msnb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, N.D. Mississippi",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, N.D. Mississippi", 
         "notes": ""
-    },
+    }, 
     "msnd": {
-        "has_seal": true,
-        "hash": "4626b22065fb9a38297c9b5578f50c9d29a13581544da2377994ccdb6ac78c2c",
-        "name": "District Court, N.D. Mississippi",
+        "has_seal": true, 
+        "hash": "4626b22065fb9a38297c9b5578f50c9d29a13581544da2377994ccdb6ac78c2c", 
+        "name": "District Court, N.D. Mississippi", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mspb": {
-        "has_seal": true,
-        "hash": "61bcc498a742d9d7b666879208fdf82e95cc6598493b97db6b723b1216c204cb",
-        "name": "United States Merit Systems Protection Board",
+        "has_seal": true, 
+        "hash": "61bcc498a742d9d7b666879208fdf82e95cc6598493b97db6b723b1216c204cb", 
+        "name": "United States Merit Systems Protection Board", 
         "notes": ""
-    },
+    }, 
     "mssb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, S.D. Mississippi",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, S.D. Mississippi", 
         "notes": ""
-    },
+    }, 
     "mssd": {
-        "has_seal": true,
-        "hash": "ec4317e24bd249a311782cd038bca1dea5cb0498f08804a18e6b074a52b56b6b",
-        "name": "District Court, S.D. Mississippi",
+        "has_seal": true, 
+        "hash": "ec4317e24bd249a311782cd038bca1dea5cb0498f08804a18e6b074a52b56b6b", 
+        "name": "District Court, S.D. Mississippi", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "mtb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Montana",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Montana", 
         "notes": ""
-    },
+    }, 
     "mtd": {
-        "has_seal": true,
-        "hash": "430fb2e0f96a2bfee531f35bc38cd7ac82dada5251d6df26d82cbe1128d3aefd",
-        "name": "District Court, D. Montana",
+        "has_seal": true, 
+        "hash": "430fb2e0f96a2bfee531f35bc38cd7ac82dada5251d6df26d82cbe1128d3aefd", 
+        "name": "District Court, D. Montana", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nc": {
-        "has_seal": true,
-        "hash": "7bb515aab24c110ee68f860ac408286edc5387b9972c7c339fb9d2b1c68b1256",
-        "name": "Supreme Court of North Carolina",
+        "has_seal": true, 
+        "hash": "7bb515aab24c110ee68f860ac408286edc5387b9972c7c339fb9d2b1c68b1256", 
+        "name": "Supreme Court of North Carolina", 
         "notes": ""
-    },
+    }, 
     "ncctapp": {
-        "has_seal": true,
-        "hash": "4b48d49a989574365e619378e7308139b4d76ca738d7a25ed4e6272e2ab85ecb",
-        "name": "Court of Appeals of North Carolina",
+        "has_seal": true, 
+        "hash": "4b48d49a989574365e619378e7308139b4d76ca738d7a25ed4e6272e2ab85ecb", 
+        "name": "Court of Appeals of North Carolina", 
         "notes": ""
-    },
+    }, 
     "nceb": {
-        "has_seal": true,
-        "hash": "2898d76800aa441a2e0a462f86bab200e0ca2cb8c42abdaf090e66be1cd3eb34",
-        "name": "United States Bankruptcy Court, E.D. North Carolina",
+        "has_seal": true, 
+        "hash": "2898d76800aa441a2e0a462f86bab200e0ca2cb8c42abdaf090e66be1cd3eb34", 
+        "name": "United States Bankruptcy Court, E.D. North Carolina", 
         "notes": ""
-    },
+    }, 
     "nced": {
-        "has_seal": true,
-        "hash": "fa5b744877e4701f9be247df542e5c672efb13bb8579eeb915f621ea295d64fb",
-        "name": "District Court, E.D. North Carolina",
+        "has_seal": true, 
+        "hash": "fa5b744877e4701f9be247df542e5c672efb13bb8579eeb915f621ea295d64fb", 
+        "name": "District Court, E.D. North Carolina", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ncmb": {
-        "has_seal": true,
-        "hash": "6e2fc7709648069c705e7fadcae90a505d0d447f862ff95d16392f0575b865fc",
-        "name": "United States Bankruptcy Court, M.D. North Carolina",
+        "has_seal": true, 
+        "hash": "6e2fc7709648069c705e7fadcae90a505d0d447f862ff95d16392f0575b865fc", 
+        "name": "United States Bankruptcy Court, M.D. North Carolina", 
         "notes": ""
-    },
+    }, 
     "ncmd": {
-        "has_seal": true,
-        "hash": "18899523139f2e4179ea89b75d0ad98b79752472b819c6331d06da748c96a5e3",
-        "name": "District Court, M.D. North Carolina",
+        "has_seal": true, 
+        "hash": "18899523139f2e4179ea89b75d0ad98b79752472b819c6331d06da748c96a5e3", 
+        "name": "District Court, M.D. North Carolina", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ncwb": {
-        "has_seal": true,
-        "hash": "2935e746ba2ea9be57ce90ea38b7c962e9d709cf92291bd94794a77e91b7becf",
-        "name": "United States Bankruptcy Court, W.D. North Carolina",
+        "has_seal": true, 
+        "hash": "2935e746ba2ea9be57ce90ea38b7c962e9d709cf92291bd94794a77e91b7becf", 
+        "name": "United States Bankruptcy Court, W.D. North Carolina", 
         "notes": ""
-    },
+    }, 
     "ncwd": {
-        "has_seal": true,
-        "hash": "84d34289cb90c0fb36880a6e678c3c1d134ccfaee714d620279e510b263315e9",
-        "name": "District Court, W.D. North Carolina",
+        "has_seal": true, 
+        "hash": "84d34289cb90c0fb36880a6e678c3c1d134ccfaee714d620279e510b263315e9", 
+        "name": "District Court, W.D. North Carolina", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nd": {
-        "has_seal": false,
-        "name": "North Dakota Supreme Court",
+        "has_seal": false, 
+        "name": "North Dakota Supreme Court", 
         "notes": ""
-    },
+    }, 
     "ndb": {
-        "has_seal": true,
-        "hash": "3b032864bfbab3552811dc00e1e0ad99becdcc16e024976701c6a9587ae12c1b",
-        "name": "  United States Bankruptcy Court, D. North Dakota",
+        "has_seal": true, 
+        "hash": "3b032864bfbab3552811dc00e1e0ad99becdcc16e024976701c6a9587ae12c1b", 
+        "name": "  United States Bankruptcy Court, D. North Dakota", 
         "notes": ""
-    },
+    }, 
     "ndctapp": {
-        "has_seal": false,
-        "name": "North Dakota Court of Appeals",
+        "has_seal": false, 
+        "name": "North Dakota Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "ndd": {
-        "has_seal": true,
-        "hash": "8776b754a2251454ac096478bac912b47b55c6079954a685b87703aa491c7d7f",
-        "name": "District Court, D. North Dakota",
+        "has_seal": true, 
+        "hash": "8776b754a2251454ac096478bac912b47b55c6079954a685b87703aa491c7d7f", 
+        "name": "District Court, D. North Dakota", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "neb": {
-        "has_seal": true,
-        "hash": "881dca215fd494fa04eec1839fe7d9660302d1a9b68f7a6edf0a5bff2862c2c0",
-        "name": "Nebraska Supreme Court",
+        "has_seal": true, 
+        "hash": "881dca215fd494fa04eec1839fe7d9660302d1a9b68f7a6edf0a5bff2862c2c0", 
+        "name": "Nebraska Supreme Court", 
         "notes": ""
-    },
+    }, 
     "nebctapp": {
-        "has_seal": false,
-        "name": "Nebraska Court of Appeals",
+        "has_seal": false, 
+        "name": "Nebraska Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "nebraskab": {
-        "has_seal": true,
-        "hash": "4c7ebfaa390458c5c158b1b3adedbe0d8fdc71655dbd2705842b30f2e1a193d7",
-        "name": "United States Bankruptcy Court, D. Nebraska",
+        "has_seal": true, 
+        "hash": "4c7ebfaa390458c5c158b1b3adedbe0d8fdc71655dbd2705842b30f2e1a193d7", 
+        "name": "United States Bankruptcy Court, D. Nebraska", 
         "notes": ""
-    },
+    }, 
     "ned": {
-        "has_seal": true,
-        "hash": "25623907c7a4576f99bcf36a2cabbfcff613e383ebb28d57e3cef858dcc0a0ba",
-        "name": "District Court, D. Nebraska",
+        "has_seal": true, 
+        "hash": "25623907c7a4576f99bcf36a2cabbfcff613e383ebb28d57e3cef858dcc0a0ba", 
+        "name": "District Court, D. Nebraska", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nev": {
-        "has_seal": true,
-        "hash": "01732505dea0b3a3da27adef376972aa798d43645928b221ece13e0e349faef8",
-        "name": "Nevada Supreme Court",
+        "has_seal": true, 
+        "hash": "01732505dea0b3a3da27adef376972aa798d43645928b221ece13e0e349faef8", 
+        "name": "Nevada Supreme Court", 
         "notes": ""
-    },
+    }, 
     "nh": {
-        "has_seal": false,
-        "name": "Supreme Court of New Hampshire",
+        "has_seal": false, 
+        "name": "Supreme Court of New Hampshire", 
         "notes": ""
-    },
+    }, 
     "nhb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. New Hampshire",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. New Hampshire", 
         "notes": ""
-    },
+    }, 
     "nhd": {
-        "has_seal": true,
-        "hash": "760dcc44400ab3de9cd1d0b7fb1d5ae4cf519190534c6d45445af0fa2868ace0",
-        "name": "District Court, D. New Hampshire",
+        "has_seal": true, 
+        "hash": "760dcc44400ab3de9cd1d0b7fb1d5ae4cf519190534c6d45445af0fa2868ace0", 
+        "name": "District Court, D. New Hampshire", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nj": {
-        "has_seal": true,
-        "hash": "9ab96881c449d96474104e81e84392238dac93cda030919063f967ead057d4ab",
-        "name": "Supreme Court of New Jersey",
+        "has_seal": true, 
+        "hash": "9ab96881c449d96474104e81e84392238dac93cda030919063f967ead057d4ab", 
+        "name": "Supreme Court of New Jersey", 
         "notes": ""
-    },
+    }, 
     "njb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. New Jersey",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. New Jersey", 
         "notes": ""
-    },
+    }, 
     "njd": {
-        "has_seal": true,
-        "hash": "e84369f0e3ab4d806188f28232680b20d9fe2fc8d94b4a0aba891ca83cab9b5e",
-        "name": "District Court, D. New Jersey",
+        "has_seal": true, 
+        "hash": "e84369f0e3ab4d806188f28232680b20d9fe2fc8d94b4a0aba891ca83cab9b5e", 
+        "name": "District Court, D. New Jersey", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "njsuperctappdiv": {
-        "has_seal": true,
-        "hash": "97718916507d515560dbd036f8b6f92b7477a48962ca2eb4b160697674beb3aa",
-        "name": "New Jersey Superior Court",
+        "has_seal": true, 
+        "hash": "97718916507d515560dbd036f8b6f92b7477a48962ca2eb4b160697674beb3aa", 
+        "name": "New Jersey Superior Court", 
         "notes": ""
-    },
+    }, 
     "njtaxct": {
-        "has_seal": true,
-        "hash": "ba58abf4ea40c24a34b29effecb6c9681105b3c463b75d784953e9c2e740cd23",
-        "name": "New Jersey Tax Court",
+        "has_seal": true, 
+        "hash": "ba58abf4ea40c24a34b29effecb6c9681105b3c463b75d784953e9c2e740cd23", 
+        "name": "New Jersey Tax Court", 
         "notes": ""
-    },
+    }, 
     "nm": {
-        "has_seal": true,
-        "hash": "acab05cb967e757b837f0a1e3eb03800dee5c01e1a7480bf24bc920f88cdfa04",
-        "name": "New Mexico Supreme Court",
+        "has_seal": true, 
+        "hash": "acab05cb967e757b837f0a1e3eb03800dee5c01e1a7480bf24bc920f88cdfa04", 
+        "name": "New Mexico Supreme Court", 
         "notes": ""
-    },
+    }, 
     "nmb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. New Mexico",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. New Mexico", 
         "notes": ""
-    },
+    }, 
     "nmcca": {
-        "has_seal": true,
-        "hash": "eac394e6e4d923093d2071fcf29eb3672cc1ecc211f000f4df24513cc0e1f47e",
-        "name": "United States Navy-Marine Corps Court of Criminal Appeals",
+        "has_seal": true, 
+        "hash": "eac394e6e4d923093d2071fcf29eb3672cc1ecc211f000f4df24513cc0e1f47e", 
+        "name": "United States Navy-Marine Corps Court of Criminal Appeals", 
         "notes": ""
-    },
+    }, 
     "nmctapp": {
-        "has_seal": true,
-        "hash": "ea918d0c8c6a012f63a42620ee92d41a9c36f573518408e88abe14926c854af0",
-        "name": "New Mexico Court of Appeals",
+        "has_seal": true, 
+        "hash": "ea918d0c8c6a012f63a42620ee92d41a9c36f573518408e88abe14926c854af0", 
+        "name": "New Mexico Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "nmd": {
-        "has_seal": false,
-        "name": "District Court, D. New Mexico",
+        "has_seal": false, 
+        "name": "District Court, D. New Mexico", 
         "notes": ""
-    },
+    }, 
     "nmib": {
-        "has_seal": true,
-        "hash": "c9f953237c5145273d8e3ba45b03988fb68d6432096a7a907aa6367fc6626105",
-        "name": "United States Bankruptcy Court, Northern Mariana Islands",
+        "has_seal": true, 
+        "hash": "c9f953237c5145273d8e3ba45b03988fb68d6432096a7a907aa6367fc6626105", 
+        "name": "United States Bankruptcy Court, Northern Mariana Islands", 
         "notes": ""
-    },
+    }, 
     "nmid": {
-        "has_seal": true,
-        "hash": "b05ac2d2d24c22759e97554b9d94a11222d64ea3ca91ab853d00b3ea2e31344c",
-        "name": "District Court, Northern Mariana Islands",
+        "has_seal": true, 
+        "hash": "b05ac2d2d24c22759e97554b9d94a11222d64ea3ca91ab853d00b3ea2e31344c", 
+        "name": "District Court, Northern Mariana Islands", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nvb": {
-        "has_seal": true,
-        "hash": "f679973189329340714c390dd1bc3fb6f01ba70b28599581886a2d8e5fb81f50",
-        "name": "United States Bankruptcy Court, D. Nevada",
+        "has_seal": true, 
+        "hash": "f679973189329340714c390dd1bc3fb6f01ba70b28599581886a2d8e5fb81f50", 
+        "name": "United States Bankruptcy Court, D. Nevada", 
         "notes": ""
-    },
+    }, 
     "nvd": {
-        "has_seal": true,
-        "hash": "7933c66826030b438e300b1ee56b5d8ce7b0b23afeb55468a67bcaed26425f8f",
-        "name": "District Court, D. Nevada",
+        "has_seal": true, 
+        "hash": "7933c66826030b438e300b1ee56b5d8ce7b0b23afeb55468a67bcaed26425f8f", 
+        "name": "District Court, D. Nevada", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ny": {
-        "has_seal": true,
-        "hash": "16ad159bb833c4824473688ef0549537efa4831a45cf2ca5ab1cc2e9204b8073",
-        "name": "New York Court of Appeals",
+        "has_seal": true, 
+        "hash": "16ad159bb833c4824473688ef0549537efa4831a45cf2ca5ab1cc2e9204b8073", 
+        "name": "New York Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "nyappdiv": {
-        "has_seal": true,
-        "hash": "11ee0b1f7633d7ad819a3d1d1c3d08c4afb5a83292b7b63549091bfe30f83ee4",
-        "name": "Appellate Division of the Supreme Court of the State of New York",
+        "has_seal": true, 
+        "hash": "11ee0b1f7633d7ad819a3d1d1c3d08c4afb5a83292b7b63549091bfe30f83ee4", 
+        "name": "Appellate Division of the Supreme Court of the State of New York", 
         "notes": ""
-    },
+    }, 
     "nyeb": {
-        "has_seal": true,
-        "hash": "7131fb9547f2565cb71c6d003c6e6499bce5632a6656b15492c5711c39c16858",
-        "name": "United States Bankruptcy Court, E.D. New York",
+        "has_seal": true, 
+        "hash": "7131fb9547f2565cb71c6d003c6e6499bce5632a6656b15492c5711c39c16858", 
+        "name": "United States Bankruptcy Court, E.D. New York", 
         "notes": ""
-    },
+    }, 
     "nyed": {
-        "has_seal": true,
-        "hash": "a29652ee28c33ad36221e6133bfda62bd8c0727ba79c83f9a9b99c78c896a16a",
-        "name": "District Court, E.D. New York",
+        "has_seal": true, 
+        "hash": "a29652ee28c33ad36221e6133bfda62bd8c0727ba79c83f9a9b99c78c896a16a", 
+        "name": "District Court, E.D. New York", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nyfamct": {
-        "has_seal": false,
-        "name": "New York Family Court",
+        "has_seal": false, 
+        "name": "New York Family Court", 
         "notes": ""
-    },
+    }, 
     "nynb": {
-        "has_seal": true,
-        "hash": "a0282cd67f3d40371bb590347e8aa51dc32f786b8a40903b424dc76f31ab3b8d",
-        "name": "United States Bankruptcy Court, N.D. New York",
+        "has_seal": true, 
+        "hash": "a0282cd67f3d40371bb590347e8aa51dc32f786b8a40903b424dc76f31ab3b8d", 
+        "name": "United States Bankruptcy Court, N.D. New York", 
         "notes": ""
-    },
+    }, 
     "nynd": {
-        "has_seal": true,
-        "hash": "9b176e93ee9aa1d43f90675b18f93bcf83ee637773ebf58d74cf0289a38f9a22",
-        "name": "District Court, N.D. New York",
+        "has_seal": true, 
+        "hash": "9b176e93ee9aa1d43f90675b18f93bcf83ee637773ebf58d74cf0289a38f9a22", 
+        "name": "District Court, N.D. New York", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nysb": {
-        "has_seal": true,
-        "hash": "d803b4546499b1d877f6f4bd0ebd946dc93f88787ede45fe3eb4ef4fde10218e",
-        "name": "United States Bankruptcy Court, S.D. New York",
+        "has_seal": true, 
+        "hash": "d803b4546499b1d877f6f4bd0ebd946dc93f88787ede45fe3eb4ef4fde10218e", 
+        "name": "United States Bankruptcy Court, S.D. New York", 
         "notes": ""
-    },
+    }, 
     "nysd": {
-        "has_seal": true,
-        "hash": "602a72a3f157fd49517cd7a60cd8860833ae8923e515668e488df0248f16a91b",
-        "name": "District Court, S.D. New York",
+        "has_seal": true, 
+        "hash": "602a72a3f157fd49517cd7a60cd8860833ae8923e515668e488df0248f16a91b", 
+        "name": "District Court, S.D. New York", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "nysurct": {
-        "has_seal": false,
-        "name": "New York Surrogate's Court",
+        "has_seal": false, 
+        "name": "New York Surrogate's Court", 
         "notes": ""
-    },
+    }, 
     "nywb": {
-        "has_seal": false,
-        "hash": "ac530b3987d371ca04910cc175edae910c4b15a5dad5af9cc57d4de43ffd24cc",
-        "name": "United States Bankruptcy Court, W.D. New York",
+        "has_seal": false, 
+        "hash": "ac530b3987d371ca04910cc175edae910c4b15a5dad5af9cc57d4de43ffd24cc", 
+        "name": "United States Bankruptcy Court, W.D. New York", 
         "notes": ""
-    },
+    }, 
     "nywd": {
-        "has_seal": true,
-        "hash": "773b2972e06cb4542e465ee74ed1c450f65ea9506ce5c7f81902972b686318e3",
-        "name": "District Court, W.D. New York",
+        "has_seal": true, 
+        "hash": "773b2972e06cb4542e465ee74ed1c450f65ea9506ce5c7f81902972b686318e3", 
+        "name": "District Court, W.D. New York", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ohio": {
-        "has_seal": true,
-        "hash": "97a3c3af45ddfca71f613753cc635e22e3e1e09f172114af71b6c108a78ee71e",
-        "name": "Ohio Supreme Court",
+        "has_seal": true, 
+        "hash": "97a3c3af45ddfca71f613753cc635e22e3e1e09f172114af71b6c108a78ee71e", 
+        "name": "Ohio Supreme Court", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ohioctapp": {
-        "has_seal": false,
-        "name": "Ohio Court of Appeals",
+        "has_seal": false, 
+        "name": "Ohio Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "ohioctcl": {
-        "has_seal": false,
-        "name": "Ohio Court of Claims",
+        "has_seal": false, 
+        "name": "Ohio Court of Claims", 
         "notes": ""
-    },
+    }, 
     "ohiod": {
-        "has_seal": false,
-        "name": "District Court, D. Ohio",
+        "has_seal": false, 
+        "name": "District Court, D. Ohio", 
         "notes": ""
-    },
+    }, 
     "ohnb": {
-        "has_seal": true,
-        "hash": "87b69298d4d284939d2d5ae1b35ce10ba11f3066cb1ceaca7684487e8e794fa0",
-        "name": "United States Bankruptcy Court, N.D. Ohio",
+        "has_seal": true, 
+        "hash": "87b69298d4d284939d2d5ae1b35ce10ba11f3066cb1ceaca7684487e8e794fa0", 
+        "name": "United States Bankruptcy Court, N.D. Ohio", 
         "notes": ""
-    },
+    }, 
     "ohnd": {
-        "has_seal": true,
-        "hash": "7443676ddd8cfe5162df06c300e65505f79a3d01e3ce0af1d548942fd239151c",
-        "name": "District Court, N.D. Ohio",
+        "has_seal": true, 
+        "hash": "7443676ddd8cfe5162df06c300e65505f79a3d01e3ce0af1d548942fd239151c", 
+        "name": "District Court, N.D. Ohio", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "ohsb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, S.D. Ohio",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, S.D. Ohio", 
         "notes": ""
-    },
+    }, 
     "ohsd": {
-        "has_seal": true,
-        "hash": "84b1a7491474bbdaafba0a0cffa7a21b5a0d9fd3ee2ace1fe33aa1176483977e",
-        "name": "District Court, S.D. Ohio",
+        "has_seal": true, 
+        "hash": "84b1a7491474bbdaafba0a0cffa7a21b5a0d9fd3ee2ace1fe33aa1176483977e", 
+        "name": "District Court, S.D. Ohio", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "okeb": {
-        "has_seal": true,
-        "hash": "4c161a9ec46bfeae0698d66d5a7c4dfb1e3f9121d79dc23f337cec7324e921c2",
-        "name": "United States Bankruptcy Court, E.D. Oklahoma",
+        "has_seal": true, 
+        "hash": "4c161a9ec46bfeae0698d66d5a7c4dfb1e3f9121d79dc23f337cec7324e921c2", 
+        "name": "United States Bankruptcy Court, E.D. Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oked": {
-        "has_seal": false,
-        "name": "District Court, E.D. Oklahoma",
+        "has_seal": false, 
+        "name": "District Court, E.D. Oklahoma", 
         "notes": ""
-    },
+    }, 
     "okla": {
-        "has_seal": false,
-        "name": "Supreme Court of Oklahoma",
+        "has_seal": false, 
+        "name": "Supreme Court of Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oklaag": {
-        "has_seal": false,
-        "name": "Oklahoma Attorney General Reports",
+        "has_seal": false, 
+        "name": "Oklahoma Attorney General Reports", 
         "notes": ""
-    },
+    }, 
     "oklacivapp": {
-        "has_seal": false,
-        "name": "Court of Civil Appeals of Oklahoma",
+        "has_seal": false, 
+        "name": "Court of Civil Appeals of Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oklacoj": {
-        "has_seal": false,
-        "name": "Court on the Judiciary of Oklahoma",
+        "has_seal": false, 
+        "name": "Court on the Judiciary of Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oklacrimapp": {
-        "has_seal": false,
-        "name": "Court of Criminal Appeals of Oklahoma",
+        "has_seal": false, 
+        "name": "Court of Criminal Appeals of Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oklajeap": {
-        "has_seal": false,
-        "name": "Oklahoma Judicial Ethics Advisory Panel",
+        "has_seal": false, 
+        "name": "Oklahoma Judicial Ethics Advisory Panel", 
         "notes": ""
-    },
+    }, 
     "oknb": {
-        "has_seal": true,
-        "hash": "e3b530524ec0b1cd2f0e43bc979fe69ce1585c75625105cb492ed32d1a4f6103",
-        "name": "United States Bankruptcy Court, N.D. Oklahoma",
+        "has_seal": true, 
+        "hash": "e3b530524ec0b1cd2f0e43bc979fe69ce1585c75625105cb492ed32d1a4f6103", 
+        "name": "United States Bankruptcy Court, N.D. Oklahoma", 
         "notes": ""
-    },
+    }, 
     "oknd": {
-        "has_seal": true,
-        "hash": "882003dd1b5a73c3fa5deee4a724c7b6413837ff88f6d277873d58fe38badd28",
-        "name": "District Court, N.D. Oklahoma",
+        "has_seal": true, 
+        "hash": "882003dd1b5a73c3fa5deee4a724c7b6413837ff88f6d277873d58fe38badd28", 
+        "name": "District Court, N.D. Oklahoma", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "okwb": {
-        "has_seal": true,
-        "hash": "de3fbbd72fa447bd7b02f443dfc6791adbeace6d94cc2dee574fbad87ba00ad1",
-        "name": "United States Bankruptcy Court, W.D. Oklahoma",
+        "has_seal": true, 
+        "hash": "de3fbbd72fa447bd7b02f443dfc6791adbeace6d94cc2dee574fbad87ba00ad1", 
+        "name": "United States Bankruptcy Court, W.D. Oklahoma", 
         "notes": ""
-    },
+    }, 
     "okwd": {
-        "has_seal": true,
-        "hash": "6455b5b9fc958ea3dfa1733d398a5ffe28fe453e1510af74f877e7219ad6faaf",
-        "name": "District Court, W.D. Oklahoma",
+        "has_seal": true, 
+        "hash": "6455b5b9fc958ea3dfa1733d398a5ffe28fe453e1510af74f877e7219ad6faaf", 
+        "name": "District Court, W.D. Oklahoma", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "or": {
-        "has_seal": true,
-        "hash": "35406aeeaf202b8224ba9446bcb5a47d241670a27aa1c069b36b8cd07e88125a",
-        "name": "Oregon Supreme Court",
+        "has_seal": true, 
+        "hash": "35406aeeaf202b8224ba9446bcb5a47d241670a27aa1c069b36b8cd07e88125a", 
+        "name": "Oregon Supreme Court", 
         "notes": ""
-    },
+    }, 
     "orb": {
-        "has_seal": true,
-        "hash": "a0ff035e11e110eade2e441a532128115559eb7ecf19551dfed82ef3ef13d903",
-        "name": "United States Bankruptcy Court, D. Oregon",
+        "has_seal": true, 
+        "hash": "a0ff035e11e110eade2e441a532128115559eb7ecf19551dfed82ef3ef13d903", 
+        "name": "United States Bankruptcy Court, D. Oregon", 
         "notes": ""
-    },
+    }, 
     "orctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Oregon",
+        "has_seal": false, 
+        "name": "Court of Appeals of Oregon", 
         "notes": ""
-    },
+    }, 
     "ord": {
-        "has_seal": true,
-        "hash": "f4b69c43a908853ebbf393be9a7f566861cb2009c009fabd02c4fb8e6e044672",
-        "name": "District Court, D. Oregon",
+        "has_seal": true, 
+        "hash": "f4b69c43a908853ebbf393be9a7f566861cb2009c009fabd02c4fb8e6e044672", 
+        "name": "District Court, D. Oregon", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "pa": {
-        "has_seal": true,
-        "hash": "383da57f595aa0837048764cef9b245a0521672e143c3e5f17264987a8945a37",
-        "name": "Supreme Court of Pennsylvania",
+        "has_seal": true, 
+        "hash": "383da57f595aa0837048764cef9b245a0521672e143c3e5f17264987a8945a37", 
+        "name": "Supreme Court of Pennsylvania", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "pacommwct": {
-        "has_seal": true,
-        "hash": "cf4a363f04be0efbaa0a34c81f3979e98b39c7a5e6c66c1c5ff0ff5b4e90906d",
-        "name": "Commonwealth Court of Pennsylvania.",
+        "has_seal": true, 
+        "hash": "cf4a363f04be0efbaa0a34c81f3979e98b39c7a5e6c66c1c5ff0ff5b4e90906d", 
+        "name": "Commonwealth Court of Pennsylvania.", 
         "notes": ""
-    },
+    }, 
     "paeb": {
-        "has_seal": true,
-        "hash": "65b065cca2d6a7b6b64d1e56b34788195d9851199c020af51279eaee3f104ec1",
-        "name": "United States Bankruptcy Court, E.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "65b065cca2d6a7b6b64d1e56b34788195d9851199c020af51279eaee3f104ec1", 
+        "name": "United States Bankruptcy Court, E.D. Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "paed": {
-        "has_seal": true,
-        "hash": "5c696d44d0c260cb4aed4cc965572fc476e744fd22c2a5e722254bb0e1d1a080",
-        "name": "District Court, E.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "5c696d44d0c260cb4aed4cc965572fc476e744fd22c2a5e722254bb0e1d1a080", 
+        "name": "District Court, E.D. Pennsylvania", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "pamb": {
-        "has_seal": true,
-        "hash": "cef2d42d40c768296274ef14ccda70c4fdf18ceb32f637aa3bff2debfd68166c",
-        "name": "United States Bankruptcy Court, M.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "cef2d42d40c768296274ef14ccda70c4fdf18ceb32f637aa3bff2debfd68166c", 
+        "name": "United States Bankruptcy Court, M.D. Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "pamd": {
-        "has_seal": true,
-        "hash": "b608b06940786ef8659fb5a9ed35b9728afab948ea1eeb3c7ed4647629389d14",
-        "name": "District Court, M.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "b608b06940786ef8659fb5a9ed35b9728afab948ea1eeb3c7ed4647629389d14", 
+        "name": "District Court, M.D. Pennsylvania", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "pasuperct": {
-        "has_seal": true,
-        "hash": "594f90ceee77b692b862cc5f6767b97656e2007c8e9986dcb26ae11fba8fdfd1",
-        "name": "Superior Court of Pennsylvania",
+        "has_seal": true, 
+        "hash": "594f90ceee77b692b862cc5f6767b97656e2007c8e9986dcb26ae11fba8fdfd1", 
+        "name": "Superior Court of Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "pawb": {
-        "has_seal": true,
-        "hash": "3e685b5e8f284cd2990061d0f5182927ae84b128aadb630a625626b8695a549f",
-        "name": "United States Bankruptcy Court, W.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "3e685b5e8f284cd2990061d0f5182927ae84b128aadb630a625626b8695a549f", 
+        "name": "United States Bankruptcy Court, W.D. Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "pawd": {
-        "has_seal": true,
-        "hash": "fa569813ce232315f9571b52817e9c5bb5304a2870b555b787622a9d09ca9f3b",
-        "name": "District Court, W.D. Pennsylvania",
+        "has_seal": true, 
+        "hash": "fa569813ce232315f9571b52817e9c5bb5304a2870b555b787622a9d09ca9f3b", 
+        "name": "District Court, W.D. Pennsylvania", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "pennsylvaniad": {
-        "has_seal": false,
-        "name": "District Court, D. Pennsylvania",
+        "has_seal": false, 
+        "name": "District Court, D. Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "prb": {
-        "has_seal": true,
-        "hash": "f97b6d6df56bc6d1b3c7d3a86e2bbb1e0b3cfcfa0eb89bbb11592aed416570f8",
-        "name": "United States Bankruptcy Court, D. Puerto Rico",
+        "has_seal": true, 
+        "hash": "f97b6d6df56bc6d1b3c7d3a86e2bbb1e0b3cfcfa0eb89bbb11592aed416570f8", 
+        "name": "United States Bankruptcy Court, D. Puerto Rico", 
         "notes": ""
-    },
+    }, 
     "prd": {
-        "has_seal": true,
-        "hash": "eded80dd5ee976d7ec53e83240de3baaebdc44005879f03cab6d75fe724bdcd0",
-        "name": "District Court, D. Puerto Rico",
+        "has_seal": true, 
+        "hash": "eded80dd5ee976d7ec53e83240de3baaebdc44005879f03cab6d75fe724bdcd0", 
+        "name": "District Court, D. Puerto Rico", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "reglrailreorgct": {
-        "has_seal": false,
-        "name": "Special Court under the Regional Rail Reorganization Act",
+        "has_seal": false, 
+        "name": "Special Court under the Regional Rail Reorganization Act", 
         "notes": ""
-    },
+    }, 
     "ri": {
-        "has_seal": false,
-        "name": "Supreme Court of Rhode Island",
+        "has_seal": false, 
+        "name": "Supreme Court of Rhode Island", 
         "notes": ""
-    },
+    }, 
     "rib": {
-        "has_seal": true,
-        "hash": "7d30e298e088872b50462e7012494f14d0e4a07bb491ac8b4b80c27004d2867b",
-        "name": "United States Bankruptcy Court, D. Rhode Island",
+        "has_seal": true, 
+        "hash": "7d30e298e088872b50462e7012494f14d0e4a07bb491ac8b4b80c27004d2867b", 
+        "name": "United States Bankruptcy Court, D. Rhode Island", 
         "notes": ""
-    },
+    }, 
     "rid": {
-        "has_seal": true,
-        "hash": "ad589799e92dacb885f147f5b60c065896afc434d480a97400f209befe83136e",
-        "name": "District Court, D. Rhode Island",
+        "has_seal": true, 
+        "hash": "ad589799e92dacb885f147f5b60c065896afc434d480a97400f209befe83136e", 
+        "name": "District Court, D. Rhode Island", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "sc": {
-        "has_seal": true,
-        "hash": "e113addacfb1fbf6cbf43bae3fea3e92f36d6b8d9f534158e5c26e130dfb155e",
-        "name": "Supreme Court of South Carolina",
+        "has_seal": true, 
+        "hash": "e113addacfb1fbf6cbf43bae3fea3e92f36d6b8d9f534158e5c26e130dfb155e", 
+        "name": "Supreme Court of South Carolina", 
         "notes": ""
-    },
+    }, 
     "scb": {
-        "has_seal": true,
-        "hash": "bd4abeb5d1b4c001b2cc056569f6912213ca0d5f2bfefdfc9d44110c8768804e",
-        "name": "United States Bankruptcy Court, District of South Carolina",
+        "has_seal": true, 
+        "hash": "bd4abeb5d1b4c001b2cc056569f6912213ca0d5f2bfefdfc9d44110c8768804e", 
+        "name": "United States Bankruptcy Court, District of South Carolina", 
         "notes": ""
-    },
+    }, 
     "scctapp": {
-        "has_seal": true,
-        "hash": "22320aaf79acb294695c06d040279f1f95bd3eef707a92906c3b8cbc94689d9e",
-        "name": "Court of Appeals of South Carolina",
+        "has_seal": true, 
+        "hash": "22320aaf79acb294695c06d040279f1f95bd3eef707a92906c3b8cbc94689d9e", 
+        "name": "Court of Appeals of South Carolina", 
         "notes": ""
-    },
+    }, 
     "scd": {
-        "has_seal": true,
-        "hash": "c4abea847747ad2b264d437786aa229faa06cbb870286930975f560d78ece30b",
-        "name": "United States District Court, D. South Carolina",
+        "has_seal": true, 
+        "hash": "c4abea847747ad2b264d437786aa229faa06cbb870286930975f560d78ece30b", 
+        "name": "United States District Court, D. South Carolina", 
         "notes": ""
-    },
+    }, 
     "scotus": {
-        "has_seal": true,
-        "hash": "cd0890a8f2b9aa51c313e8836ea73aadc8460092ce56d58d8bc0e1ba0cc427e4",
-        "name": "Supreme Court of the United States",
+        "has_seal": true, 
+        "hash": "cd0890a8f2b9aa51c313e8836ea73aadc8460092ce56d58d8bc0e1ba0cc427e4", 
+        "name": "Supreme Court of the United States", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "sd": {
-        "has_seal": false,
-        "name": "South Dakota Supreme Court",
+        "has_seal": false, 
+        "name": "South Dakota Supreme Court", 
         "notes": ""
-    },
+    }, 
     "sdb": {
-        "has_seal": true,
-        "hash": "97687ac8b2307db6ecc73e91ed94eaefae69df2fa297819308c032dbcb94d5c1",
-        "name": "United States Bankruptcy Court, D. South Dakota",
+        "has_seal": true, 
+        "hash": "97687ac8b2307db6ecc73e91ed94eaefae69df2fa297819308c032dbcb94d5c1", 
+        "name": "United States Bankruptcy Court, D. South Dakota", 
         "notes": ""
-    },
+    }, 
     "sdd": {
-        "has_seal": true,
-        "hash": "037e009ce25d7cb569ebd1d4e379c3aaf614174cd702b572cae38db48268f040",
-        "name": "District Court, D. South Dakota",
+        "has_seal": true, 
+        "hash": "037e009ce25d7cb569ebd1d4e379c3aaf614174cd702b572cae38db48268f040", 
+        "name": "District Court, D. South Dakota", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "southcarolinaed": {
-        "has_seal": false,
-        "name": "District Court, E.D. South Carolina",
+        "has_seal": false, 
+        "name": "District Court, E.D. South Carolina", 
         "notes": ""
-    },
+    }, 
     "southcarolinawd": {
-        "has_seal": false,
-        "name": "District Court, W.D. South Carolina",
+        "has_seal": false, 
+        "name": "District Court, W.D. South Carolina", 
         "notes": ""
-    },
+    }, 
     "stp": {
-        "has_seal": false,
-        "name": "U.S. Special Tribunal of Pennsylvania",
+        "has_seal": false, 
+        "name": "U.S. Special Tribunal of Pennsylvania", 
         "notes": ""
-    },
+    }, 
     "tax": {
-        "has_seal": true,
-        "hash": "2701ccd51553091977d0f9e268466203987a3faeab824aacb7e40c8465511bd8",
-        "name": "United States Tax Court",
+        "has_seal": true, 
+        "hash": "2701ccd51553091977d0f9e268466203987a3faeab824aacb7e40c8465511bd8", 
+        "name": "United States Tax Court", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "tecoa": {
-        "has_seal": false,
-        "name": "Temporary Emergency Court of Appeals",
+        "has_seal": false, 
+        "name": "Temporary Emergency Court of Appeals", 
         "notes": ""
-    },
+    }, 
     "tenn": {
-        "has_seal": false,
-        "name": "Tennessee Supreme Court",
+        "has_seal": false, 
+        "name": "Tennessee Supreme Court", 
         "notes": ""
-    },
+    }, 
     "tenncrimapp": {
-        "has_seal": false,
-        "name": "Court of Criminal Appeals of Tennessee",
+        "has_seal": false, 
+        "name": "Court of Criminal Appeals of Tennessee", 
         "notes": ""
-    },
+    }, 
     "tennctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Tennessee",
+        "has_seal": false, 
+        "name": "Court of Appeals of Tennessee", 
         "notes": ""
-    },
+    }, 
     "tennessed": {
-        "has_seal": false,
-        "name": "District Court, D. Tennessee",
+        "has_seal": false, 
+        "name": "District Court, D. Tennessee", 
         "notes": ""
-    },
+    }, 
     "tennesseeb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Tennessee",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Tennessee", 
         "notes": ""
-    },
+    }, 
     "tex": {
-        "has_seal": true,
-        "hash": "4d5fb814b0f875dc6c01c7d04781dd42e70c83a074d544a236b73a6e46dee988",
-        "name": "Texas Supreme Court",
+        "has_seal": true, 
+        "hash": "4d5fb814b0f875dc6c01c7d04781dd42e70c83a074d544a236b73a6e46dee988", 
+        "name": "Texas Supreme Court", 
         "notes": ""
-    },
+    }, 
     "texapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Texas",
+        "has_seal": false, 
+        "name": "Court of Appeals of Texas", 
         "notes": ""
-    },
+    }, 
     "texcrimapp": {
-        "has_seal": true,
-        "hash": "c87218da79b6c802022a812da371933c568f1cea8ab23334fbbf8a6303612705",
-        "name": "Court of Criminal Appeals of Texas",
+        "has_seal": true, 
+        "hash": "c87218da79b6c802022a812da371933c568f1cea8ab23334fbbf8a6303612705", 
+        "name": "Court of Criminal Appeals of Texas", 
         "notes": ""
-    },
+    }, 
     "texreview": {
-        "has_seal": false,
-        "name": "Texas Special Court of Review",
+        "has_seal": false, 
+        "name": "Texas Special Court of Review", 
         "notes": ""
-    },
+    }, 
     "tneb": {
-        "has_seal": true,
-        "hash": "26419ea37f5df82b4ac31849ad2c55d6da3157bdcfb2063d8a0fbb106bb2dda7",
-        "name": "United States Bankruptcy Court, E.D. Tennessee",
+        "has_seal": true, 
+        "hash": "26419ea37f5df82b4ac31849ad2c55d6da3157bdcfb2063d8a0fbb106bb2dda7", 
+        "name": "United States Bankruptcy Court, E.D. Tennessee", 
         "notes": ""
-    },
+    }, 
     "tned": {
-        "has_seal": true,
-        "hash": "3afd9c53a47028e91951647dd3276d57a05346134be765f1396fee28faaabd81",
-        "name": "District Court, E.D. Tennessee",
+        "has_seal": true, 
+        "hash": "3afd9c53a47028e91951647dd3276d57a05346134be765f1396fee28faaabd81", 
+        "name": "District Court, E.D. Tennessee", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "tnmb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, M.D. Tennessee",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, M.D. Tennessee", 
         "notes": ""
-    },
+    }, 
     "tnmd": {
-        "has_seal": true,
-        "hash": "d26364db513b1bc4411ca6f96fa46e39e5630f359f6177386052c5c9f5c0d7e4",
-        "name": "District Court, M.D. Tennessee",
+        "has_seal": true, 
+        "hash": "d26364db513b1bc4411ca6f96fa46e39e5630f359f6177386052c5c9f5c0d7e4", 
+        "name": "District Court, M.D. Tennessee", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "tnwb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, W.D. Tennessee",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, W.D. Tennessee", 
         "notes": ""
-    },
+    }, 
     "tnwd": {
-        "has_seal": true,
-        "hash": "e838c894f9ea2b8f7ab42045d936f3fd8f5dc3a498792b36521d355e3c13af69",
-        "name": "District Court, W.D. Tennessee",
+        "has_seal": true, 
+        "hash": "e838c894f9ea2b8f7ab42045d936f3fd8f5dc3a498792b36521d355e3c13af69", 
+        "name": "District Court, W.D. Tennessee", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "txeb": {
-        "has_seal": true,
-        "hash": "1286c5bdb49d0547766f4f875ab54b782850244d23d4fb3a2c34e76166c747a4",
-        "name": "United States Bankruptcy Court, E.D. Texas",
+        "has_seal": true, 
+        "hash": "1286c5bdb49d0547766f4f875ab54b782850244d23d4fb3a2c34e76166c747a4", 
+        "name": "United States Bankruptcy Court, E.D. Texas", 
         "notes": ""
-    },
+    }, 
     "txed": {
-        "has_seal": true,
-        "hash": "b4d712cd15d9793b22784ec33f8efe9a8db555fb34912fa44c30a324bf9863f0",
-        "name": "District Court, E.D. Texas",
+        "has_seal": true, 
+        "hash": "b4d712cd15d9793b22784ec33f8efe9a8db555fb34912fa44c30a324bf9863f0", 
+        "name": "District Court, E.D. Texas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "txnb": {
-        "has_seal": true,
-        "hash": "fea1e63076e3ad85a200afffda3f55663cfd78c025c8bc7f1157a22bb0005006",
-        "name": "United States Bankruptcy Court, N.D. Texas",
+        "has_seal": true, 
+        "hash": "fea1e63076e3ad85a200afffda3f55663cfd78c025c8bc7f1157a22bb0005006", 
+        "name": "United States Bankruptcy Court, N.D. Texas", 
         "notes": ""
-    },
+    }, 
     "txnd": {
-        "has_seal": true,
-        "hash": "d5d9a2a0ed90d3556b787e461601ad4605a653bff5de9705e18fc21b8c14921e",
-        "name": "District Court, N.D. Texas",
+        "has_seal": true, 
+        "hash": "d5d9a2a0ed90d3556b787e461601ad4605a653bff5de9705e18fc21b8c14921e", 
+        "name": "District Court, N.D. Texas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "txsb": {
-        "has_seal": true,
-        "hash": "401154ac4a6b24125c90c2d0eb2d3a3866def996d253b9f84e81c2bab9db3808",
-        "name": "United States Bankruptcy Court, S.D. Texas",
+        "has_seal": true, 
+        "hash": "401154ac4a6b24125c90c2d0eb2d3a3866def996d253b9f84e81c2bab9db3808", 
+        "name": "United States Bankruptcy Court, S.D. Texas", 
         "notes": ""
-    },
+    }, 
     "txsd": {
-        "has_seal": true,
-        "hash": "73839c28998f1f70e011b5875a75a82d0e8189028dff75565187956b16ce151d",
-        "name": "District Court, S.D. Texas",
+        "has_seal": true, 
+        "hash": "73839c28998f1f70e011b5875a75a82d0e8189028dff75565187956b16ce151d", 
+        "name": "District Court, S.D. Texas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "txwb": {
-        "has_seal": true,
-        "hash": "6979de377fda83257cdd068c9dd360445e9b66711aea0bfe8ad9fe9eeba34561",
-        "name": "United States District Court, W.D. Texas",
+        "has_seal": true, 
+        "hash": "6979de377fda83257cdd068c9dd360445e9b66711aea0bfe8ad9fe9eeba34561", 
+        "name": "United States District Court, W.D. Texas", 
         "notes": ""
-    },
+    }, 
     "txwd": {
-        "has_seal": true,
-        "hash": "ceb1097d5f74babbecc070ae0c164f641289983d63e6a6f6eb5b6dab5c063489",
-        "name": "District Court, W.D. Texas",
+        "has_seal": true, 
+        "hash": "ceb1097d5f74babbecc070ae0c164f641289983d63e6a6f6eb5b6dab5c063489", 
+        "name": "District Court, W.D. Texas", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "uscfc": {
-        "has_seal": true,
-        "hash": "0792cce7987c636b40bc5472f4580c68dab6ec42793bf6a264594eb652348996",
-        "name": "United States Court of Federal Claims",
+        "has_seal": true, 
+        "hash": "0792cce7987c636b40bc5472f4580c68dab6ec42793bf6a264594eb652348996", 
+        "name": "United States Court of Federal Claims", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "usjc": {
-        "has_seal": false,
-        "name": "United States Judicial Conference Committee",
+        "has_seal": false, 
+        "name": "United States Judicial Conference Committee", 
         "notes": ""
-    },
+    }, 
     "utah": {
-        "has_seal": false,
-        "name": "Utah Supreme Court",
+        "has_seal": false, 
+        "name": "Utah Supreme Court", 
         "notes": ""
-    },
+    }, 
     "utahctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Utah",
+        "has_seal": false, 
+        "name": "Court of Appeals of Utah", 
         "notes": ""
-    },
+    }, 
     "utb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Utah",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Utah", 
         "notes": ""
-    },
+    }, 
     "utd": {
-        "has_seal": true,
-        "hash": "55e8a1bc87eb7ab3d686363103610356eb501162f184e2230a58aef5ab58e1cf",
-        "name": "United States District Court, D. Utah",
+        "has_seal": true, 
+        "hash": "55e8a1bc87eb7ab3d686363103610356eb501162f184e2230a58aef5ab58e1cf", 
+        "name": "United States District Court, D. Utah", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "va": {
-        "has_seal": true,
-        "hash": "b0607de2b945e98854eb184bcf7b6ce8dafdbab3dbd482d4f42ca67aa36493d4",
-        "name": "Supreme Court of Virginia",
+        "has_seal": true, 
+        "hash": "b0607de2b945e98854eb184bcf7b6ce8dafdbab3dbd482d4f42ca67aa36493d4", 
+        "name": "Supreme Court of Virginia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "vactapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Virginia",
+        "has_seal": false, 
+        "name": "Court of Appeals of Virginia", 
         "notes": ""
-    },
+    }, 
     "vaeb": {
-        "has_seal": true,
-        "hash": "8a69d70843e0ba3dbc974b44c0e8b33875fbe74a8ae01ee3591e00f7fa796f28",
-        "name": "United States Bankruptcy Court, E.D. Virginia",
+        "has_seal": true, 
+        "hash": "8a69d70843e0ba3dbc974b44c0e8b33875fbe74a8ae01ee3591e00f7fa796f28", 
+        "name": "United States Bankruptcy Court, E.D. Virginia", 
         "notes": ""
-    },
+    }, 
     "vaed": {
-        "has_seal": true,
-        "hash": "f512553045a6a0240bd99d9347b3c669fe4e7c9fe1c7b2c660055918a22ff190",
-        "name": "District Court, E.D. Virginia",
+        "has_seal": true, 
+        "hash": "f512553045a6a0240bd99d9347b3c669fe4e7c9fe1c7b2c660055918a22ff190", 
+        "name": "District Court, E.D. Virginia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "vawb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, W.D. Virginia",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, W.D. Virginia", 
         "notes": ""
-    },
+    }, 
     "vawd": {
-        "has_seal": true,
-        "hash": "4c49d7049c7907fddbd039c835ce3f1fb72bc779131ac16ef309645851828323",
-        "name": "District Court, W.D. Virginia",
+        "has_seal": true, 
+        "hash": "4c49d7049c7907fddbd039c835ce3f1fb72bc779131ac16ef309645851828323", 
+        "name": "District Court, W.D. Virginia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "vib": {
-        "has_seal": true,
-        "hash": "c5ad4d36ea67e0b9f53ae8cccadde9d46170558202343b736b9d66b8d49c042a",
-        "name": "United States Bankruptcy Court, D. Virgin Islands",
+        "has_seal": true, 
+        "hash": "c5ad4d36ea67e0b9f53ae8cccadde9d46170558202343b736b9d66b8d49c042a", 
+        "name": "United States Bankruptcy Court, D. Virgin Islands", 
         "notes": ""
-    },
+    }, 
     "vid": {
-        "has_seal": true,
-        "hash": "fb229100a82c5f1088a6218af347066abe7decdebf811e19d459b8f3b52c19a4",
-        "name": "District Court, Virgin Islands",
+        "has_seal": true, 
+        "hash": "fb229100a82c5f1088a6218af347066abe7decdebf811e19d459b8f3b52c19a4", 
+        "name": "District Court, Virgin Islands", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "vt": {
-        "has_seal": true,
-        "hash": "cec7455cf85acc23215366fb6b04cd586bd93e18bb4f8fe686423f5a25b751ae",
-        "name": "Supreme Court of Vermont",
+        "has_seal": true, 
+        "hash": "cec7455cf85acc23215366fb6b04cd586bd93e18bb4f8fe686423f5a25b751ae", 
+        "name": "Supreme Court of Vermont", 
         "notes": ""
-    },
+    }, 
     "vtb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, D. Vermont",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, D. Vermont", 
         "notes": ""
-    },
+    }, 
     "vtd": {
-        "has_seal": true,
-        "hash": "e3084243fc241d3274126df420dfd5aa710735ee101bcbb0d045b003935b6c1b",
-        "name": "District Court, D. Vermont",
+        "has_seal": true, 
+        "hash": "e3084243fc241d3274126df420dfd5aa710735ee101bcbb0d045b003935b6c1b", 
+        "name": "District Court, D. Vermont", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "waeb": {
-        "has_seal": true,
-        "hash": "80fe0637a3551e0e587922e6567c232424ec1565140ad02bed665f03a971cae0",
-        "name": "United States Bankruptcy Court, E.D. Washington",
+        "has_seal": true, 
+        "hash": "80fe0637a3551e0e587922e6567c232424ec1565140ad02bed665f03a971cae0", 
+        "name": "United States Bankruptcy Court, E.D. Washington", 
         "notes": ""
-    },
+    }, 
     "waed": {
-        "has_seal": true,
-        "hash": "70060f29d654f901d72297108b8af8dd1ee675f9df15b806c56d4a27c6235bf4",
-        "name": "District Court, E.D. Washington",
+        "has_seal": true, 
+        "hash": "70060f29d654f901d72297108b8af8dd1ee675f9df15b806c56d4a27c6235bf4", 
+        "name": "District Court, E.D. Washington", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wash": {
-        "has_seal": false,
-        "name": "Washington Supreme Court",
+        "has_seal": false, 
+        "name": "Washington Supreme Court", 
         "notes": ""
-    },
+    }, 
     "washctapp": {
-        "has_seal": false,
-        "name": "Court of Appeals of Washington",
+        "has_seal": false, 
+        "name": "Court of Appeals of Washington", 
         "notes": ""
-    },
+    }, 
     "wawb": {
-        "has_seal": false,
-        "hash": "fd205eb769a5b407881b0e9225e26f9c9154221f26d2219d894e53a366ba3877",
-        "name": "United States Bankruptcy Court, W.D. Washington",
+        "has_seal": false, 
+        "hash": "fd205eb769a5b407881b0e9225e26f9c9154221f26d2219d894e53a366ba3877", 
+        "name": "United States Bankruptcy Court, W.D. Washington", 
         "notes": ""
-    },
+    }, 
     "wawd": {
-        "has_seal": true,
-        "hash": "9597feb41478abb0366abed400db860ca8d9d59b826626e4de04ba81c15e2381",
-        "name": "District Court, W.D. Washington",
+        "has_seal": true, 
+        "hash": "9597feb41478abb0366abed400db860ca8d9d59b826626e4de04ba81c15e2381", 
+        "name": "District Court, W.D. Washington", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wieb": {
-        "has_seal": true,
-        "hash": "8bd0c33950520542d2e49c9ca2f15446d139fb94559d6b1981cc60075d1ce095",
-        "name": "United States Bankruptcy Court, E.D. Wisconsin",
+        "has_seal": true, 
+        "hash": "8bd0c33950520542d2e49c9ca2f15446d139fb94559d6b1981cc60075d1ce095", 
+        "name": "United States Bankruptcy Court, E.D. Wisconsin", 
         "notes": ""
-    },
+    }, 
     "wied": {
-        "has_seal": true,
-        "hash": "0d20e5378e0e5768ee6d161fe10c095df65b4a3b5bfe56772f6a3fa4c5637785",
-        "name": "District Court, E.D. Wisconsin",
+        "has_seal": true, 
+        "hash": "0d20e5378e0e5768ee6d161fe10c095df65b4a3b5bfe56772f6a3fa4c5637785", 
+        "name": "District Court, E.D. Wisconsin", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wis": {
-        "has_seal": true,
-        "hash": "4912fefe5a4d518ac76b7485386e486897f81d93075fea6475c71f8351f61493",
-        "name": "Wisconsin Supreme Court",
+        "has_seal": true, 
+        "hash": "4912fefe5a4d518ac76b7485386e486897f81d93075fea6475c71f8351f61493", 
+        "name": "Wisconsin Supreme Court", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wisctapp": {
-        "has_seal": true,
-        "hash": "241b3249a37180c82d790c4bb38859fc4bb5b0bb6ce25c5820a2b0de209b2604",
-        "name": "Court of Appeals of Wisconsin",
+        "has_seal": true, 
+        "hash": "241b3249a37180c82d790c4bb38859fc4bb5b0bb6ce25c5820a2b0de209b2604", 
+        "name": "Court of Appeals of Wisconsin", 
         "notes": ""
-    },
+    }, 
     "wiwb": {
-        "has_seal": true,
-        "hash": "ffb682f970f5d0eff389be19b1a6593993d041be2cfb02e42209509aa7531863",
-        "name": "United States Bankruptcy Court, W.D. Wisconsin",
+        "has_seal": true, 
+        "hash": "ffb682f970f5d0eff389be19b1a6593993d041be2cfb02e42209509aa7531863", 
+        "name": "United States Bankruptcy Court, W.D. Wisconsin", 
         "notes": ""
-    },
+    }, 
     "wiwd": {
-        "has_seal": false,
-        "name": "District Court, W.D. Wisconsin",
+        "has_seal": false, 
+        "name": "District Court, W.D. Wisconsin", 
         "notes": ""
-    },
+    }, 
     "wva": {
-        "has_seal": true,
-        "hash": "33c164a5c4ff9188320ea46e6e02fc1062c2df5b54daa241d0783e81504d4cc8",
-        "name": "West Virginia Supreme Court",
+        "has_seal": true, 
+        "hash": "33c164a5c4ff9188320ea46e6e02fc1062c2df5b54daa241d0783e81504d4cc8", 
+        "name": "West Virginia Supreme Court", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wvnb": {
-        "has_seal": true,
-        "hash": "a2fbf1c10d07420525381cc407fb124503921c5fc78cb20256a7af94c15792fd",
-        "name": "United States District Court, N.D. West Virginia",
+        "has_seal": true, 
+        "hash": "a2fbf1c10d07420525381cc407fb124503921c5fc78cb20256a7af94c15792fd", 
+        "name": "United States District Court, N.D. West Virginia", 
         "notes": ""
-    },
+    }, 
     "wvnd": {
-        "has_seal": true,
-        "hash": "3da35e998b686a2d130d664af27a6950c9043c26ce768bdd2630b79fdcb2dace",
-        "name": "District Court, N.D. West Virginia",
+        "has_seal": true, 
+        "hash": "3da35e998b686a2d130d664af27a6950c9043c26ce768bdd2630b79fdcb2dace", 
+        "name": "District Court, N.D. West Virginia", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wvsb": {
-        "has_seal": false,
-        "name": "United States Bankruptcy Court, S.D. West Virginia",
+        "has_seal": false, 
+        "name": "United States Bankruptcy Court, S.D. West Virginia", 
         "notes": ""
-    },
+    }, 
     "wvsd": {
-        "has_seal": true,
-        "hash": "c40c1c45519d50337e79d98d221f56db69dedaa6706b961f437d0bf5b89c6f8a",
-        "name": "District Court, S.D. West Virginia.",
+        "has_seal": true, 
+        "hash": "c40c1c45519d50337e79d98d221f56db69dedaa6706b961f437d0bf5b89c6f8a", 
+        "name": "District Court, S.D. West Virginia.", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wyb": {
-        "has_seal": true,
-        "hash": "ee40788d83efeeb09145162d85f5733047c416480a0ed4fadb0e998998849148",
-        "name": "United States Bankruptcy Court, D. Wyoming",
+        "has_seal": true, 
+        "hash": "ee40788d83efeeb09145162d85f5733047c416480a0ed4fadb0e998998849148", 
+        "name": "United States Bankruptcy Court, D. Wyoming", 
         "notes": ""
-    },
+    }, 
     "wyd": {
-        "has_seal": true,
-        "hash": "765efeff413dd9b0f1a1ee11e40f301705bb157597a95f9abc8a2e424eb7f734",
-        "name": "District Court, D. Wyoming",
+        "has_seal": true, 
+        "hash": "765efeff413dd9b0f1a1ee11e40f301705bb157597a95f9abc8a2e424eb7f734", 
+        "name": "District Court, D. Wyoming", 
         "notes": "Completed as part of initial version."
-    },
+    }, 
     "wyo": {
-        "has_seal": false,
-        "name": "Wyoming Supreme Court",
+        "has_seal": false, 
+        "name": "Wyoming Supreme Court", 
         "notes": ""
     }
 }
