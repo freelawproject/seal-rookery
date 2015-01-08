@@ -3,19 +3,20 @@ import json
 import os
 import subprocess
 
-seals_json = json.load(open('seals.json', 'r'))
 
 operating_directory = os.path.dirname(os.path.realpath(__file__))
 os.chdir(os.path.join(operating_directory, 'orig'))
 
+seals_json = json.load(open('../seals.json', 'r'))
+
 
 def get_old_hash(img):
-    """Get the hash from seals.json"""
+    """Get the old hash from seals.json"""
     try:
-        hash = seals_json[img.split('.')[0]]['hash']
+        old_hash = seals_json[img.split('.')[0]]['hash']
     except KeyError:
-        hash = None
-    return hash
+        old_hash = None
+    return old_hash
 
 
 def get_hash_from_file(img):
@@ -24,16 +25,16 @@ def get_hash_from_file(img):
         return hashlib.sha256(f.read()).hexdigest()
 
 
-def set_new_hash(court_id, hash):
+def set_new_hash(court_id, new_hash):
     """Update the json object with new values"""
-    seals_json[court_id]['hash'] = hash
+    seals_json[court_id]['hash'] = new_hash
 
 
 def convert_images():
     for image in os.listdir('.'):
-        print "Processing: %s" % image
+        print "\nProcessing: %s" % image
         court_id = image.split('.')[0]
-        final_name =  '%s.png' % court_id
+        final_name = '%s.png' % court_id
         current_hash = get_hash_from_file(image)
         old_hash = get_old_hash(image)
         if current_hash != old_hash:
@@ -53,12 +54,18 @@ def convert_images():
                     '../%s/%s' % (size, final_name),
                 ]
                 subprocess.Popen(command, shell=False).communicate()
-                print "done."
+        else:
+            print ' - Unchanged hash, moving on.'
 
 
 def save_new_json():
     """Update the JSON object on disk."""
-    json.dump(seals_json, '../seals.json', sort_keys=True)
+    json.dump(
+        seals_json,
+        open('../seals.json', 'w'),
+        sort_keys=True,
+        indent=4,
+    )
 
 if __name__ == '__main__':
     convert_images()
