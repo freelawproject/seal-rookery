@@ -44,8 +44,8 @@ a background other than white. If it looks bizarre on an orange or blue
 background, fix it by adding a white layer on the bottom.
 1. Trim any extraneous margins and if the seal is circular, make the corners
 transparent.
-1. If the item was previously a `jpeg`, it's good to clean up the splotchiness
-created by the `jpeg` compression. You'll see it if you zoom in.
+1. If the item was previously a `jpeg` or `gif`, it's good to clean up the
+splotchiness created by the `jpeg` compression. You'll see it if you zoom in.
 
 
 Installation
