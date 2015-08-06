@@ -1,3 +1,5 @@
+[![Slack Status](https://join-flp-talk.herokuapp.com/badge.svg)](https://join-flp-talk.herokuapp.com/)
+
 Welcome to the Court Seal Rookery
 =================================
 
@@ -30,6 +32,8 @@ seals and quickly check the quality of the seals that have been obtained.
 You can refresh this file by opening it and pasting in the contents of
 seals.json where indicated.
 
+[![Slack Status](https://join-flp-talk.herokuapp.com/badge.svg)](https://join-flp-talk.herokuapp.com/)
+
 
 Quality Guidelines
 ------------------
@@ -56,7 +60,7 @@ Basic usage doesn't require any installation, but if you wish to import the
 Rookery as a Python module in your system. To do so:
 
     sudo git clone https://github.com/freelawproject/seal-rookery /usr/local/seal_rookery
-    sudo ln -s /usr/local/seal_rookery /usr/lib/python2.7/dist-packages/seal_rookery
+    sudo ln -s `pwd`/seal_rookery `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/seal_rookery
 
 You can then import the `seals.json` information into your project using:
 
