@@ -31,8 +31,6 @@ seals and quickly check the quality of the seals that have been obtained.
 You can refresh this file by opening it and pasting in the contents of
 seals.json where indicated.
 
-[![Slack Status](https://join-flp-talk.herokuapp.com/badge.svg)](https://join-flp-talk.herokuapp.com/)
-
 
 Quality Guidelines
 ------------------
