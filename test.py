@@ -15,7 +15,10 @@ class PackagingTests(unittest.TestCase):
         are about to break Courtlistener.
         """
         try:
+            # currently from courtlistener.cl.scrapers.tasks
             from seal_rookery import seals_data, seals_root
+            self.assertTrue(seals_data['ca1']['has_seal'])
+
         except ImportError as e:
             self.fail("Coudln't import seals_data and seals_root like in CL")
 
