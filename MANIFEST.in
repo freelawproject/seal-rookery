@@ -1,7 +1,7 @@
 include README.md README.rst seals.json LICENSE.txt
-recursive-include 1024/ *
-recursive-include 128/ *
-recursive-include 256/ *
-recursive-include 512/ *
-recursive-include orig/ *
-recursive-include www/ *
+graft 1024
+graft 128
+graft 256
+graft 512
+graft orig
+graft www
