@@ -4,7 +4,7 @@ import os
 import subprocess
 
 
-operating_directory = os.path.dirname(os.path.realpath(__file__))
+operating_directory = os.path.dirname('..')
 os.chdir(os.path.join(operating_directory, 'orig'))
 
 seals_json = json.load(open('../seals.json', 'r'))
