@@ -1,7 +1,2 @@
 include README.md README.rst seals.json LICENSE.txt
-graft 1024
-graft 128
-graft 256
-graft 512
-graft orig
-graft www
+include seals/seals.json
