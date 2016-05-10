@@ -20,7 +20,7 @@ class PackagingTests(unittest.TestCase):
             self.assertTrue(seals_data['ca1']['has_seal'])
 
         except ImportError as e:
-            self.fail("Coudln't import seals_data and seals_root like in CL")
+            self.fail("Couldn't import seals_data and seals_root like in CL")
 
     def test_base_initialization(self):
         """

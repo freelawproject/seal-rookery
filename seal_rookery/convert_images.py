@@ -3,17 +3,15 @@ import json
 import os
 import subprocess
 
+from seal_rookery import seals_data, seals_root
 
-operating_directory = os.path.dirname('..')
-os.chdir(os.path.join(operating_directory, 'orig'))
-
-seals_json = json.load(open('../seals.json', 'r'))
+os.chdir(os.path.join(seals_root, 'orig'))
 
 
 def get_old_hash(img):
     """Get the old hash from seals.json"""
     try:
-        old_hash = seals_json[img.split('.')[0]]['hash']
+        old_hash = seals_data[img.split('.')[0]]['hash']
     except KeyError:
         old_hash = None
     return old_hash
@@ -27,7 +25,7 @@ def get_hash_from_file(img):
 
 def set_new_hash(court_id, new_hash):
     """Update the json object with new values"""
-    seals_json[court_id]['hash'] = new_hash
+    seals_data[court_id]['hash'] = new_hash
 
 
 def convert_images():
@@ -61,7 +59,7 @@ def convert_images():
 def save_new_json():
     """Update the JSON object on disk."""
     json.dump(
-        seals_json,
+        seals_data,
         open('../seals.json', 'w'),
         sort_keys=True,
         indent=4,

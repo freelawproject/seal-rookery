@@ -1860,7 +1860,7 @@ var seals =
                     has = 0,
                     missing = 0;
                 $.each(seals, function( key, val ) {
-                    items.push('<tr class="' + ((val.has_seal) ? 'has' : 'missing') + '"><td>' + val.name + '</td><td>' + val.notes + '</td><td>' + key + '</td><td>' + ((val.has_seal) ? '<img src="../128/' + key + '.png"/>' : '') + '</td></tr>');
+                    items.push('<tr class="' + ((val.has_seal) ? 'has' : 'missing') + '"><td>' + val.name + '</td><td>' + val.notes + '</td><td>' + key + '</td><td>' + ((val.has_seal) ? '<img src="../seals/128/' + key + '.png"/>' : '') + '</td></tr>');
                     if (val.has_seal) {
                         has += 1;
                     } else {
