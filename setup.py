@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+VERSION = '0.9.3'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -18,6 +19,7 @@ CLASSIFIERS = [
     "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+URL = 'https://github.com/freelawproject/seal-rookery'
 
 with open('LICENSE.txt') as f:
     LICENSE = f.read()
@@ -28,7 +30,7 @@ with open('README.rst') as f:
 setup(
     name=NAME,
     packages=find_packages(exclude=('tests',)),
-    version='1.0.0',
+    version=VERSION,
     description='A collection of court seals that can be used in any project.',
     long_description=README,
     author=AUTHOR,
@@ -36,7 +38,8 @@ setup(
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
     license=LICENSE,
-    url='https://github.com/freelawproject/seal-rookery',
+    url=URL,
+    download_url='%s/archive/%s.tar.gz' % (URL, VERSION),
     keywords=KEYWORDS,
     classifiers=CLASSIFIERS,
     include_package_data=True,
