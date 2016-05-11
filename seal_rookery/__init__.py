@@ -7,6 +7,10 @@ seals_root = os.path.realpath(
         '../seals'
     )
 )
-with open(os.path.join(seals_root, 'seals.json'), 'r') as f:
-    seals_data = json.load(f)
 
+try:
+    with open(os.path.join(seals_root, 'seals.json'), 'r') as f:
+        seals_data = json.load(f)
+except IOError:
+    print 'Seals data not downloaded yet!'
+    seals_data = json.loads('{}')
