@@ -1,3 +1,5 @@
+import ez_setup
+ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 
 VERSION = '0.9.3'
