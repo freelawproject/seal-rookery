@@ -1,2 +1,3 @@
 include README.md README.rst seals.json LICENSE.txt
-include seals/seals.json
+include seal_rookery/seals/README.md
+include seal_rookery/www/index.html
