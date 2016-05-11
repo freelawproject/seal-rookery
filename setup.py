@@ -1,6 +1,7 @@
 import ez_setup
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages
+from setuptools.command.install import install as _install
 
 VERSION = '0.9.3'
 AUTHOR = 'Mike Lissner'
@@ -29,6 +30,17 @@ with open('LICENSE.txt') as f:
 with open('README.rst') as f:
     README = f.read()
 
+
+class install(_install):
+    """
+    See http://stackoverflow.com/questions/250038/how-can-i-add-post-install-\
+        scripts-to-easy-install-setuptools-distutils for more details.
+    """
+    def run(self):
+        _install.run(self)
+        print 'HEYHEYHEYHEY!!!'
+
+
 setup(
     name=NAME,
     packages=find_packages(exclude=('tests',)),
@@ -46,4 +58,6 @@ setup(
     classifiers=CLASSIFIERS,
     include_package_data=True,
     test_suite='test',
+    cmdclass={'install': install},
+    zip_safe=False,
 )
