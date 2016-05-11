@@ -4,7 +4,7 @@ ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 from setuptools.command.install import install as _install
 
-VERSION = '0.9.1'
+VERSION = '0.9.4'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -53,7 +53,6 @@ class install(_install):
 setup(
     name=NAME,
     packages=find_packages(exclude=('tests',)),
-    install_requires=['requests'],
     version=VERSION,
     description='A collection of court seals that can be used in any project.',
     long_description=README,
@@ -69,6 +68,5 @@ setup(
     include_package_data=True,
     test_suite='test',
     cmdclass={'install': install},
-    zip_ok=False,
     zip_safe=False,
 )
