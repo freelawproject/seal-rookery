@@ -2,7 +2,9 @@ import os, sys
 import ez_setup
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages
-from setuptools.command.install import install as _install
+from setuptools.command.install_lib import install_lib as _install_lib
+
+SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
 VERSION = '0.9.4'
 AUTHOR = 'Mike Lissner'
@@ -40,19 +42,26 @@ def _post_install(dir):
          cwd=os.path.join(dir, NAME))
 
 
-class install(_install):
+class install_lib(_install_lib):
     """
     See http://stackoverflow.com/questions/250038/how-can-i-add-post-install-\
         scripts-to-easy-install-setuptools-distutils for more details.
     """
     def run(self):
-        _install.run(self)
-        self.execute(_post_install, (self.install_lib,),
+        _install_lib.run(self)
+        lib_dir = os.path.join(SETUP_DIR, self.install_dir)
+        self.execute(_post_install, (lib_dir,),
                      msg='Executing _post_install.py task')
 
 setup(
     name=NAME,
     packages=find_packages(exclude=('tests',)),
+    package_data={
+        'seal_rookery': [
+            'seals/README.md',
+            'www/*.html'
+        ]
+    },
     version=VERSION,
     description='A collection of court seals that can be used in any project.',
     long_description=README,
@@ -67,6 +76,6 @@ setup(
     classifiers=CLASSIFIERS,
     include_package_data=True,
     test_suite='test',
-    cmdclass={'install': install},
+    cmdclass={'install_lib': install_lib},
     zip_safe=False,
 )
