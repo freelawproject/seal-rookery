@@ -6,7 +6,7 @@ from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.6'
+VERSION = '0.9.7'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -66,8 +66,7 @@ setup(
     include_package_data=True,
     package_data={
         'seal_rookery': [
-            'seals/orig/*',
-            'seals.json',
+            'seals/*',
             'www/*.html'
         ]
     },

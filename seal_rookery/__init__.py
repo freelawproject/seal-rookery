@@ -12,5 +12,5 @@ try:
     with open(os.path.join(seals_root, 'seals.json'), 'r') as f:
         seals_data = json.load(f)
 except IOError:
-    print 'Seals data not downloaded yet!'
+    print 'Seals json missing at %s' % (os.path.join(seals_root, 'seals.json'))
     seals_data = json.loads('{}')
