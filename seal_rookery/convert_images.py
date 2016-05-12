@@ -2,10 +2,9 @@ import hashlib
 import json
 import os
 import subprocess
-
 from seal_rookery import seals_root, seals_data
 
-os.chdir(os.path.join(seals_root, 'orig'))
+ORIG_DIR = os.path.join(seals_root, 'orig')
 
 
 def get_old_hash(img):
@@ -29,12 +28,15 @@ def set_new_hash(court_id, new_hash):
 
 
 def convert_images():
-    for image in os.listdir('.'):
+    for image in os.listdir(ORIG_DIR):
         print "\nProcessing: %s" % image
         court_id = image.split('.')[0]
         final_name = '%s.png' % court_id
-        current_hash = get_hash_from_file(image)
-        old_hash = get_old_hash(image)
+        path_to_orig = os.path.join(ORIG_DIR, image)
+
+        current_hash = get_hash_from_file(path_to_orig)
+        old_hash = get_old_hash(path_to_orig)
+
         if current_hash != old_hash:
             # Update the hash
             set_new_hash(court_id, current_hash)
@@ -48,8 +50,8 @@ def convert_images():
                     '%sx%s' % (size, size),
                     '-background',
                     'transparent',
-                    image,
-                    '../%s/%s' % (size, final_name),
+                    path_to_orig,
+                    '%s/%s/%s' % (seals_root, size, final_name),
                 ]
                 subprocess.Popen(command, shell=False).communicate()
         else:
