@@ -62,7 +62,7 @@ def save_new_json():
     """Update the JSON object on disk."""
     json.dump(
         seals_data,
-        open('../seals.json', 'w'),
+        open(os.path.join(seals_root, 'seals.json'), 'w'),
         sort_keys=True,
         indent=4,
     )

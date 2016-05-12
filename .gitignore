@@ -57,3 +57,7 @@ setuptools-*.zip
 
 .idea/
 .DS_Store
+
+
+seal_rookery/seals/*/*.png
+!seal_rookery/seals/orig/*

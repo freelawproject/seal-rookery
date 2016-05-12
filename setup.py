@@ -1,7 +1,7 @@
 import os, sys
 import ez_setup
 ez_setup.use_setuptools()
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, Command
 from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -35,11 +35,20 @@ with open('README.rst') as f:
     README = f.read()
 
 
-def _post_install(dir):
-    from subprocess import call
-    print 'calling here: ' + os.path.join(dir, NAME)
-    call([sys.executable, '_post_install.py', DOWNLOAD_URL],
-         cwd=os.path.join(dir, NAME))
+class convert(Command):
+    description = 'run the image conversion process'
+
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        from seal_rookery import convert_images
+        convert_images.convert_images()
 
 
 class install_lib(_install_lib):
@@ -49,9 +58,7 @@ class install_lib(_install_lib):
     """
     def run(self):
         _install_lib.run(self)
-        lib_dir = os.path.join(SETUP_DIR, self.install_dir)
-        self.execute(_post_install, (lib_dir,),
-                     msg='Executing _post_install.py task')
+        self.run_command('convert')
 
 setup(
     name=NAME,
@@ -76,6 +83,9 @@ setup(
     classifiers=CLASSIFIERS,
     include_package_data=True,
     test_suite='test',
-    cmdclass={'install_lib': install_lib},
+    cmdclass={
+        'install_lib': install_lib,
+        'convert': convert
+    },
     zip_safe=False,
 )
