@@ -1,3 +1,3 @@
 include README.md README.rst LICENSE.txt ez_setup.py requirements.txt
-include seal_rookery/seals/README.md
+graft seal_rookery/seals/orig
 include seal_rookery/www/index.html
