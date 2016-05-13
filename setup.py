@@ -2,11 +2,10 @@ import os, sys
 import ez_setup
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages, Command
-from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.7'
+VERSION = '0.9.19'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -51,22 +50,14 @@ class convert(Command):
         convert_images.convert_images()
 
 
-class install_lib(_install_lib):
-    """
-    See http://stackoverflow.com/questions/250038/how-can-i-add-post-install-\
-        scripts-to-easy-install-setuptools-distutils for more details.
-    """
-    def run(self):
-        _install_lib.run(self)
-        self.run_command('convert')
-
 setup(
     name=NAME,
     packages=find_packages(exclude=('tests',)),
     include_package_data=True,
     package_data={
         'seal_rookery': [
-            'seals/*',
+            'seals/*.json',
+            'seals/orig/*',
             'www/*.html'
         ]
     },
@@ -84,8 +75,12 @@ setup(
     classifiers=CLASSIFIERS,
     test_suite='test',
     cmdclass={
-        'install_lib': install_lib,
         'convert': convert
+    },
+    entry_points={
+        'console_scripts': [
+            'update-seals = seal_rookery.convert_images:convert_images',
+        ],
     },
     zip_safe=False,
 )

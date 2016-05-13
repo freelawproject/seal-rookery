@@ -1,6 +1,8 @@
+#!/usr/bin/env python
 import hashlib
 import json
 import os
+import sys
 import subprocess
 from seal_rookery import seals_root, seals_data
 
@@ -44,6 +46,9 @@ def convert_images():
             # Regenerate the images
             for size in ['128', '256', '512', '1024']:
                 print "  - Making {size}x{size} image...".format(size=size)
+                path_to_output = '%s/%s/%s' % \
+                                 (seals_root, size, final_name)
+                print '    - writing to %s' % (path_to_output,)
                 command = [
                     'convert',
                     '-resize',
@@ -51,7 +56,7 @@ def convert_images():
                     '-background',
                     'transparent',
                     path_to_orig,
-                    '%s/%s/%s' % (seals_root, size, final_name),
+                    path_to_output,
                 ]
                 subprocess.Popen(command, shell=False).communicate()
         else:
@@ -67,6 +72,11 @@ def save_new_json():
         indent=4,
     )
 
-if __name__ == '__main__':
+
+def main(argv=None):
     convert_images()
     save_new_json()
+
+
+if __name__ == '__main__':
+    main(sys.argv)
