@@ -2,10 +2,11 @@ import os, sys
 import ez_setup
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages, Command
+from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.19'
+VERSION = '0.9.20'
 AUTHOR = 'Mike Lissner'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -32,6 +33,15 @@ with open('LICENSE.txt') as f:
 
 with open('README.rst') as f:
     README = f.read()
+
+
+class install_lib(_install_lib):
+
+    def run(self):
+        _install_lib.run(self)
+        print '==============================================================='
+        print ' Remember, run "update-seals" after install to generate seals!'
+        print '==============================================================='
 
 
 class convert(Command):
@@ -75,7 +85,8 @@ setup(
     classifiers=CLASSIFIERS,
     test_suite='test',
     cmdclass={
-        'convert': convert
+        'convert': convert,
+        'install_lib': install_lib,
     },
     entry_points={
         'console_scripts': [
