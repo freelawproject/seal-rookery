@@ -20,8 +20,6 @@ gathering or making files. The process for this is pretty simple.
  1. Find or make the image and ensure it follows our quality guidelines
  (below).
  1. Add the image file to the `orig` directory.
- 1. Regenerate the converted versions by running `convert_images.py` (note that
- this requires imagemagick).
  1. Edit `seals.json` to include the relevant fields for your new file.
 
 That's it!
@@ -29,7 +27,52 @@ That's it!
 index.html is a tool for quickly being able to see the progress on obtaining
 seals and quickly check the quality of the seals that have been obtained.
 You can refresh this file by opening it and pasting in the contents of
-seals.json where indicated.
+seals.json where indicated (sloppy but effective).
+
+If you wish to get involved as a developer, you'll want to install this repository from git. Do the following:
+
+1. Install imagemagick:
+
+        sudo apt-get install imagemagick
+
+1. Download and link up the code:
+
+        sudo git clone https://github.com/freelawproject/seal-rookery /usr/local/seal_rookery
+        sudo ln -s `pwd`/seal_rookery `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/seal_rookery
+
+1. Install from your local source:
+
+        python setup.py install
+
+1. Update the local copies of the images:
+
+        update-seals
+
+
+Installation for Non-Developers
+-------------------------------
+
+Basic usage doesn't require any installation, but if you wish to import the
+`seals.json` file into a Python program, you may want to install the Seal
+Rookery as a Python module in your system. To do so:
+
+1. Install imagemagick
+
+        sudo apt-get install imagemagick
+
+1. Install the seal rookery
+
+        pip install seal_rookery
+
+1. Update the seals
+
+        update-seals
+
+You can then import the `seals.json` information into your project using:
+
+    from seal_rookery import seals_data
+
+And you will have various sizes of all the seals ready to go on your system.
 
 
 Quality Guidelines
@@ -49,19 +92,6 @@ transparent.
 splotchiness created by the `jpeg` compression. You'll see it if you zoom in.
 
 
-Installation
-------------
-
-Basic usage doesn't require any installation, but if you wish to import the
-`seals.json` file into a Python program, you may want to install the Seal
-Rookery as a Python module in your system. To do so:
-
-    sudo git clone https://github.com/freelawproject/seal-rookery /usr/local/seal_rookery
-    sudo ln -s `pwd`/seal_rookery `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/seal_rookery
-
-You can then import the `seals.json` information into your project using:
-
-    from seal_rookery import seals_data
 
 Usage
 -----
