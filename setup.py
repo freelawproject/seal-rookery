@@ -1,12 +1,14 @@
-import os, sys
+import os
+
 import ez_setup
+
 ez_setup.use_setuptools()
 from setuptools import setup, find_packages, Command
 from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.20'
+VERSION = '0.9.21'
 AUTHOR = 'Free Law Project'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'

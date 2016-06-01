@@ -101,6 +101,23 @@ however usage of government seals has caused a [few][3] [stirs][2] in the past.
 Don't attempt to represent the government or its agents.
 
 
+Deployment
+----------
+1. Update the version info in setup.py.
+
+1. Install the requirements in requirements-dev.txt
+
+1. Set up a config file at ~/.pypirc containing the upload locations and authentication credentials.
+
+1. Generate a distribution:
+
+        python setup.py bdist_wheel
+
+1. Upload the distribution:
+
+        twine upload dist/* -r pypi
+
+
 Copyright
 ---------
 
