@@ -61,3 +61,7 @@ setuptools-*.zip
 
 seal_rookery/seals/*/*.png
 !seal_rookery/seals/orig/*
+
+# These are created when you run setup.py install
+/seals/*
+/www/*
