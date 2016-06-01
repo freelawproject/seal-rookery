@@ -7,10 +7,10 @@ from setuptools.command.install_lib import install_lib as _install_lib
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
 VERSION = '0.9.20'
-AUTHOR = 'Mike Lissner'
+AUTHOR = 'Free Law Project'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
-KEYWORDS = ["legal"]
+KEYWORDS = ["legal", "seals"]
 CLASSIFIERS = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -25,7 +25,7 @@ CLASSIFIERS = [
     "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-URL = 'https://github.com/voutilad/seal-rookery'
+URL = 'https://github.com/freelawproject/seal-rookery'
 DOWNLOAD_URL = '%s/archive/%s.tar.gz' % (URL, VERSION)
 
 with open('LICENSE.txt') as f:
