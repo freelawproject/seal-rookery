@@ -8,7 +8,7 @@ from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.21'
+VERSION = '0.9.27.1'
 AUTHOR = 'Free Law Project'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -29,9 +29,6 @@ CLASSIFIERS = [
 ]
 URL = 'https://github.com/freelawproject/seal-rookery'
 DOWNLOAD_URL = '%s/archive/%s.tar.gz' % (URL, VERSION)
-
-with open('LICENSE.txt') as f:
-    LICENSE = f.read()
 
 with open('README.rst') as f:
     README = f.read()
@@ -80,7 +77,6 @@ setup(
     author_email=EMAIL,
     maintainer=AUTHOR,
     maintainer_email=EMAIL,
-    license=LICENSE,
     url=URL,
     download_url=DOWNLOAD_URL,
     keywords=KEYWORDS,

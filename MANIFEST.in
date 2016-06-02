@@ -1,4 +1,4 @@
-include README.md README.rst LICENSE.txt ez_setup.py requirements.txt
+include README.rst LICENSE.txt ez_setup.py requirements.txt
 include seal_rookery/seals/seals.json
 graft seal_rookery/seals/orig
 include seal_rookery/seals/128/.placeholder
