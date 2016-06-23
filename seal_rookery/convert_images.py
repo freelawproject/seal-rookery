@@ -2,8 +2,9 @@
 import hashlib
 import json
 import os
-import sys
 import subprocess
+import sys
+
 from seal_rookery import seals_root, seals_data
 
 ORIG_DIR = os.path.join(seals_root, 'orig')
@@ -37,7 +38,7 @@ def convert_images():
         path_to_orig = os.path.join(ORIG_DIR, image)
 
         current_hash = get_hash_from_file(path_to_orig)
-        old_hash = get_old_hash(path_to_orig)
+        old_hash = get_old_hash(image)
 
         if current_hash != old_hash:
             # Update the hash

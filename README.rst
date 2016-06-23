@@ -41,7 +41,6 @@ repository from git. Do the following:
    ::
 
        sudo git clone https://github.com/freelawproject/seal-rookery /usr/local/seal_rookery
-       sudo ln -s `pwd`/seal_rookery `python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"`/seal_rookery
 
 3. Install from your local source:
 
