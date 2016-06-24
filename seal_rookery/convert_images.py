@@ -30,9 +30,17 @@ def set_new_hash(court_id, new_hash):
     seals_data[court_id]['hash'] = new_hash
 
 
-def convert_images():
-    for image in os.listdir(ORIG_DIR):
-        print "\nProcessing: %s" % image
+def convert_images(verbose=False):
+    images = os.listdir(ORIG_DIR)
+    num_images = len(images)
+    num_changed = 0
+    num_skipped = 0
+    for i, image in enumerate(images, 1):
+        if verbose:
+            sys.stdout.write("\nProcessing: %s" % image)
+        else:
+            sys.stdout.write('\rUpdating seals: %s of %s' % (i, num_images))
+            sys.stdout.flush()
         court_id = image.split('.')[0]
         final_name = '%s.png' % court_id
         path_to_orig = os.path.join(ORIG_DIR, image)
@@ -46,10 +54,13 @@ def convert_images():
 
             # Regenerate the images
             for size in ['128', '256', '512', '1024']:
-                print "  - Making {size}x{size} image...".format(size=size)
-                path_to_output = '%s/%s/%s' % \
-                                 (seals_root, size, final_name)
-                print '    - writing to %s' % (path_to_output,)
+                if verbose:
+                    sys.stdout.write("  - Making {size}x{size} image...".format(
+                        size=size
+                    ))
+                path_to_output = '%s/%s/%s' % (seals_root, size, final_name)
+                if verbose:
+                    sys.stdout.write('    - writing to %s' % (path_to_output,))
                 command = [
                     'convert',
                     '-resize',
@@ -60,8 +71,18 @@ def convert_images():
                     path_to_output,
                 ]
                 subprocess.Popen(command, shell=False).communicate()
+            num_changed += 1
         else:
-            print ' - Unchanged hash, moving on.'
+            if verbose:
+                sys.stdout.write(' - Unchanged hash, moving on.')
+            num_skipped += 1
+
+    if not verbose:
+        sys.stdout.write(
+            "\nDone:\n  %s seals updated\n  %s seals skipped\n" % (
+                num_changed,
+                num_skipped,
+            ))
 
 
 def save_new_json():
