@@ -32,5 +32,31 @@ class PackagingTests(unittest.TestCase):
             self.fail('Failed to call convert_images(): %s' % (e,))
 
 
+class SealGenerationTest(unittest.TestCase):
+    """
+    Test the ability to generate seals.
+    """
+
+    def setUp(self):
+        from seal_rookery import seals_data
+        hashes = 0
+        for seal in seals_data:
+            if seals_data[seal]['has_seal']:
+                hashes = hashes + 1
+        self.hashes = hashes
+        self.total_seals = len(seals_data)
+        self.assertTrue(self.hashes > 0)
+        self.assertTrue(self.total_seals > 0)
+
+    def test_can_force_regeneration_of_seals(self):
+        changed, skipped = convert_images.convert_images()
+        self.assertEquals(0, changed, 'Without forcing, nothing changes.')
+
+        prev_skipped = skipped
+        changed, skipped = convert_images.convert_images(forced=True)
+        self.assertEquals(prev_skipped, changed, 'Forcing regens all hashes.')
+        self.assertEquals(0, skipped, 'Forcing should skip nothing.')
+
+
 if __name__ == '__main__':
     unittest.main()

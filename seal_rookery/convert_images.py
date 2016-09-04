@@ -30,7 +30,7 @@ def set_new_hash(court_id, new_hash):
     seals_data[court_id]['hash'] = new_hash
 
 
-def convert_images(verbose=False):
+def convert_images(verbose=False, forced=False):
     images = os.listdir(ORIG_DIR)
     num_images = len(images)
     num_changed = 0
@@ -48,7 +48,7 @@ def convert_images(verbose=False):
         current_hash = get_hash_from_file(path_to_orig)
         old_hash = get_old_hash(image)
 
-        if current_hash != old_hash:
+        if current_hash != old_hash or forced:
             # Update the hash
             set_new_hash(court_id, current_hash)
 
@@ -84,6 +84,7 @@ def convert_images(verbose=False):
                 num_skipped,
             ))
 
+    return num_changed, num_skipped
 
 def save_new_json():
     """Update the JSON object on disk."""
