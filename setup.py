@@ -1,5 +1,5 @@
+from __future__ import print_function
 import os
-
 import ez_setup
 
 ez_setup.use_setuptools()
@@ -23,6 +23,7 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 2",
     "Programming Language :: Python :: 2.6",
     "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
@@ -38,9 +39,9 @@ class install_lib(_install_lib):
 
     def run(self):
         _install_lib.run(self)
-        print '==============================================================='
-        print ' Remember, run "update-seals" after install to generate seals!'
-        print '==============================================================='
+        print('==============================================================')
+        print(' Remember, run "update-seals" after install to generate seals!')
+        print('==============================================================')
 
 
 class convert(Command):
@@ -88,7 +89,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'update-seals = seal_rookery.convert_images:convert_images',
+            'update-seals = seal_rookery.convert_images:main',
         ],
     },
     zip_safe=False,

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
+from mock import patch
+from io import StringIO
+
 from seal_rookery import convert_images
 
 
@@ -30,6 +33,64 @@ class PackagingTests(unittest.TestCase):
             convert_images.convert_images()
         except Exception as e:
             self.fail('Failed to call convert_images(): %s' % (e,))
+
+
+class SealGenerationTest(unittest.TestCase):
+    """
+    Test the ability to generate seals.
+    """
+
+    def setUp(self):
+        from seal_rookery import seals_data
+        hashes = 0
+        for seal in seals_data:
+            if seals_data[seal]['has_seal']:
+                hashes = hashes + 1
+        self.hashes = hashes
+        self.total_seals = len(seals_data)
+        self.assertTrue(self.hashes > 0)
+        self.assertTrue(self.total_seals > 0)
+
+    def test_can_force_regeneration_of_seals(self):
+        """
+        Test we can force image conversions from the originals
+        :return:
+        """
+        changed, skipped = convert_images.convert_images()
+        self.assertEqual(0, changed, 'Without forcing, nothing changes.')
+
+        prev_skipped = skipped
+        changed, skipped = convert_images.convert_images(forced=True)
+        self.assertEqual(prev_skipped, changed, 'Forcing regens all hashes.')
+        self.assertEqual(0, skipped, 'Forcing should skip nothing.')
+
+    @patch('sys.stdout', new_callable=StringIO)
+    def test_convert_images_tool_accepts_args(self, mock_stdout):
+        """
+        Test we can pass command line args to the update-seals script.
+
+        Expected output looks like:
+            Updating seals: 1 of 249
+            ...
+            Updating seals: 249 of 249
+            Done:
+              0 seals updated
+              249 seals skipped
+            (0, 249)
+        :return:
+        """
+        changed, skipped = convert_images.main(argv=['-f',])
+        results = mock_stdout.getvalue()
+        self.assertTrue(changed > 0)
+        self.assertTrue(skipped == 0)
+        self.assertTrue(('%s seals updated' % (changed,)) in results)
+        self.assertTrue(('%s seals skipped' % (skipped,)) in results)
+
+        mock_stdout.seek(0)
+        changed, skipped = convert_images.main(argv=[])
+        results = mock_stdout.getvalue()
+        self.assertTrue(('%s seals updated' % (changed,)) in results)
+        self.assertTrue(('%s seals skipped' % (skipped,)) in results)
 
 
 if __name__ == '__main__':
