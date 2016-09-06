@@ -1,5 +1,7 @@
 from __future__ import print_function
+
 import os
+
 import ez_setup
 
 ez_setup.use_setuptools()
@@ -8,7 +10,7 @@ from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.29'
+VERSION = '0.9.30'
 AUTHOR = 'Free Law Project'
 EMAIL = 'info@free.law'
 NAME = 'seal_rookery'
@@ -39,9 +41,9 @@ class install_lib(_install_lib):
 
     def run(self):
         _install_lib.run(self)
-        print('==============================================================')
-        print(' Remember, run "update-seals" after install to generate seals!')
-        print('==============================================================')
+        print('========================================================')
+        print(' Run "update-seals -f" after install to generate seals! ')
+        print('========================================================')
 
 
 class convert(Command):

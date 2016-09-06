@@ -9,6 +9,7 @@ The goal of this project is to collect and maintain an updated
 repository of all the seals that courts have created and to create seals
 for those rare courts that lack them altogether.
 
+
 Contributing
 ------------
 
@@ -52,7 +53,8 @@ repository from git. Do the following:
 
    ::
 
-       update-seals
+       update-seals -f
+
 
 Installation for Non-Developers
 -------------------------------
@@ -77,7 +79,7 @@ the Seal Rookery as a Python module in your system. To do so:
 
    ::
 
-       update-seals
+       update-seals -f
 
 You can then import the ``seals.json`` information into your project
 using:
@@ -88,6 +90,9 @@ using:
 
 And you will have various sizes of all the seals ready to go on your
 system.
+
+In the future, when you get the latest version of the rookery, run ``update-seals`` again to generate copies of any new images at various sizes. To see more information about this command run ``update-seals --help``.
+
 
 Quality Guidelines
 ------------------
@@ -106,6 +111,7 @@ best job. Follow these guidelines so we can have nice things:
    up the splotchiness created by the ``jpeg`` compression. You'll see
    it if you zoom in.
 
+
 Usage
 -----
 
@@ -114,6 +120,7 @@ seal, however usage of government seals has caused a
 `few <https://www.publicknowledge.org/news-blog/blogs/nsa-spying-fine-trademark-infringement-crosse>`_
 `stirs <http://www.nytimes.com/2010/08/03/us/03fbi.html>`_ in the past.
 Don't attempt to represent the government or its agents.
+
 
 Deployment
 ----------
@@ -136,6 +143,7 @@ Deployment
    ::
 
        twine upload dist/* -r pypi
+
 
 Copyright
 ---------
