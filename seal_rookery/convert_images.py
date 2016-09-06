@@ -97,8 +97,14 @@ def save_new_json():
 
 
 def main(argv=None):
-    convert_images()
+    is_forced, is_verbose = False, False
+    if argv and len(argv) > 0:
+        is_forced = '-f' in argv
+        is_verbose = '-v' in argv
+    changed, skipped = convert_images(verbose=is_verbose, forced=is_forced)
     save_new_json()
+
+    return changed, skipped
 
 
 if __name__ == '__main__':
