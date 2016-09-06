@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import argparse
 import hashlib
 import json
 import os
@@ -6,6 +7,7 @@ import subprocess
 import sys
 
 from seal_rookery import seals_root, seals_data
+
 
 ORIG_DIR = os.path.join(seals_root, 'orig')
 
@@ -31,6 +33,14 @@ def set_new_hash(court_id, new_hash):
 
 
 def convert_images(verbose=False, forced=False):
+    """
+    Convert the original seal images to their different scaled outputs for
+    use either in CourtListener or another application.
+
+    :param verbose: if True, provides detailed conversion feedback to stdout
+    :param forced: if True, ignores unchanged hashes and regenerates images
+    :return: tuple (number changed, number skipped)
+    """
     images = os.listdir(ORIG_DIR)
     num_images = len(images)
     num_changed = 0
@@ -97,11 +107,30 @@ def save_new_json():
 
 
 def main(argv=None):
-    is_forced, is_verbose = False, False
-    if argv and len(argv) > 0:
-        is_forced = '-f' in argv
-        is_verbose = '-v' in argv
-    changed, skipped = convert_images(verbose=is_verbose, forced=is_forced)
+    """
+    Main function and entry point for console script
+    :param argv: list of command line args, probably from sys.argv
+    :return: tuple (number of changed images, number of skipped images)
+    """
+    # when running as a console_script via setuptools, no args are passed,
+    # so we need to try grabbing sys.argv
+    parser = argparse.ArgumentParser(prog='update-seals')
+    parser.add_argument('-f',
+                        action='count',
+                        help='force seal update or regeneration')
+    parser.add_argument('-v',
+                        action='count',
+                        help='turn on verbose seal generation messages')
+
+    if argv:
+        args = parser.parse_args(argv)
+    else:
+        args = parser.parse_args()
+
+    changed, skipped = convert_images(
+        verbose=bool(args.v), forced=bool(args.f)
+    )
+
     save_new_json()
 
     return changed, skipped

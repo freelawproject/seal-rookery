@@ -88,7 +88,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'update-seals = seal_rookery.convert_images:convert_images',
+            'update-seals = seal_rookery.convert_images:main',
         ],
     },
     zip_safe=False,
