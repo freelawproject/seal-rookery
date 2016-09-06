@@ -2,7 +2,13 @@
 # -*- coding: utf-8 -*-
 import unittest
 from mock import patch
-from StringIO import StringIO
+
+from sys import version_info
+if version_info[0] < 3:
+    from StringIO import StringIO
+else:
+    from io import StringIO
+
 from seal_rookery import convert_images
 
 
@@ -56,12 +62,12 @@ class SealGenerationTest(unittest.TestCase):
         :return:
         """
         changed, skipped = convert_images.convert_images()
-        self.assertEquals(0, changed, 'Without forcing, nothing changes.')
+        self.assertEqual(0, changed, 'Without forcing, nothing changes.')
 
         prev_skipped = skipped
         changed, skipped = convert_images.convert_images(forced=True)
-        self.assertEquals(prev_skipped, changed, 'Forcing regens all hashes.')
-        self.assertEquals(0, skipped, 'Forcing should skip nothing.')
+        self.assertEqual(prev_skipped, changed, 'Forcing regens all hashes.')
+        self.assertEqual(0, skipped, 'Forcing should skip nothing.')
 
     @patch('sys.stdout', new_callable=StringIO)
     def test_convert_images_tool_accepts_args(self, mock_stdout):

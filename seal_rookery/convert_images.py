@@ -23,7 +23,7 @@ def get_old_hash(img):
 
 def get_hash_from_file(img):
     """Get the hash from the current file"""
-    with open(img, 'r') as f:
+    with open(img, 'rb') as f:
         return hashlib.sha256(f.read()).hexdigest()
 
 
