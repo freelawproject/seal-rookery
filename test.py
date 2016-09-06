@@ -2,12 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from mock import patch
-
-from sys import version_info
-if version_info[0] < 3:
-    from StringIO import StringIO
-else:
-    from io import StringIO
+from io import StringIO
 
 from seal_rookery import convert_images
 
@@ -85,14 +80,15 @@ class SealGenerationTest(unittest.TestCase):
         :return:
         """
         changed, skipped = convert_images.main(argv=['-f',])
-        results = mock_stdout.buflist[-1]
+        results = mock_stdout.getvalue()
         self.assertTrue(changed > 0)
         self.assertTrue(skipped == 0)
         self.assertTrue(('%s seals updated' % (changed,)) in results)
         self.assertTrue(('%s seals skipped' % (skipped,)) in results)
 
-        changed, skipped = convert_images.main()
-        results = mock_stdout.buflist[-1]
+        mock_stdout.seek(0)
+        changed, skipped = convert_images.main(argv=[])
+        results = mock_stdout.getvalue()
         self.assertTrue(('%s seals updated' % (changed,)) in results)
         self.assertTrue(('%s seals skipped' % (skipped,)) in results)
 

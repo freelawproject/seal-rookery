@@ -47,9 +47,9 @@ def convert_images(verbose=False, forced=False):
     num_skipped = 0
     for i, image in enumerate(images, 1):
         if verbose:
-            sys.stdout.write("\nProcessing: %s" % image)
+            sys.stdout.write(u"\nProcessing: %s" % image)
         else:
-            sys.stdout.write('\rUpdating seals: %s of %s' % (i, num_images))
+            sys.stdout.write(u'\rUpdating seals: %s of %s' % (i, num_images))
             sys.stdout.flush()
         court_id = image.split('.')[0]
         final_name = '%s.png' % court_id
@@ -65,12 +65,14 @@ def convert_images(verbose=False, forced=False):
             # Regenerate the images
             for size in ['128', '256', '512', '1024']:
                 if verbose:
-                    sys.stdout.write("  - Making {size}x{size} image...".format(
+                    sys.stdout.write(u"  - Making {size}x{size} image...".format(
                         size=size
                     ))
                 path_to_output = '%s/%s/%s' % (seals_root, size, final_name)
                 if verbose:
-                    sys.stdout.write('    - writing to %s' % (path_to_output,))
+                    sys.stdout.write(
+                        u'    - writing to %s' % (path_to_output,)
+                    )
                 command = [
                     'convert',
                     '-resize',
@@ -84,12 +86,12 @@ def convert_images(verbose=False, forced=False):
             num_changed += 1
         else:
             if verbose:
-                sys.stdout.write(' - Unchanged hash, moving on.')
+                sys.stdout.write(u' - Unchanged hash, moving on.')
             num_skipped += 1
 
     if not verbose:
         sys.stdout.write(
-            "\nDone:\n  %s seals updated\n  %s seals skipped\n" % (
+            u"\nDone:\n  %s seals updated\n  %s seals skipped\n" % (
                 num_changed,
                 num_skipped,
             ))
@@ -122,11 +124,7 @@ def main(argv=None):
                         action='count',
                         help='turn on verbose seal generation messages')
 
-    if argv:
-        args = parser.parse_args(argv)
-    else:
-        args = parser.parse_args()
-
+    args = parser.parse_args(argv)
     changed, skipped = convert_images(
         verbose=bool(args.v), forced=bool(args.f)
     )
