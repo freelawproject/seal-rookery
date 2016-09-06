@@ -1,3 +1,4 @@
+from __future__ import print_function
 import json
 import os
 
@@ -36,8 +37,8 @@ class _SealRookery(object):
             with open(os.path.join(self.seals_root, 'seals.json'), 'r') as f:
                 return json.load(f)
         except IOError:
-            print 'Seals json missing or not generated yet.a' % (
-            os.path.join(self.seals_root, 'seals.json'))
+            print('Seals json missing or not generated yet.a' % (
+            os.path.join(self.seals_root, 'seals.json')))
             return json.loads('{}')
 
 

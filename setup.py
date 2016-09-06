@@ -1,5 +1,5 @@
+from __future__ import print_function
 import os
-
 import ez_setup
 
 ez_setup.use_setuptools()
@@ -38,9 +38,9 @@ class install_lib(_install_lib):
 
     def run(self):
         _install_lib.run(self)
-        print '==============================================================='
-        print ' Remember, run "update-seals" after install to generate seals!'
-        print '==============================================================='
+        print('==============================================================')
+        print(' Remember, run "update-seals" after install to generate seals!')
+        print('==============================================================')
 
 
 class convert(Command):
