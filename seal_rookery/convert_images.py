@@ -8,7 +8,6 @@ import sys
 
 from seal_rookery import seals_root, seals_data
 
-
 ORIG_DIR = os.path.join(seals_root, 'orig')
 
 
