@@ -8,7 +8,6 @@ import sys
 
 from seal_rookery import seals_root, seals_data
 
-
 ORIG_DIR = os.path.join(seals_root, 'orig')
 
 
@@ -131,7 +130,8 @@ def main(argv=None):
 
     save_new_json()
 
-    return changed, skipped
+    # This gets sent to the exit code, so return 0 if all went well.
+    return 0
 
 
 if __name__ == '__main__':
