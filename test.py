@@ -111,6 +111,24 @@ class SealGenerationTest(unittest.TestCase):
         self.assertTrue(skipped > 0)
         self.assertEqual(0, return_code)
 
+    @patch('sys.stdout', new_callable=StringIO)
+    def test_bad_command_line_args_raise_systemexit(self, mock_stdout):
+        """test that garbage input raises SystemExit"""
+
+        with self.assertRaises(SystemExit):
+            convert_images.main(argv=['garbage'])
+
+    @patch('sys.stdout', new_callable=StringIO)
+    @patch('seal_rookery.convert_images.convert_images')
+    def test_failure_in_convert_images_returns_non_zero(self, mock_convert, mock_stdout):
+        """
+        Test that any failure in the conversion routine will result in a
+        non-zero return code from the interpreter.
+        """
+        return_code = convert_images.main(argv=[])
+        self.assertEqual(1, return_code)
+        self.assertTrue('Failed to update seals!' in mock_stdout.getvalue())
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -129,7 +129,10 @@ def main(argv=None):
             verbose=bool(args.v), forced=bool(args.f)
         )
         save_new_json()
-    except Exception:
+    except Exception as error:
+        # Note: will not catch SystemExit from parser.parse_args
+        print('Failed to update seals!')
+        print(str(error))
         return 1
 
     return 0
