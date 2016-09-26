@@ -124,13 +124,17 @@ def main(argv=None):
                         help='turn on verbose seal generation messages')
 
     args = parser.parse_args(argv)
-    changed, skipped = convert_images(
-        verbose=bool(args.v), forced=bool(args.f)
-    )
+    try:
+        changed, skipped = convert_images(
+            verbose=bool(args.v), forced=bool(args.f)
+        )
+        save_new_json()
+    except Exception as error:
+        # Note: will not catch SystemExit from parser.parse_args
+        print('Failed to update seals!')
+        print(str(error))
+        return 1
 
-    save_new_json()
-
-    # This gets sent to the exit code, so return 0 if all went well.
     return 0
 
 
