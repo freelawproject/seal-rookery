@@ -79,18 +79,37 @@ class SealGenerationTest(unittest.TestCase):
             (0, 249)
         :return:
         """
-        changed, skipped = convert_images.main(argv=['-f',])
+        import re
+        updated_pattern = re.compile('(\d+) seals updated')
+        skipped_pattern = re.compile('(\d+) seals skipped')
+
+        # run a forced update
+        return_code = convert_images.main(argv=['-f',])
         results = mock_stdout.getvalue()
+
+        changed, skipped = (
+            int(updated_pattern.findall(results)[0]),
+            int(skipped_pattern.findall(results)[0])
+        )
+
         self.assertTrue(changed > 0)
         self.assertTrue(skipped == 0)
-        self.assertTrue(('%s seals updated' % (changed,)) in results)
-        self.assertTrue(('%s seals skipped' % (skipped,)) in results)
+        self.assertEqual(0, return_code)
 
+        # reset the mock stdout buffer
         mock_stdout.seek(0)
-        changed, skipped = convert_images.main(argv=[])
+
+        # run a regular update, which should just skip seals just generated
+        return_code = convert_images.main(argv=[])
         results = mock_stdout.getvalue()
-        self.assertTrue(('%s seals updated' % (changed,)) in results)
-        self.assertTrue(('%s seals skipped' % (skipped,)) in results)
+
+        changed, skipped = (
+            int(updated_pattern.findall(results)[0]),
+            int(skipped_pattern.findall(results)[0])
+        )
+        self.assertTrue(changed == 0)
+        self.assertTrue(skipped > 0)
+        self.assertEqual(0, return_code)
 
 
 if __name__ == '__main__':

@@ -125,13 +125,15 @@ def main(argv=None):
                         help='turn on verbose seal generation messages')
 
     args = parser.parse_args(argv)
-    changed, skipped = convert_images(
-        verbose=bool(args.v), forced=bool(args.f)
-    )
+    try:
+        changed, skipped = convert_images(
+            verbose=bool(args.v), forced=bool(args.f)
+        )
+        save_new_json()
+    except Exception:
+        return 1
 
-    save_new_json()
-
-    return changed, skipped
+    return 0
 
 
 if __name__ == '__main__':
