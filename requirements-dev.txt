@@ -1,3 +1,4 @@
 six
+tox
 twine
 mock
