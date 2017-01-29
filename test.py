@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import unittest
 from mock import patch
-from io import StringIO
+import six
 
 from seal_rookery import convert_images
 
@@ -64,7 +64,7 @@ class SealGenerationTest(unittest.TestCase):
         self.assertEqual(prev_skipped, changed, 'Forcing regens all hashes.')
         self.assertEqual(0, skipped, 'Forcing should skip nothing.')
 
-    @patch('sys.stdout', new_callable=StringIO)
+    @patch('sys.stdout', new_callable=six.StringIO)
     def test_convert_images_tool_accepts_args(self, mock_stdout):
         """
         Test we can pass command line args to the update-seals script.
@@ -111,14 +111,14 @@ class SealGenerationTest(unittest.TestCase):
         self.assertTrue(skipped > 0)
         self.assertEqual(0, return_code)
 
-    @patch('sys.stdout', new_callable=StringIO)
+    @patch('sys.stdout', new_callable=six.StringIO)
     def test_bad_command_line_args_raise_systemexit(self, mock_stdout):
         """test that garbage input raises SystemExit"""
 
         with self.assertRaises(SystemExit):
             convert_images.main(argv=['garbage'])
 
-    @patch('sys.stdout', new_callable=StringIO)
+    @patch('sys.stdout', new_callable=six.StringIO)
     @patch('seal_rookery.convert_images.convert_images')
     def test_failure_in_convert_images_returns_non_zero(self, mock_convert, mock_stdout):
         """

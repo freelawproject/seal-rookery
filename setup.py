@@ -2,9 +2,6 @@ from __future__ import print_function
 
 import os
 
-import ez_setup
-
-ez_setup.use_setuptools()
 from setuptools import setup, find_packages, Command
 from setuptools.command.install_lib import install_lib as _install_lib
 
