@@ -2,5 +2,6 @@ language: python
 python:
 - "3.6"
 script:
+- apt-get install imagemagick
 - python setup.py install
 - update-seals -f
