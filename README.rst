@@ -136,7 +136,7 @@ Deployment
 
    ::
 
-       python setup.py bdist_wheel
+       python setup.py sdist
 
 5. Upload the distribution:
 

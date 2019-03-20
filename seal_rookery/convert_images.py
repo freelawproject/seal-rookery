@@ -1,12 +1,18 @@
-#!/usr/bin/env python
+#!/usr/bin/env python -i
 import argparse
 import hashlib
 import json
 import os
 import subprocess
 import sys
+from multiprocessing import Pool, cpu_count
 
 from seal_rookery import seals_root, seals_data
+
+
+class BadResultError(Exception):
+    pass
+
 
 ORIG_DIR = os.path.join(seals_root, 'orig')
 
@@ -31,71 +37,86 @@ def set_new_hash(court_id, new_hash):
     seals_data[court_id]['hash'] = new_hash
 
 
-def convert_images(verbose=False, forced=False):
+def resize_image(orig, output, size):
+    if args.verbose > 1:
+        msg = "  - Making {size}x{size} image...".format(size=size)
+        sys.stdout.write(msg)
+    command = [
+        'convert',
+        '-resize',
+        '{}x{}'.format(size, size),
+        '-background',
+        'transparent',
+        orig,
+        output,
+    ]
+    rc = subprocess.check_call(command, shell=False)
+    if args.verbose > 1:
+        msg = " - writing to {}".format(output)
+        sys.stdout.write(msg)
+    return rc
+
+
+def convert_image(image, count, total):
+    if args.verbose:
+        sys.stdout.write(u"\nProcessing: {}".format(image))
+    else:
+        sys.stdout.write(u'\rUpdating seals: {} of {}'.format(count, total))
+        sys.stdout.flush()
+    court_id = image.split('.')[0]
+    final_name = "{}.png".format(court_id)
+    path_to_orig = os.path.join(ORIG_DIR, image)
+    current_hash = get_hash_from_file(path_to_orig)
+    old_hash = get_old_hash(image)
+    if current_hash != old_hash or args.forced:
+        set_new_hash(court_id, current_hash)
+        sizes = ['128', '256', '512', '1024']
+        resize_args = [(path_to_orig,
+                        os.path.join(seals_root, size, final_name), size)
+                       for size in sizes
+                       if not os.path.exists(
+                               os.path.join(seals_root, size, final_name))
+                       or args.forced]
+        with Pool(args.numprocs) as p:
+            p.starmap(resize_image, resize_args)
+        return "changed", resize_args
+    else:
+        return "skipped", list()
+
+
+def convert_images():
     """
     Convert the original seal images to their different scaled outputs for
     use either in CourtListener or another application.
 
-    :param verbose: if True, provides detailed conversion feedback to stdout
-    :param forced: if True, ignores unchanged hashes and regenerates images
     :return: tuple (number changed, number skipped)
     """
     images = os.listdir(ORIG_DIR)
     num_images = len(images)
     num_changed = 0
     num_skipped = 0
-    for i, image in enumerate(images, 1):
-        if verbose:
-            sys.stdout.write(u"\nProcessing: %s" % image)
-        else:
-            sys.stdout.write(u'\rUpdating seals: %s of %s' % (i, num_images))
-            sys.stdout.flush()
-        court_id = image.split('.')[0]
-        final_name = '%s.png' % court_id
-        path_to_orig = os.path.join(ORIG_DIR, image)
-
-        current_hash = get_hash_from_file(path_to_orig)
-        old_hash = get_old_hash(image)
-
-        if current_hash != old_hash or forced:
-            # Update the hash
-            set_new_hash(court_id, current_hash)
-
-            # Regenerate the images
-            for size in ['128', '256', '512', '1024']:
-                if verbose:
-                    sys.stdout.write(u"  - Making {size}x{size} image...".format(
-                        size=size
-                    ))
-                path_to_output = '%s/%s/%s' % (seals_root, size, final_name)
-                if verbose:
-                    sys.stdout.write(
-                        u'    - writing to %s' % (path_to_output,)
-                    )
-                command = [
-                    'convert',
-                    '-resize',
-                    '%sx%s' % (size, size),
-                    '-background',
-                    'transparent',
-                    path_to_orig,
-                    path_to_output,
-                ]
-                subprocess.Popen(command, shell=False).communicate()
+    resize_args = list()
+    for index, image in enumerate(images, 1):
+        result, rsargs = convert_image(image, index, num_images)
+        if result == "changed":
             num_changed += 1
-        else:
-            if verbose:
-                sys.stdout.write(u' - Unchanged hash, moving on.')
+        elif result == "skipped":
+            if args.verbose:
+                msg = " - Unchanged hash, moving on."
+                sys.stdout.write(msg)
             num_skipped += 1
-
-    if not verbose:
-        sys.stdout.write(
-            u"\nDone:\n  %s seals updated\n  %s seals skipped\n" % (
-                num_changed,
-                num_skipped,
-            ))
-
+        else:
+            raise BadResultError("bad result {}".format(result))
+        resize_args += rsargs
+    if args.verbose:
+        sys.stdout.write('\n')
+    #with Pool(args.numprocs) as p:
+    #    p.starmap(resize_image, resize_args)
+    if not args.verbose:
+        msg = "\nDone:\n  {} seals updated\n  {} seals skipped\n"
+        sys.stdout.write(msg.format(num_changed, num_skipped))
     return num_changed, num_skipped
+
 
 def save_new_json():
     """Update the JSON object on disk."""
@@ -117,17 +138,24 @@ def main(argv=None):
     # so we need to try grabbing sys.argv
     parser = argparse.ArgumentParser(prog='update-seals')
     parser.add_argument('-f',
-                        action='count',
+                        dest='forced',
+                        default=False,
+                        action='store_true',
                         help='force seal update or regeneration')
     parser.add_argument('-v',
+                        dest='verbose',
+                        default=0,
                         action='count',
                         help='turn on verbose seal generation messages')
-
+    parser.add_argument('-j',
+                        dest='numprocs',
+                        type=int,
+                        default=cpu_count(),
+                        help="Use multiple processes to convert images.")
+    global args
     args = parser.parse_args(argv)
     try:
-        changed, skipped = convert_images(
-            verbose=bool(args.v), forced=bool(args.f)
-        )
+        changed, skipped = convert_images()
         save_new_json()
     except Exception as error:
         # Note: will not catch SystemExit from parser.parse_args
