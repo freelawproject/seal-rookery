@@ -20,10 +20,7 @@ class _SealRookery(object):
         """
         if not self._seals_root:
             self._seals_root = os.path.realpath(
-                os.path.join(
-                    os.path.realpath(__file__),
-                    '../seals'
-                )
+                os.path.join(os.path.realpath(__file__), "../seals")
             )
         return self._seals_root
 
@@ -34,12 +31,14 @@ class _SealRookery(object):
         :return: dict of seals.json data, empty dict if not found
         """
         try:
-            with open(os.path.join(self.seals_root, 'seals.json'), 'r') as f:
+            with open(os.path.join(self.seals_root, "seals.json"), "r") as f:
                 return json.load(f)
         except IOError:
-            print('Seals json missing or not generated yet.a' % (
-            os.path.join(self.seals_root, 'seals.json')))
-            return json.loads('{}')
+            print(
+                "Seals json missing or not generated yet.a"
+                % (os.path.join(self.seals_root, "seals.json"))
+            )
+            return json.loads("{}")
 
 
 _rookery = _SealRookery()

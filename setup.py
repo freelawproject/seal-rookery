@@ -7,10 +7,10 @@ from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = '0.9.32'
-AUTHOR = 'Free Law Project'
-EMAIL = 'info@free.law'
-NAME = 'seal_rookery'
+VERSION = "0.9.32"
+AUTHOR = "Free Law Project"
+EMAIL = "info@free.law"
+NAME = "seal_rookery"
 KEYWORDS = ["legal", "seals"]
 CLASSIFIERS = [
     "Development Status :: 5 - Production/Stable",
@@ -27,24 +27,23 @@ CLASSIFIERS = [
     "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-URL = 'https://github.com/freelawproject/seal-rookery'
-DOWNLOAD_URL = '%s/archive/%s.tar.gz' % (URL, VERSION)
+URL = "https://github.com/freelawproject/seal-rookery"
+DOWNLOAD_URL = "%s/archive/%s.tar.gz" % (URL, VERSION)
 
-with open('README.rst') as f:
+with open("README.rst") as f:
     README = f.read()
 
 
 class install_lib(_install_lib):
-
     def run(self):
         _install_lib.run(self)
-        print('========================================================')
+        print("========================================================")
         print(' Run "update-seals -f" after install to generate seals! ')
-        print('========================================================')
+        print("========================================================")
 
 
 class convert(Command):
-    description = 'run the image conversion process'
+    description = "run the image conversion process"
 
     user_options = []
 
@@ -56,22 +55,19 @@ class convert(Command):
 
     def run(self):
         from seal_rookery import convert_images
+
         convert_images.convert_images()
 
 
 setup(
     name=NAME,
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(exclude=("tests",)),
     include_package_data=True,
     package_data={
-        'seal_rookery': [
-            'seals/*.json',
-            'seals/orig/*',
-            'www/*.html'
-        ]
+        "seal_rookery": ["seals/*.json", "seals/orig/*", "www/*.html"]
     },
     version=VERSION,
-    description='A collection of court seals that can be used in any project.',
+    description="A collection of court seals that can be used in any project.",
     long_description=README,
     author=AUTHOR,
     author_email=EMAIL,
@@ -81,14 +77,14 @@ setup(
     download_url=DOWNLOAD_URL,
     keywords=KEYWORDS,
     classifiers=CLASSIFIERS,
-    test_suite='test',
+    test_suite="test",
     cmdclass={
-        'convert': convert,
-        'install_lib': install_lib,
+        "convert": convert,
+        "install_lib": install_lib,
     },
     entry_points={
-        'console_scripts': [
-            'update-seals = seal_rookery.convert_images:main',
+        "console_scripts": [
+            "update-seals = seal_rookery.convert_images:main",
         ],
     },
     zip_safe=False,
