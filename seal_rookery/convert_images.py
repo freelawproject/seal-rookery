@@ -43,14 +43,14 @@ def resize_image(orig, output, size):
         sys.stdout.write(msg)
     command = [
         'convert',
+        orig,
         '-resize',
         '{}x{}'.format(size, size),
         '-background',
         'transparent',
-        orig,
         output,
     ]
-    rc = subprocess.check_call(command, shell=False)
+    rc = subprocess.run(command, shell=False)
     if args.verbose > 1:
         msg = " - writing to {}".format(output)
         sys.stdout.write(msg)
