@@ -9,6 +9,8 @@ from multiprocessing import Pool, cpu_count
 
 from seal_rookery import seals_root, seals_data
 
+args = None
+
 
 class BadResultError(Exception):
     pass
@@ -37,8 +39,8 @@ def set_new_hash(court_id, new_hash):
     seals_data[court_id]["hash"] = new_hash
 
 
-def resize_image(orig, output, size):
-    if args.verbose > 1:
+def resize_image(orig, output, size, verbosity):
+    if verbosity > 1:
         msg = "  - Making {size}x{size} image...".format(size=size)
         sys.stdout.write(msg)
     command = [
@@ -51,7 +53,7 @@ def resize_image(orig, output, size):
         output,
     ]
     rc = subprocess.run(command, shell=False)
-    if args.verbose > 1:
+    if verbosity > 1:
         msg = " - writing to {}".format(output)
         sys.stdout.write(msg)
     return rc
@@ -72,7 +74,7 @@ def convert_image(image, count, total):
         set_new_hash(court_id, current_hash)
         sizes = ["128", "256", "512", "1024"]
         resize_args = [
-            (path_to_orig, os.path.join(seals_root, size, final_name), size)
+            (path_to_orig, os.path.join(seals_root, size, final_name), size, args.verbose)
             for size in sizes
             if not os.path.exists(os.path.join(seals_root, size, final_name))
             or args.forced
@@ -168,7 +170,6 @@ def main(argv=None):
         print("Failed to update seals!")
         print(str(error))
         return 1
-
     return 0
 
 

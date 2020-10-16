@@ -1,10 +1,41 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import argparse
+import subprocess
 import unittest
+from os import cpu_count
+
 import six
 from unittest.mock import patch
 
 from seal_rookery import convert_images
+
+
+def make_global_args(arguments=[]):
+    parser = argparse.ArgumentParser(prog="update-seals")
+    parser.add_argument(
+        "-f",
+        dest="forced",
+        default=False,
+        action="store_true",
+        help="force seal update or regeneration",
+    )
+    parser.add_argument(
+        "-v",
+        dest="verbose",
+        default=0,
+        action="count",
+        help="turn on verbose seal generation messages",
+    )
+    parser.add_argument(
+        "-j",
+        dest="numprocs",
+        type=int,
+        default=cpu_count(),
+        help="Use multiple processes to convert images.",
+    )
+    args = parser.parse_args(arguments)
+    return args
 
 
 class PackagingTests(unittest.TestCase):
@@ -26,14 +57,15 @@ class PackagingTests(unittest.TestCase):
         except ImportError as e:
             self.fail("Couldn't import seals_data and seals_root like in CL")
 
+    @patch('seal_rookery.convert_images.args', make_global_args([]))
     def test_base_initialization(self):
-        """
-        Simple test of calling convert_images to make sure things are wired.
-        """
-        try:
-            convert_images.convert_images()
-        except Exception as e:
-            self.fail("Failed to call convert_images(): %s" % (e,))
+            """
+            Simple test of calling convert_images to make sure things are wired.
+            """
+            try:
+                convert_images.convert_images()
+            except Exception as e:
+                self.fail("Failed to call convert_images(): %s" % (e,))
 
 
 class SealGenerationTest(unittest.TestCase):
@@ -58,16 +90,17 @@ class SealGenerationTest(unittest.TestCase):
         Test we can force image conversions from the originals
         :return:
         """
-        changed, skipped = convert_images.convert_images()
-        self.assertEqual(0, changed, "Without forcing, nothing changes.")
+        with patch('seal_rookery.convert_images.args', make_global_args([])):
+            changed, skipped = convert_images.convert_images()
+            self.assertEqual(0, changed, "Without forcing, nothing changes.")
 
-        prev_skipped = skipped
-        changed, skipped = convert_images.convert_images(forced=True)
-        self.assertEqual(prev_skipped, changed, "Forcing regens all hashes.")
-        self.assertEqual(0, skipped, "Forcing should skip nothing.")
+        with patch('seal_rookery.convert_images.args', make_global_args(['-f'])):
+            prev_skipped = skipped
+            changed, skipped = convert_images.convert_images()
+            self.assertEqual(prev_skipped, changed, "Forcing regens all hashes.")
+            self.assertEqual(0, skipped, "Forcing should skip nothing.")
 
-    @patch("sys.stdout", new_callable=six.StringIO)
-    def test_convert_images_tool_accepts_args(self, mock_stdout):
+    def test_convert_images_tool_accepts_args(self):
         """
         Test we can pass command line args to the update-seals script.
 
@@ -87,36 +120,27 @@ class SealGenerationTest(unittest.TestCase):
         skipped_pattern = re.compile("(\d+) seals skipped")
 
         # run a forced update
-        return_code = convert_images.main(
-            argv=[
-                "-f",
-            ]
-        )
-        results = mock_stdout.getvalue()
+        results = subprocess.run(['update-seals', '-f'], capture_output=True )
 
         changed, skipped = (
-            int(updated_pattern.findall(results)[0]),
-            int(skipped_pattern.findall(results)[0]),
+            int(updated_pattern.findall(str(results))[0]),
+            int(skipped_pattern.findall(str(results))[0]),
         )
 
         self.assertTrue(changed > 0)
         self.assertTrue(skipped == 0)
-        self.assertEqual(0, return_code)
-
-        # reset the mock stdout buffer
-        mock_stdout.seek(0)
+        self.assertEqual(0, results.returncode)
 
         # run a regular update, which should just skip seals just generated
-        return_code = convert_images.main(argv=[])
-        results = mock_stdout.getvalue()
+        results = subprocess.run(['update-seals'], capture_output=True )
 
         changed, skipped = (
-            int(updated_pattern.findall(results)[0]),
-            int(skipped_pattern.findall(results)[0]),
+            int(updated_pattern.findall(str(results))[0]),
+            int(skipped_pattern.findall(str(results))[0]),
         )
         self.assertTrue(changed == 0)
         self.assertTrue(skipped > 0)
-        self.assertEqual(0, return_code)
+        self.assertEqual(0, results.returncode)
 
     @patch("sys.stdout", new_callable=six.StringIO)
     def test_bad_command_line_args_raise_systemexit(self, mock_stdout):
