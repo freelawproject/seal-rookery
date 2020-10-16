@@ -14,13 +14,13 @@ class BadResultError(Exception):
     pass
 
 
-ORIG_DIR = os.path.join(seals_root, 'orig')
+ORIG_DIR = os.path.join(seals_root, "orig")
 
 
 def get_old_hash(img):
     """Get the old hash from seals.json"""
     try:
-        old_hash = seals_data[img.split('.')[0]]['hash']
+        old_hash = seals_data[img.split(".")[0]]["hash"]
     except KeyError:
         old_hash = None
     return old_hash
@@ -28,13 +28,13 @@ def get_old_hash(img):
 
 def get_hash_from_file(img):
     """Get the hash from the current file"""
-    with open(img, 'rb') as f:
+    with open(img, "rb") as f:
         return hashlib.sha256(f.read()).hexdigest()
 
 
 def set_new_hash(court_id, new_hash):
     """Update the json object with new values"""
-    seals_data[court_id]['hash'] = new_hash
+    seals_data[court_id]["hash"] = new_hash
 
 
 def resize_image(orig, output, size):
@@ -61,22 +61,22 @@ def convert_image(image, count, total):
     if args.verbose:
         sys.stdout.write(u"\nProcessing: {}".format(image))
     else:
-        sys.stdout.write(u'\rUpdating seals: {} of {}'.format(count, total))
+        sys.stdout.write(u"\rUpdating seals: {} of {}".format(count, total))
         sys.stdout.flush()
-    court_id = image.split('.')[0]
+    court_id = image.split(".")[0]
     final_name = "{}.png".format(court_id)
     path_to_orig = os.path.join(ORIG_DIR, image)
     current_hash = get_hash_from_file(path_to_orig)
     old_hash = get_old_hash(image)
     if current_hash != old_hash or args.forced:
         set_new_hash(court_id, current_hash)
-        sizes = ['128', '256', '512', '1024']
-        resize_args = [(path_to_orig,
-                        os.path.join(seals_root, size, final_name), size)
-                       for size in sizes
-                       if not os.path.exists(
-                               os.path.join(seals_root, size, final_name))
-                       or args.forced]
+        sizes = ["128", "256", "512", "1024"]
+        resize_args = [
+            (path_to_orig, os.path.join(seals_root, size, final_name), size)
+            for size in sizes
+            if not os.path.exists(os.path.join(seals_root, size, final_name))
+            or args.forced
+        ]
         with Pool(args.numprocs) as p:
             p.starmap(resize_image, resize_args)
         return "changed", resize_args
@@ -109,8 +109,8 @@ def convert_images():
             raise BadResultError("bad result {}".format(result))
         resize_args += rsargs
     if args.verbose:
-        sys.stdout.write('\n')
-    #with Pool(args.numprocs) as p:
+        sys.stdout.write("\n")
+    # with Pool(args.numprocs) as p:
     #    p.starmap(resize_image, resize_args)
     if not args.verbose:
         msg = "\nDone:\n  {} seals updated\n  {} seals skipped\n"
@@ -122,7 +122,7 @@ def save_new_json():
     """Update the JSON object on disk."""
     json.dump(
         seals_data,
-        open(os.path.join(seals_root, 'seals.json'), 'w'),
+        open(os.path.join(seals_root, "seals.json"), "w"),
         sort_keys=True,
         indent=4,
     )
@@ -136,22 +136,28 @@ def main(argv=None):
     """
     # when running as a console_script via setuptools, no args are passed,
     # so we need to try grabbing sys.argv
-    parser = argparse.ArgumentParser(prog='update-seals')
-    parser.add_argument('-f',
-                        dest='forced',
-                        default=False,
-                        action='store_true',
-                        help='force seal update or regeneration')
-    parser.add_argument('-v',
-                        dest='verbose',
-                        default=0,
-                        action='count',
-                        help='turn on verbose seal generation messages')
-    parser.add_argument('-j',
-                        dest='numprocs',
-                        type=int,
-                        default=cpu_count(),
-                        help="Use multiple processes to convert images.")
+    parser = argparse.ArgumentParser(prog="update-seals")
+    parser.add_argument(
+        "-f",
+        dest="forced",
+        default=False,
+        action="store_true",
+        help="force seal update or regeneration",
+    )
+    parser.add_argument(
+        "-v",
+        dest="verbose",
+        default=0,
+        action="count",
+        help="turn on verbose seal generation messages",
+    )
+    parser.add_argument(
+        "-j",
+        dest="numprocs",
+        type=int,
+        default=cpu_count(),
+        help="Use multiple processes to convert images.",
+    )
     global args
     args = parser.parse_args(argv)
     try:
@@ -159,12 +165,12 @@ def main(argv=None):
         save_new_json()
     except Exception as error:
         # Note: will not catch SystemExit from parser.parse_args
-        print('Failed to update seals!')
+        print("Failed to update seals!")
         print(str(error))
         return 1
 
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main(sys.argv)
