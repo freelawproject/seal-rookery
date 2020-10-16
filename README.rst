@@ -121,6 +121,26 @@ seal, however usage of government seals has caused a
 `stirs <http://www.nytimes.com/2010/08/03/us/03fbi.html>`_ in the past.
 Don't attempt to represent the government or its agents.
 
+Docker
+------
+
+Every push to master is pulled into docker hub and builds a new version
+or the docker seal-rookery image.  So we recommend any large changes to
+seal rookery be done in branches to validate tests prior to pushing.
+
+Testing
+-------
+
+Testing can run with the following command.
+
+::
+
+    python -m unittest -v test
+
+Tests are also run on every push to Github at
+https://github.com/freelawproject/seal-rookery
+
+For more information on testing checkout the Github workflows directory.
 
 Deployment
 ----------
