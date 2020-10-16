@@ -104,7 +104,6 @@ class SealGenerationTest(unittest.TestCase):
             )
             self.assertEqual(0, skipped, "Forcing should skip nothing.")
 
-
     @patch("sys.stdout", new_callable=six.StringIO)
     def test_bad_command_line_args_raise_systemexit(self, mock_stdout):
         """test that garbage input raises SystemExit"""
