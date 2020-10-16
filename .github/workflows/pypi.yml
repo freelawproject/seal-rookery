@@ -3,15 +3,9 @@ name: PyPi
 on: [push]
 
 jobs:
-  build:
+  say_hello:
     runs-on: ubuntu-latest
-  name: Publish package
-  if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
-
     steps:
-      if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-      uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
+    - run: |
+        echo "Hello ${{ github.event.inputs.name }}!"
+        echo "- in ${{ github.event.inputs.home }}!"
