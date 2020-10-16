@@ -1,6 +1,6 @@
 name: PyPi
 
-on: [release]
+on: [create]
 
 jobs:
   say_hello:
