@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import unittest
-from mock import patch
 import six
+from unittest.mock import patch
 
 from seal_rookery import convert_images
 

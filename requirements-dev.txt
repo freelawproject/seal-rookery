@@ -1,4 +1,3 @@
 six
 tox
 twine
-mock
