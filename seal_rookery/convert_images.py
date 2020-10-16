@@ -42,12 +42,12 @@ def resize_image(orig, output, size):
         msg = "  - Making {size}x{size} image...".format(size=size)
         sys.stdout.write(msg)
     command = [
-        'convert',
+        "convert",
         orig,
-        '-resize',
-        '{}x{}'.format(size, size),
-        '-background',
-        'transparent',
+        "-resize",
+        "{}x{}".format(size, size),
+        "-background",
+        "transparent",
         output,
     ]
     rc = subprocess.run(command, shell=False)
