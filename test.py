@@ -57,15 +57,15 @@ class PackagingTests(unittest.TestCase):
         except ImportError as e:
             self.fail("Couldn't import seals_data and seals_root like in CL")
 
-    @patch('seal_rookery.convert_images.args', make_global_args([]))
+    @patch("seal_rookery.convert_images.args", make_global_args([]))
     def test_base_initialization(self):
-            """
-            Simple test of calling convert_images to make sure things are wired.
-            """
-            try:
-                convert_images.convert_images()
-            except Exception as e:
-                self.fail("Failed to call convert_images(): %s" % (e,))
+        """
+        Simple test of calling convert_images to make sure things are wired.
+        """
+        try:
+            convert_images.convert_images()
+        except Exception as e:
+            self.fail("Failed to call convert_images(): %s" % (e,))
 
 
 class SealGenerationTest(unittest.TestCase):
@@ -90,14 +90,18 @@ class SealGenerationTest(unittest.TestCase):
         Test we can force image conversions from the originals
         :return:
         """
-        with patch('seal_rookery.convert_images.args', make_global_args([])):
+        with patch("seal_rookery.convert_images.args", make_global_args([])):
             changed, skipped = convert_images.convert_images()
             self.assertEqual(0, changed, "Without forcing, nothing changes.")
 
-        with patch('seal_rookery.convert_images.args', make_global_args(['-f'])):
+        with patch(
+            "seal_rookery.convert_images.args", make_global_args(["-f"])
+        ):
             prev_skipped = skipped
             changed, skipped = convert_images.convert_images()
-            self.assertEqual(prev_skipped, changed, "Forcing regens all hashes.")
+            self.assertEqual(
+                prev_skipped, changed, "Forcing regens all hashes."
+            )
             self.assertEqual(0, skipped, "Forcing should skip nothing.")
 
     def test_convert_images_tool_accepts_args(self):
@@ -120,7 +124,7 @@ class SealGenerationTest(unittest.TestCase):
         skipped_pattern = re.compile("(\d+) seals skipped")
 
         # run a forced update
-        results = subprocess.run(['update-seals', '-f'], capture_output=True )
+        results = subprocess.run(["update-seals", "-f"], capture_output=True)
 
         changed, skipped = (
             int(updated_pattern.findall(str(results))[0]),
@@ -132,7 +136,7 @@ class SealGenerationTest(unittest.TestCase):
         self.assertEqual(0, results.returncode)
 
         # run a regular update, which should just skip seals just generated
-        results = subprocess.run(['update-seals'], capture_output=True )
+        results = subprocess.run(["update-seals"], capture_output=True)
 
         changed, skipped = (
             int(updated_pattern.findall(str(results))[0]),

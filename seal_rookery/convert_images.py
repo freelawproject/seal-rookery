@@ -74,7 +74,12 @@ def convert_image(image, count, total):
         set_new_hash(court_id, current_hash)
         sizes = ["128", "256", "512", "1024"]
         resize_args = [
-            (path_to_orig, os.path.join(seals_root, size, final_name), size, args.verbose)
+            (
+                path_to_orig,
+                os.path.join(seals_root, size, final_name),
+                size,
+                args.verbose,
+            )
             for size in sizes
             if not os.path.exists(os.path.join(seals_root, size, final_name))
             or args.forced
