@@ -1,19 +1,19 @@
 {
     "acca": {
         "has_seal": true,
-        "hash": "21f4f02e35e5c6e352ae71bb0a7e7b7d75f5236dbe4185876366d79b24f381c7",
+        "hash": "73105919687d913e17d9a2eeb267aa5091ad0e97fc9d7bcb6fe32c0d7310014e",
         "name": "United States Army Court of Criminal Appeals",
         "notes": ""
     },
     "afcca": {
         "has_seal": true,
-        "hash": "35b32b6ee181a001d1c0df5347e4cf32d450fe604baa405c34b77d50c3d357bb",
+        "hash": "dcd8123e5bd7a7103c6e3f3ebe29b053a63784f172c0ecf739c7ae2b20999dbd",
         "name": "United States Air Force Court of Criminal Appeals",
         "notes": ""
     },
     "akb": {
         "has_seal": true,
-        "hash": "49ac27aefdca2e3a42d7c71c15ed7afc850ed17e50363c7181ceb3d2b121cb3a",
+        "hash": "78977edd9482e60e74b126a237a5344a09e6ce1b92a91f3e6941a85d99ed4f8b",
         "name": "United States Bankruptcy Court, D. Alaska",
         "notes": ""
     },
@@ -25,7 +25,7 @@
     },
     "ala": {
         "has_seal": true,
-        "hash": "d5708cbd00f5e1f51ecdc97b2d56f0ad95c3fb6925134555ba64fe94609b8634",
+        "hash": "bb3f53d7f5f9c88bcfad0112f3f79b3870d53a8ddad3bbc7dc36162c9a99cfce",
         "name": "Supreme Court of Alabama",
         "notes": ""
     },
@@ -56,7 +56,7 @@
     },
     "almb": {
         "has_seal": true,
-        "hash": "ce6cc08631d12874b9d03b913bbf70b3f55c82c49b7dbe8e57123c39c330525b",
+        "hash": "9f762331d84e16a0392e2a2fca9577a4ec34eee9af28d54ddffac95b7f520f52",
         "name": "United States Bankruptcy Court, M.D. Alabama",
         "notes": ""
     },
@@ -68,7 +68,7 @@
     },
     "alnb": {
         "has_seal": true,
-        "hash": "598d188dd04eb719bb296ffb621ae6f89e8d575d64a13727bafe7f58278ac6bc",
+        "hash": "fd06fa7e90b45b1ce489a158fcd2a1d211324d1156a019c45f3a70bba7594159",
         "name": "United States Bankruptcy Court, N.D. Alabama",
         "notes": ""
     },
@@ -80,7 +80,7 @@
     },
     "alsb": {
         "has_seal": true,
-        "hash": "50b370399372aae494a5cc564ed267087d0bc8f4aeeff4bda57f05166a5faeb1",
+        "hash": "c5d80f9deb021e49e9c8d5058ce40ad2c53abc426172adcda6cccd1b78c4951b",
         "name": "United States Bankruptcy Court, S.D. Alabama",
         "notes": ""
     },
@@ -92,7 +92,7 @@
     },
     "aoc": {
         "has_seal": true,
-        "hash": "aa1f9662cb9132ea77ff67a54b6af26f18f1f9d52a1cda8bd0c1af18dc908c85",
+        "hash": "dafa684d067549dc199f161f55927a8debf44091c4d5fac907ad43a36f680543",
         "name": "Administrative Office of the United States Courts",
         "notes": ""
     },
@@ -115,7 +115,7 @@
     },
     "ariz": {
         "has_seal": true,
-        "hash": "b4741f7e9b23f54228571475861f431a67b3d92e42caa4fcc27f81249537e8d2",
+        "hash": "2133cf3f9edc4a16c4616e439337c7346421bbf750110ed6537c8b7830915b99",
         "name": "Arizona Supreme Court",
         "notes": ""
     },
@@ -131,7 +131,7 @@
     },
     "ark": {
         "has_seal": true,
-        "hash": "5b95be990264aa4cb01d230b89738e17a6cb70d483c4448ae9f7d0f3abcac9cd",
+        "hash": "2aa43fa3736aa3221e88312b01bccd0d5faa95cd122359630b65dfb8d404511e",
         "name": "Supreme Court of Arkansas",
         "notes": "Completed as part of initial version."
     },
@@ -142,7 +142,7 @@
     },
     "armfor": {
         "has_seal": true,
-        "hash": "24e16b49e619cd9b723f95214b6e2ecab133a76ffcd023eacad340c534595ec8",
+        "hash": "6185ab0c8aba74779640b69fc60237008988f106cf5c982c6d395b181d3cd040",
         "name": "Court of Appeals for the Armed Forces",
         "notes": "Completed as part of initial version."
     },
@@ -159,7 +159,7 @@
     },
     "asbca": {
         "has_seal": true,
-        "hash": "d1aef19ddde01b48bc82ea6b4990a9979cfb41a0fce96ca05b44413f9173176f",
+        "hash": "33685f635610ae9a37b27ac743586d45e994b99be02c8f4650bf46bc4d27bbe2",
         "name": "Armed Services Board of Contract Appeals",
         "notes": ""
     },
@@ -214,37 +214,37 @@
     },
     "ca1": {
         "has_seal": true,
-        "hash": "8c12c173d4336237efe52b806d592128c4bd6fdf0d86089e2a4ac94465138cd7",
+        "hash": "9cf025a005123030a5adb005c1eb6bf2e6a7de10a1e21f85f48812c85e7e92b0",
         "name": "Court of Appeals for the First Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca10": {
         "has_seal": true,
-        "hash": "ffbd2363141984b4cd00e7dc475185fe0c5261fc29041c543f80dbdb5a149f5d",
+        "hash": "7adebfccf499c8ba7fd57ee7251c865b65250e9dbd1415b24fa96dbb182c98ba",
         "name": "Court of Appeals for the Tenth Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca11": {
         "has_seal": true,
-        "hash": "c4f1cf7cbdd70f49e996f461d4e91c71e74388990f6d9273329a2576da0cd78f",
+        "hash": "0d1ddeec88b15743b8e3b00a5cca0970512bfa78017c64baddab9d50a59d2c16",
         "name": "Court of Appeals for the Eleventh Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca2": {
         "has_seal": true,
-        "hash": "7050999c7f55c10fff6d654c6b7303c6729e154778e10edba76b267727c676ad",
+        "hash": "64e731fea5f1481f88cdd7e83a9a76def0880c5d0c75c668758949a0bac5c334",
         "name": "Court of Appeals for the Second Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca3": {
         "has_seal": true,
-        "hash": "4e9bd63efd8a42cda669dafd3fed4466ba9e5eb4789a3913ea793d31c25f4c0d",
+        "hash": "67599c1b364f5d71d5a65087b1959191793f0a92f6d744099205935db7b6b6ea",
         "name": "Court of Appeals for the Third Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca4": {
         "has_seal": true,
-        "hash": "10541ca32bed7ac19b913593252878d072298ae98e0e7ff890d70961e32d2b6c",
+        "hash": "53f6b9660c8853b84630759a87db041584da48014a3dd4f5a10c0cba3d49beb2",
         "name": "Court of Appeals for the Fourth Circuit",
         "notes": "Completed as part of initial version."
     },
@@ -256,25 +256,25 @@
     },
     "ca6": {
         "has_seal": true,
-        "hash": "bf3a6f1e306aed599a8239aabded1267c2c60390d803fed2279d35af8c584d0e",
+        "hash": "a258f3f2d7138fbff32b15209f1f7015e31355a61d94bdd91adb822d519177bb",
         "name": "Court of Appeals for the Sixth Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca7": {
         "has_seal": true,
-        "hash": "b559a85df7d1eb64ffbc822e4d364e1ae86c892d4a162617474d3307a7769327",
+        "hash": "9729dc1e3eb703d4def802b598f800b381b74b7c3b2502a10b47a2547d4c3725",
         "name": "Court of Appeals for the Seventh Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca8": {
         "has_seal": true,
-        "hash": "fe10ff078a21a238825278b61be2506bb8b34383daf3a00c35058616656c4652",
+        "hash": "8399f563c753bfb7de4dd4bc93d7c38ccb88a6736954980a8ea745bd50b0821c",
         "name": "Court of Appeals for the Eighth Circuit",
         "notes": "Completed as part of initial version."
     },
     "ca9": {
         "has_seal": true,
-        "hash": "e52806b67b8a3fd8452a8b7324e92adabccbda5983d360f20a404a2042e542d0",
+        "hash": "5912ad0f9f1583de42a7f7ca3a02356a573af0da6685c98534c3323a5e403e7f",
         "name": "Court of Appeals for the Ninth Circuit",
         "notes": "Completed as part of initial version."
     },
@@ -292,7 +292,7 @@
     },
     "cadc": {
         "has_seal": true,
-        "hash": "811b95e9de1cb71a8a2beb7256fda59f17e3a282db88bea28d8b63b4ee3d50c5",
+        "hash": "cecf421ef1a824e562689872a67eb15ed639b120e6943ba098cae6b700ac9761",
         "name": "Court of Appeals for the D.C. Circuit",
         "notes": "Completed as part of initial version."
     },
@@ -309,13 +309,13 @@
     },
     "cafc": {
         "has_seal": true,
-        "hash": "948b7c34a3e3adc04a0d792a73df7d8b47e93ebe91a1a35df32742f7207de2d3",
+        "hash": "62ebef0b49db48fc20e34b335de7f584693af71ea22c21fea5331a6df3aa340a",
         "name": "Court of Appeals for the Federal Circuit",
         "notes": "Completed as part of initial version."
     },
     "cal": {
         "has_seal": true,
-        "hash": "c497703f9a2222f5abc7542f062220d0f307cddb6b2a4539520ef419f4651443",
+        "hash": "8ab5b14ea5363d08d56de892fed6a054c8d329731a14f6903f2980c91e5d2633",
         "name": "California Supreme Court",
         "notes": ""
     },
@@ -342,7 +342,7 @@
     },
     "cand": {
         "has_seal": true,
-        "hash": "7dee029e6d8aa256d15a8dd9056c495f4007d8d5f479393ca1d1e748951af779",
+        "hash": "69d5107d2c1db1c920c46e51cf56d1082881566606f7e66369f17dd565f2ed40",
         "name": "District Court, N.D. California",
         "notes": "Completed as part of initial version."
     },
@@ -359,13 +359,13 @@
     },
     "cavc": {
         "has_seal": true,
-        "hash": "d5238aac54b201ecbc94df33a363ef574b1a0dc93dd7f8ed8e96655f1b9a4f99",
+        "hash": "1dc56a0734f3e4bdac0a20f561a4d24361d049901c3b7be5a3a8218775f9806d",
         "name": "United States Court of Appeals for Veterans Claims",
         "notes": "Completed as part of initial version."
     },
     "cbca": {
         "has_seal": true,
-        "hash": "89729e8220682f2db6f51ac5c2fe30ea41cadc3e95955ea5d8a36280a5800c5d",
+        "hash": "32a746fdbe83c1608da709f7f1286d78f23003ae26876639826adc505d2e00bf",
         "name": "Civilian Board of Contract Appeals",
         "notes": ""
     },
@@ -381,13 +381,13 @@
     },
     "cit": {
         "has_seal": true,
-        "hash": "75b61133527cd138b7beb24e83eff0adadab4f465e2b5d2f200d0f5b6cf6ecea",
+        "hash": "9203955055e0843892a8a4e800841acfdea9370b6bd8e2e2daf90b1db6296636",
         "name": "United States Court of International Trade",
         "notes": "Completed as part of initial version."
     },
     "cjdpa": {
         "has_seal": true,
-        "hash": "cb1bea702e0ad99813e16889b9848cd3b65e8360af9554139d363fb24c8e982c",
+        "hash": "b91437e4f6177333271d4927124235661ca98138fba447bb536ceac54a3472e0",
         "name": "Court of Judicial Discipline of Pennsylvania",
         "notes": ""
     },
@@ -420,7 +420,7 @@
     },
     "compliance": {
         "has_seal": true,
-        "hash": "12f356783e0d20a370c54c6dcc7de20b62ae8cd228a0ce74f9bc4aec244b2007",
+        "hash": "bf78683d24bd3f5f97855ad3fa9def8f4f929a64c1ff440a0b41eeb60fc3054f",
         "name": "Office of Compliance, United States Congress",
         "notes": ""
     },
@@ -471,13 +471,13 @@
     },
     "dcd": {
         "has_seal": true,
-        "hash": "f7cf9f8105fc8bfbc49b96908bc00fcdc31b6684ce6aa42306eb9c19d75d01ee",
+        "hash": "7e8705d9cfc180dd501b56cfc5f6b97c65f8fe1c1a60932f40d2ba09eaa85b5a",
         "name": "District Court, District of Columbia",
         "notes": ""
     },
     "deb": {
         "has_seal": true,
-        "hash": "ca651b2e069973d04993b5be47cb586d9a55d4e1bf659dc1077e6a4303ed3447",
+        "hash": "c566fc2e954996968207f5de580077bc7a29b87a5105ceb6c729db8881aac6be",
         "name": "United States Bankruptcy Court, D. Delaware",
         "notes": ""
     },
@@ -489,7 +489,7 @@
     },
     "del": {
         "has_seal": true,
-        "hash": "497d9bd24728489b217f920838de5eb60acaa090a2324755d0ffe2e16af94a93",
+        "hash": "86fd50b29c6a919fe871a1adbe057a74fbd1826bbc46519279846d69298219fa",
         "name": "Supreme Court of Delaware",
         "notes": "Completed as part of initial version."
     },
@@ -501,13 +501,13 @@
     },
     "delctcompl": {
         "has_seal": true,
-        "hash": "e0f2618563f76a5e52433321969fef385f0f1a936e9fe6a32bdc848065b1c287",
+        "hash": "9341ca5fae57aea3728b1f9b7062b5a6bfd74460fdef51aba4e03547f6b3ccda",
         "name": "Delaware Court of Common Pleas",
         "notes": ""
     },
     "delfamct": {
         "has_seal": true,
-        "hash": "60b2b6f2d7c20f1bfbc8427ea1c30ae8c5a61121aa143c59758a65885a833626",
+        "hash": "f1744a854de78cdc67d0c0bb5cfdfd27bd534dd2c8cc38e078a87cd85d72ca31",
         "name": "Delaware Family Court",
         "notes": ""
     },
@@ -539,7 +539,7 @@
     },
     "fla": {
         "has_seal": true,
-        "hash": "8b1f36d6c068ecf3d2e9d84cc68f5b9022701888e27ab4568e2c5cad1b447f32",
+        "hash": "acba4c577807d9838aed05906d198666258697a8d78f74c4a42da51db3b55045",
         "name": "Supreme Court of Florida",
         "notes": "Completed as part of initial version."
     },
@@ -556,7 +556,7 @@
     },
     "flmd": {
         "has_seal": true,
-        "hash": "88fc84b20c3a3e43a4f9e7bba516798192c2c45fe07346f4dce5951b77fad18d",
+        "hash": "19a692a2e03bdb22cc8728b026b0cb2acc732c4d48700ad3f628ffbfd692e099",
         "name": "District Court, M.D. Florida",
         "notes": "Completed as part of initial version."
     },
@@ -568,13 +568,13 @@
     },
     "flnd": {
         "has_seal": true,
-        "hash": "a359b6ca259f3c4ea5aceda4285252a60a575988cad9226afe924e895336a517",
+        "hash": "9949e449087ad41ececa1ef2fc65f1606ec164fe3adec104d3e1a3191cfa6356",
         "name": "District Court, N.D. Florida",
         "notes": "Completed as part of initial version."
     },
     "flsb": {
         "has_seal": true,
-        "hash": "002a2fb312dd242bddc417e5b1625aa7540b8cb925069b34226627c64062761b",
+        "hash": "416e09f413227eca864b47aef346787472526f1f202b7d449cec4eb1786c5b6d",
         "name": "United States Bankruptcy Court, S.D. Florida.",
         "notes": ""
     },
@@ -592,7 +592,7 @@
     },
     "gactapp": {
         "has_seal": true,
-        "hash": "532b4e4a0575fd786a5cf9c9a0c86c0c3f8e73b61435a1e756cfd1a68de8f702",
+        "hash": "7624c3ad15993628f106afea18c9e4d725af8d1ed5016ec0fee462079041bf49",
         "name": "Court of Appeals of Georgia.",
         "notes": ""
     },
@@ -610,7 +610,7 @@
     },
     "ganb": {
         "has_seal": true,
-        "hash": "33ae3f53c0b781eda100e5a058a42928c32a070b4fae3f925998e0c8dfc62a24",
+        "hash": "65bc8fb531f5191e27f65c9d59e7e45de35c91a7142868c030b034fd8e3456fc",
         "name": "United States Bankruptcy Court, N.D. Georgia",
         "notes": ""
     },
@@ -628,7 +628,7 @@
     },
     "gasd": {
         "has_seal": true,
-        "hash": "f81e30b389c8f044212a9e08c219cee223b891dab61a7e1fda69ef1ba394d8b2",
+        "hash": "d02528491f9e3f4e25243a1420da43a03aab811ba0685b7662c5c1ba74cbd538",
         "name": "District Court, S.D. Georgia",
         "notes": "Completed as part of initial version."
     },
@@ -662,7 +662,7 @@
     },
     "hid": {
         "has_seal": true,
-        "hash": "747ec46dc4f67891af825ad78fe1e950da513f30fd8a83ee7b6902e05985788a",
+        "hash": "27042c860d03d9d36bea674c58b4342f074e4b8b91196ec9bddc6be30029b4f9",
         "name": "District Court, D. Hawaii",
         "notes": "Completed as part of initial version."
     },
@@ -702,13 +702,13 @@
     },
     "idb": {
         "has_seal": true,
-        "hash": "651a4750ab123d3ff1914d27f301dc3b9b0b567e366d7ff9dcac42a14598c1b3",
+        "hash": "f9cd81b46c92461ec933b0e58c1771dae4ad8cb8563fd3f5b2725744a64a4a9b",
         "name": "United States Bankruptcy Court, D. Idaho",
         "notes": ""
     },
     "idd": {
         "has_seal": true,
-        "hash": "aaf3f5af249baddc0108f10cb4b35d19a99e09ebcb99999019a7a218492763d0",
+        "hash": "04740dfe42b7acc9f81735d8dcee48a0670900db994ba68345dfc6820b99c4d1",
         "name": "District Court, D. Idaho",
         "notes": "Completed as part of initial version."
     },
@@ -726,7 +726,7 @@
     },
     "ill": {
         "has_seal": true,
-        "hash": "daabdec27c0b429e825949a32be049762e25525eeec514eb89dbed3093b76084",
+        "hash": "98da64fb974e2993e5830cec7ea4dba064347b5a45919c8c4ec63a082427a5d6",
         "name": "Illinois Supreme Court",
         "notes": ""
     },
@@ -777,7 +777,7 @@
     },
     "indctapp": {
         "has_seal": true,
-        "hash": "4050add58af78afbff736f741d88256af4236251ab10dc4581379f1c8e42a34d",
+        "hash": "1d478e180bd5e6a6d1d4d5f8e6044058b3e682842deeaa9a2da0cc42b9e4f622",
         "name": "Indiana Court of Appeals",
         "notes": ""
     },
@@ -800,7 +800,7 @@
     },
     "innd": {
         "has_seal": true,
-        "hash": "3dca0e3ac0a087530be50670cfe5a9a107c5c7d040f2423436008b8a463dc1aa",
+        "hash": "bd8dc56e33fb5a79419e55b6e8ad681a9049a5089176358be277a5705bd6cbd1",
         "name": "District Court, N.D. Indiana",
         "notes": ""
     },
@@ -828,13 +828,13 @@
     },
     "jpml": {
         "has_seal": true,
-        "hash": "aa1eb5efe20a9933059498fca59352e8999449481b5842e6f3a99ced03da63b7",
+        "hash": "44b34e85e08759716bd85b7350dc2a0f621420b155d8252813d09ca4e48f929e",
         "name": "United States Judicial Panel on Multidistrict Litigation",
         "notes": ""
     },
     "kan": {
         "has_seal": true,
-        "hash": "a7de789b0e2a5d43800bf5c22fa1aaaf18289be554455e69dde927dc4480c553",
+        "hash": "05b94c16f28f17227faebcb542de0efb70762dc2b4587163913064a8220e4eb4",
         "name": "Supreme Court of Kansas",
         "notes": ""
     },
@@ -845,13 +845,13 @@
     },
     "ksb": {
         "has_seal": true,
-        "hash": "ab405bf81ef2186867bd1e56d0f8ca66737a7b2d85046a03dbd118e61a930b97",
+        "hash": "983f80b2dc47b16fdbaa3b309640d9f059d8cb53e4eab7bd43f8afe85f992e0e",
         "name": "United States Bankruptcy Court, D. Kansas",
         "notes": ""
     },
     "ksd": {
         "has_seal": true,
-        "hash": "c884be4d98381c2e46289bb929b18a3b278d7483ff2efc16d8139d4af7277c66",
+        "hash": "db370a84e0e0917b8da7a40c0467dc7d0a0569e95c79e43b32bf7cad6d2a944f",
         "name": "District Court, D. Kansas",
         "notes": ""
     },
@@ -868,13 +868,13 @@
     },
     "kyeb": {
         "has_seal": true,
-        "hash": "bab503619f1f3e12a295fbe005e52cc0684b503f67d6892fcb03257183597922",
+        "hash": "12849f4e47983ff6ba190921252d689a3c4b36fcf127299fc7bd6be2c7b022e7",
         "name": "United States Bankruptcy Court, E.D. Kentucky",
         "notes": ""
     },
     "kyed": {
         "has_seal": true,
-        "hash": "c2cb18742bfd6d825739f040a5b685e6ad8fb0d90a582e28f46e2054fb29f5e8",
+        "hash": "ef1199069ccbb93aedf8f5131d4ef64d582339f511bf8c50ed404a52a96df456",
         "name": "District Court, E.D. Kentucky",
         "notes": "Completed as part of initial version."
     },
@@ -915,19 +915,19 @@
     },
     "lamb": {
         "has_seal": true,
-        "hash": "06fcd5d31277195c042e9439b21cefbb445b0bf4096cbb9ebaf205b876f6b54f",
+        "hash": "868d6f93eed38e0e659afe06adc2d755df71978aacc1aee2b9835e3f41707365",
         "name": "United States Bankruptcy Court, M.D. Louisiana",
         "notes": ""
     },
     "lamd": {
         "has_seal": true,
-        "hash": "4864b286aa8a42350b6f5e19d405aedfe8fa6244775160fd1d1f74c1b915ed6e",
+        "hash": "2cde11d7eca8b971512c8a5f0c678fe23ca59a2231ebd61e01d9ae8c299ac5ae",
         "name": "District Court, M.D. Louisiana",
         "notes": "Completed as part of initial version."
     },
     "lawb": {
         "has_seal": true,
-        "hash": "d1229058140bac2a42fe79555362a32e97893de1131bfc98ba100f91faaba263",
+        "hash": "b0da984d6cceea1b733f1f133b3111758de36348f6bc868cbf4b79ca22eeaedb",
         "name": "United States Bankruptcy Court, W.D. Louisiana",
         "notes": ""
     },
@@ -951,7 +951,7 @@
     },
     "mass": {
         "has_seal": true,
-        "hash": "a609f2aeae310fa491dd682c2b7e681e9dd0b1f46971423ea0616fb77f3e5889",
+        "hash": "8a6781b81dfb81228ac06c70834d11705dbfc851dfaf0bea02b8c0853573124d",
         "name": "Massachusetts Supreme Judicial Court",
         "notes": ""
     },
@@ -962,13 +962,13 @@
     },
     "mc": {
         "has_seal": true,
-        "hash": "b1e9f02c7537876fc47f0a393b7bcc6191dcde72326cca8ef91e876376ea76b1",
+        "hash": "9edfaf7f6db34d9aa8bf98e97473740a522d8b944a06625f788a5979ac6473f8",
         "name": "U.S. Court of Military Commission Review",
         "notes": ""
     },
     "md": {
         "has_seal": true,
-        "hash": "95884ca9f4b1e6d8f94eff955aa24fec7b74228cff0223610d4a21cd3db15347",
+        "hash": "2393480e307846b98a4873c49277d35d2eae2a02f2ed75be2bc8f7101b0103d3",
         "name": "Court of Appeals of Maryland",
         "notes": ""
     },
@@ -985,7 +985,7 @@
     },
     "mdd": {
         "has_seal": true,
-        "hash": "765eb8d602a53855335581e7d334095da24af0d8008ac3aca05c111a79cb22a3",
+        "hash": "983a7a8954502aa05478fa378b9c75d93450929a562e17dd29a4e5fc43abbc59",
         "name": "District Court, D. Maryland",
         "notes": "Completed as part of initial version."
     },
@@ -1008,31 +1008,31 @@
     },
     "mich": {
         "has_seal": true,
-        "hash": "96d22971203f919f24947f15c4c4e62b82274534dd275e061ac6b0c0ac8c3605",
+        "hash": "3fcf235fe40a2e29b0a0bb03e23d61bfe3fd1822469691587ecc6db98f9b7f2b",
         "name": "Michigan Supreme Court",
         "notes": ""
     },
     "michctapp": {
         "has_seal": true,
-        "hash": "bfd799b37afa922eef2836b8282bb9f7464cf33174bc8bc94336b331247255b4",
+        "hash": "5179863623d4907a67982fa7d7672adf317d3734433084e2c02a6e8c64c8952d",
         "name": "Michigan Court of Appeals",
         "notes": ""
     },
     "mieb": {
         "has_seal": true,
-        "hash": "125a20c3f91272aff20359d092a798fcd066babe3ccdf7dac040097f70fed783",
+        "hash": "33a4de855dc54cea36acabc133455b189a6fa20916c3412d070f918588c4129a",
         "name": "United States Bankruptcy Court, E.D. Michigan",
         "notes": ""
     },
     "mied": {
         "has_seal": true,
-        "hash": "cb75440f16f2ddcdaa1f1af33a56c073699f77bb326f965d0d62772a0569a063",
+        "hash": "25bd79f7cdce460f5bcc32c516d972d5b656cbb7d9584e3e8583334e2535b85d",
         "name": "District Court, E.D. Michigan",
         "notes": "Completed as part of initial version."
     },
     "minn": {
         "has_seal": true,
-        "hash": "7433aa6e2fafd90df997916cda9b7c67cccd293d4b1478f8483aea6f94f8e070",
+        "hash": "ac2674d4806f69e612bf20f602203d061e26630134410ab065a113707bb871c7",
         "name": "Supreme Court of Minnesota",
         "notes": ""
     },
@@ -1058,7 +1058,7 @@
     },
     "miwd": {
         "has_seal": true,
-        "hash": "ef6ba174605886f9b0aa267fb8e215dd343afbac56b4099e14fa0bf56e4d01b7",
+        "hash": "938c8ae901e8bd0957b08942b4affe3b9e9ede5908b982b632c6ca76071a78cf",
         "name": "District Court, W.D. Michigan",
         "notes": "Completed as part of initial version."
     },
@@ -1074,7 +1074,7 @@
     },
     "mo": {
         "has_seal": true,
-        "hash": "5e19cc45cfd06d4980031dd9a658428343e841e26840de0488b6256a4c8b8352",
+        "hash": "a463babb2687797583f06ad3a900149a0951bd5ace8302bb9b2b658953cb3714",
         "name": "Supreme Court of Missouri",
         "notes": ""
     },
@@ -1095,7 +1095,7 @@
     },
     "moed": {
         "has_seal": true,
-        "hash": "b2350352880ad88198f9ccd3b06d49c2ae69bc0d7f9a69b4322a459b6f8a61bc",
+        "hash": "3a9eacf52ea4583e88406893e82249f87641ea16a2d82e81d3e41c8c1bafc995",
         "name": "District Court, E.D. Missouri",
         "notes": "Completed as part of initial version."
     },
@@ -1134,7 +1134,7 @@
     },
     "mspb": {
         "has_seal": true,
-        "hash": "61bcc498a742d9d7b666879208fdf82e95cc6598493b97db6b723b1216c204cb",
+        "hash": "042c3461922a3f17b14fbb4862942ebd703ac27397d1a03a430980c1fd9bf7d0",
         "name": "United States Merit Systems Protection Board",
         "notes": ""
     },
@@ -1156,19 +1156,19 @@
     },
     "mtd": {
         "has_seal": true,
-        "hash": "430fb2e0f96a2bfee531f35bc38cd7ac82dada5251d6df26d82cbe1128d3aefd",
+        "hash": "77ee9f42b906a2be2f23457bf6bf46171ca86c4d44aa9bb17e51c3e960c89758",
         "name": "District Court, D. Montana",
         "notes": "Completed as part of initial version."
     },
     "nc": {
         "has_seal": true,
-        "hash": "7bb515aab24c110ee68f860ac408286edc5387b9972c7c339fb9d2b1c68b1256",
+        "hash": "3337a3b3f58b76af9e90361bbc417ea3232dde335d37f6690512ba8c6d7607bd",
         "name": "Supreme Court of North Carolina",
         "notes": ""
     },
     "ncctapp": {
         "has_seal": true,
-        "hash": "4b48d49a989574365e619378e7308139b4d76ca738d7a25ed4e6272e2ab85ecb",
+        "hash": "e5ee8897645625311938b7cc0963069a27a356b2cc7f13dc471b03839cf78980",
         "name": "Court of Appeals of North Carolina",
         "notes": ""
     },
@@ -1232,7 +1232,7 @@
     },
     "neb": {
         "has_seal": true,
-        "hash": "881dca215fd494fa04eec1839fe7d9660302d1a9b68f7a6edf0a5bff2862c2c0",
+        "hash": "120d0f5037e1bab11f317dd8226281217d3f47b7b50aeb2f2e2ba8a188b65b63",
         "name": "Nebraska Supreme Court",
         "notes": ""
     },
@@ -1255,7 +1255,7 @@
     },
     "nev": {
         "has_seal": true,
-        "hash": "01732505dea0b3a3da27adef376972aa798d43645928b221ece13e0e349faef8",
+        "hash": "a91b272618c9825d5ef835f40404af7fe9960516349def13b80b3a077f1bbada",
         "name": "Nevada Supreme Court",
         "notes": ""
     },
@@ -1277,7 +1277,7 @@
     },
     "nj": {
         "has_seal": true,
-        "hash": "9ab96881c449d96474104e81e84392238dac93cda030919063f967ead057d4ab",
+        "hash": "b804ce29b16f775ceede764a6d35d915a831f491d583c8b50763a4d7ea94752f",
         "name": "Supreme Court of New Jersey",
         "notes": ""
     },
@@ -1294,19 +1294,19 @@
     },
     "njsuperctappdiv": {
         "has_seal": true,
-        "hash": "97718916507d515560dbd036f8b6f92b7477a48962ca2eb4b160697674beb3aa",
+        "hash": "70d8aba3e449ba32216b1930c510739ad18c9c85a0cde10587b674f141281e8d",
         "name": "New Jersey Superior Court",
         "notes": ""
     },
     "njtaxct": {
         "has_seal": true,
-        "hash": "ba58abf4ea40c24a34b29effecb6c9681105b3c463b75d784953e9c2e740cd23",
+        "hash": "22ffd98d056f358b199c8e8a3a5023ba4558205ff3fa9667ec282e5a499e9566",
         "name": "New Jersey Tax Court",
         "notes": ""
     },
     "nm": {
         "has_seal": true,
-        "hash": "acab05cb967e757b837f0a1e3eb03800dee5c01e1a7480bf24bc920f88cdfa04",
+        "hash": "b26a309ab99996a8061a939cce3d07aefddd5eaf88e54e513c43ca088cca69d4",
         "name": "New Mexico Supreme Court",
         "notes": ""
     },
@@ -1346,25 +1346,25 @@
     },
     "nvb": {
         "has_seal": true,
-        "hash": "f679973189329340714c390dd1bc3fb6f01ba70b28599581886a2d8e5fb81f50",
+        "hash": "efa6d34eb036fc099e4d76fe277a695805288533cb5ba8e0184454a58cafdfee",
         "name": "United States Bankruptcy Court, D. Nevada",
         "notes": ""
     },
     "nvd": {
         "has_seal": true,
-        "hash": "7933c66826030b438e300b1ee56b5d8ce7b0b23afeb55468a67bcaed26425f8f",
+        "hash": "70532a33c789881738ae037d3a2587a993e33e9576784c9eb7983aa9b89f2dc8",
         "name": "District Court, D. Nevada",
         "notes": "Completed as part of initial version."
     },
     "ny": {
         "has_seal": true,
-        "hash": "16ad159bb833c4824473688ef0549537efa4831a45cf2ca5ab1cc2e9204b8073",
+        "hash": "780c38d5438b522c8e31f30884d877fd7d7e2af7cfdffaa7e353ad65315c5ed6",
         "name": "New York Court of Appeals",
         "notes": ""
     },
     "nyappdiv": {
         "has_seal": true,
-        "hash": "11ee0b1f7633d7ad819a3d1d1c3d08c4afb5a83292b7b63549091bfe30f83ee4",
+        "hash": "4b28f5e5831da69e051ee248f8913cb7777834f2c8aad0d9c2457f82f141621f",
         "name": "Appellate Division of the Supreme Court of the State of New York",
         "notes": ""
     },
@@ -1387,19 +1387,19 @@
     },
     "nynb": {
         "has_seal": true,
-        "hash": "a0282cd67f3d40371bb590347e8aa51dc32f786b8a40903b424dc76f31ab3b8d",
+        "hash": "e16d99a9767c44dd1b2c760e454313141031dd8b3ee0cf25acdacbf8b3322be2",
         "name": "United States Bankruptcy Court, N.D. New York",
         "notes": ""
     },
     "nynd": {
         "has_seal": true,
-        "hash": "9b176e93ee9aa1d43f90675b18f93bcf83ee637773ebf58d74cf0289a38f9a22",
+        "hash": "370cae1061bc94c6dc70e06965df53525f2f157751285824b24d18a7cb3db430",
         "name": "District Court, N.D. New York",
         "notes": "Completed as part of initial version."
     },
     "nysb": {
         "has_seal": true,
-        "hash": "d803b4546499b1d877f6f4bd0ebd946dc93f88787ede45fe3eb4ef4fde10218e",
+        "hash": "c5c53aafcb99dde9ec59a3dd638d13b7c19f1a6899ed14e8859b670298f3dbf1",
         "name": "United States Bankruptcy Court, S.D. New York",
         "notes": ""
     },
@@ -1428,7 +1428,7 @@
     },
     "ohio": {
         "has_seal": true,
-        "hash": "97a3c3af45ddfca71f613753cc635e22e3e1e09f172114af71b6c108a78ee71e",
+        "hash": "999a25bc2cd3a2b2168930c5a1e48e01ac256e20bce940475174dbf09f70c689",
         "name": "Ohio Supreme Court",
         "notes": "Completed as part of initial version."
     },
@@ -1537,7 +1537,7 @@
     },
     "or": {
         "has_seal": true,
-        "hash": "35406aeeaf202b8224ba9446bcb5a47d241670a27aa1c069b36b8cd07e88125a",
+        "hash": "1b7a267ae1085f9a2fcbde050bba92d5d1b90db840add56b1935c259c57833eb",
         "name": "Oregon Supreme Court",
         "notes": ""
     },
@@ -1560,19 +1560,19 @@
     },
     "pa": {
         "has_seal": true,
-        "hash": "383da57f595aa0837048764cef9b245a0521672e143c3e5f17264987a8945a37",
+        "hash": "2c7903e1cd1054fb3687857200804ba0a0531ed0aa5a240ff75f53b7cf7fe780",
         "name": "Supreme Court of Pennsylvania",
         "notes": "Completed as part of initial version."
     },
     "pacommwct": {
         "has_seal": true,
-        "hash": "cf4a363f04be0efbaa0a34c81f3979e98b39c7a5e6c66c1c5ff0ff5b4e90906d",
+        "hash": "242b04e4756a7674382b134b25bbbff70dda2d7c0981d1c21ab1315e0ec683b6",
         "name": "Commonwealth Court of Pennsylvania.",
         "notes": ""
     },
     "paeb": {
         "has_seal": true,
-        "hash": "65b065cca2d6a7b6b64d1e56b34788195d9851199c020af51279eaee3f104ec1",
+        "hash": "59a74d844c55f7f3c5d6683ed61f46e057cb1d6b2f5c351f3d82dd098ce278f3",
         "name": "United States Bankruptcy Court, E.D. Pennsylvania",
         "notes": ""
     },
@@ -1590,19 +1590,19 @@
     },
     "pamd": {
         "has_seal": true,
-        "hash": "b608b06940786ef8659fb5a9ed35b9728afab948ea1eeb3c7ed4647629389d14",
+        "hash": "6629ca2d23d401315a178710e8bafdd28926cbd53a1b81735dd56c39cb15e07b",
         "name": "District Court, M.D. Pennsylvania",
         "notes": "Completed as part of initial version."
     },
     "pasuperct": {
         "has_seal": true,
-        "hash": "594f90ceee77b692b862cc5f6767b97656e2007c8e9986dcb26ae11fba8fdfd1",
+        "hash": "635dfcbadbf02d42136e18b18c6fd9eabaf783adec0268b5d0633d2c3db65254",
         "name": "Superior Court of Pennsylvania",
         "notes": ""
     },
     "pawb": {
         "has_seal": true,
-        "hash": "3e685b5e8f284cd2990061d0f5182927ae84b128aadb630a625626b8695a549f",
+        "hash": "0e4707a914007ff7924d28ff4f4ef3a72596d99611a259b3479ec6df37dbd8f5",
         "name": "United States Bankruptcy Court, W.D. Pennsylvania",
         "notes": ""
     },
@@ -1619,7 +1619,7 @@
     },
     "prb": {
         "has_seal": true,
-        "hash": "f97b6d6df56bc6d1b3c7d3a86e2bbb1e0b3cfcfa0eb89bbb11592aed416570f8",
+        "hash": "c5ed7daa8b73a0e18e1b22b6c79925cbd8047bb4d6048d8e9940b55de175ecaf",
         "name": "United States Bankruptcy Court, D. Puerto Rico",
         "notes": ""
     },
@@ -1641,31 +1641,31 @@
     },
     "rib": {
         "has_seal": true,
-        "hash": "7d30e298e088872b50462e7012494f14d0e4a07bb491ac8b4b80c27004d2867b",
+        "hash": "bdc85efdba70c167e64b1f530c58a337dab00b45fa56127b53aeb0169fe85f01",
         "name": "United States Bankruptcy Court, D. Rhode Island",
         "notes": ""
     },
     "rid": {
         "has_seal": true,
-        "hash": "ad589799e92dacb885f147f5b60c065896afc434d480a97400f209befe83136e",
+        "hash": "beeaf2650820a8e70a82091cdb33c46900569910d11a28c4729bf7f83659faa4",
         "name": "District Court, D. Rhode Island",
         "notes": "Completed as part of initial version."
     },
     "sc": {
         "has_seal": true,
-        "hash": "e113addacfb1fbf6cbf43bae3fea3e92f36d6b8d9f534158e5c26e130dfb155e",
+        "hash": "f95aef668d039dc87383036faad720d35154514325d30141c84e552777439985",
         "name": "Supreme Court of South Carolina",
         "notes": ""
     },
     "scb": {
         "has_seal": true,
-        "hash": "bd4abeb5d1b4c001b2cc056569f6912213ca0d5f2bfefdfc9d44110c8768804e",
+        "hash": "ea212193ce1b00957f4a970282a129d9c3b1fd86f06509a01028a9de35caf0f2",
         "name": "United States Bankruptcy Court, District of South Carolina",
         "notes": ""
     },
     "scctapp": {
         "has_seal": true,
-        "hash": "22320aaf79acb294695c06d040279f1f95bd3eef707a92906c3b8cbc94689d9e",
+        "hash": "8f60848865194e35c8584520e1feb6ca0d5992e8c2ee11051e4565c855e5866a",
         "name": "Court of Appeals of South Carolina",
         "notes": ""
     },
@@ -1677,7 +1677,7 @@
     },
     "scotus": {
         "has_seal": true,
-        "hash": "cd0890a8f2b9aa51c313e8836ea73aadc8460092ce56d58d8bc0e1ba0cc427e4",
+        "hash": "9a61875bd2a3d3a52f43a1d6e6fbbae341d4c91f7c79d464612ec00592c580c6",
         "name": "Supreme Court of the United States",
         "notes": "Completed as part of initial version."
     },
@@ -1688,7 +1688,7 @@
     },
     "sdb": {
         "has_seal": true,
-        "hash": "97687ac8b2307db6ecc73e91ed94eaefae69df2fa297819308c032dbcb94d5c1",
+        "hash": "c5bfedf412f5391e30913e5a0f156feef86cdec3083ba5c1104b1bac0540cc17",
         "name": "United States Bankruptcy Court, D. South Dakota",
         "notes": ""
     },
@@ -1715,7 +1715,7 @@
     },
     "tax": {
         "has_seal": true,
-        "hash": "2701ccd51553091977d0f9e268466203987a3faeab824aacb7e40c8465511bd8",
+        "hash": "a57e322a00e2747538fcdfa8f2f830dc169e9be5c26384e37162bc79b022445e",
         "name": "United States Tax Court",
         "notes": "Completed as part of initial version."
     },
@@ -1751,7 +1751,7 @@
     },
     "tex": {
         "has_seal": true,
-        "hash": "4d5fb814b0f875dc6c01c7d04781dd42e70c83a074d544a236b73a6e46dee988",
+        "hash": "97ce3afca8d132ce68087e3b58f064bfba42800d2062cfb6f87d2386bf543401",
         "name": "Texas Supreme Court",
         "notes": ""
     },
@@ -1762,7 +1762,7 @@
     },
     "texcrimapp": {
         "has_seal": true,
-        "hash": "c87218da79b6c802022a812da371933c568f1cea8ab23334fbbf8a6303612705",
+        "hash": "1449ba74aad1f40e46beb8b8001268328ba7722714e9534fc26ae4e1f2474dda",
         "name": "Court of Criminal Appeals of Texas",
         "notes": ""
     },
@@ -1813,25 +1813,25 @@
     },
     "txed": {
         "has_seal": true,
-        "hash": "b4d712cd15d9793b22784ec33f8efe9a8db555fb34912fa44c30a324bf9863f0",
+        "hash": "f82172fc7b102f42bb01984d5b605f860a2bd123ef341924a84a2c6b7d57d92f",
         "name": "District Court, E.D. Texas",
         "notes": "Completed as part of initial version."
     },
     "txnb": {
         "has_seal": true,
-        "hash": "fea1e63076e3ad85a200afffda3f55663cfd78c025c8bc7f1157a22bb0005006",
+        "hash": "e548b342038b4259088f45cccd6facb396ea68313b2e4d79f17d6df6cbca654e",
         "name": "United States Bankruptcy Court, N.D. Texas",
         "notes": ""
     },
     "txnd": {
         "has_seal": true,
-        "hash": "d5d9a2a0ed90d3556b787e461601ad4605a653bff5de9705e18fc21b8c14921e",
+        "hash": "addb0c728b1ead345bab8949f3af4c8643bc30a263b0511b4c48df8beb00bbac",
         "name": "District Court, N.D. Texas",
         "notes": "Completed as part of initial version."
     },
     "txsb": {
         "has_seal": true,
-        "hash": "401154ac4a6b24125c90c2d0eb2d3a3866def996d253b9f84e81c2bab9db3808",
+        "hash": "643c7c5d34a81d8681b70da6aeb259c693bff44409b1e34b9e387fd8d4066fca",
         "name": "United States Bankruptcy Court, S.D. Texas",
         "notes": ""
     },
@@ -1843,19 +1843,19 @@
     },
     "txwb": {
         "has_seal": true,
-        "hash": "6979de377fda83257cdd068c9dd360445e9b66711aea0bfe8ad9fe9eeba34561",
+        "hash": "54a9a3798b0e1153067ac40ad84ca25c43f84e61153a97dfd2fd4fb4b83a0552",
         "name": "United States District Court, W.D. Texas",
         "notes": ""
     },
     "txwd": {
         "has_seal": true,
-        "hash": "ceb1097d5f74babbecc070ae0c164f641289983d63e6a6f6eb5b6dab5c063489",
+        "hash": "b2a74a1c7e7ca1cb58c81ebf9a8b2f0719487896a379d094df9000418c399b78",
         "name": "District Court, W.D. Texas",
         "notes": "Completed as part of initial version."
     },
     "uscfc": {
         "has_seal": true,
-        "hash": "0792cce7987c636b40bc5472f4580c68dab6ec42793bf6a264594eb652348996",
+        "hash": "9003e369066a0a15db2bf733a3cb1be23863c5eb41ff82dac00918bd3a36cfd3",
         "name": "United States Court of Federal Claims",
         "notes": "Completed as part of initial version."
     },
@@ -1887,7 +1887,7 @@
     },
     "va": {
         "has_seal": true,
-        "hash": "b0607de2b945e98854eb184bcf7b6ce8dafdbab3dbd482d4f42ca67aa36493d4",
+        "hash": "bfe40c2d19a2b88b402ef41405357f70316c33910ba0b6d0da1a369c2058497d",
         "name": "Supreme Court of Virginia",
         "notes": "Completed as part of initial version."
     },
@@ -1915,7 +1915,7 @@
     },
     "vawd": {
         "has_seal": true,
-        "hash": "4c49d7049c7907fddbd039c835ce3f1fb72bc779131ac16ef309645851828323",
+        "hash": "dfead75c2a535504d550bccdf423d650d7f23badb33c155fc97e4572ca316e05",
         "name": "District Court, W.D. Virginia",
         "notes": "Completed as part of initial version."
     },
@@ -1927,7 +1927,7 @@
     },
     "vid": {
         "has_seal": true,
-        "hash": "fb229100a82c5f1088a6218af347066abe7decdebf811e19d459b8f3b52c19a4",
+        "hash": "112d55b93d9ef0b71c85bb6dac43041f4e56d0bd9f4503617da62e419ab667b2",
         "name": "District Court, Virgin Islands",
         "notes": "Completed as part of initial version."
     },
@@ -1972,13 +1972,13 @@
     },
     "wawb": {
         "has_seal": false,
-        "hash": "fd205eb769a5b407881b0e9225e26f9c9154221f26d2219d894e53a366ba3877",
+        "hash": "e77b07f777361d8200b53243281b798c931d8a0a6d913f41eabee543cd14695d",
         "name": "United States Bankruptcy Court, W.D. Washington",
         "notes": ""
     },
     "wawd": {
         "has_seal": true,
-        "hash": "9597feb41478abb0366abed400db860ca8d9d59b826626e4de04ba81c15e2381",
+        "hash": "bf244c7d2b7e1cd6f0ff8b388796ab5a0aefdabf2d15708f549cef8766b3422c",
         "name": "District Court, W.D. Washington",
         "notes": "Completed as part of initial version."
     },
@@ -1990,25 +1990,25 @@
     },
     "wied": {
         "has_seal": true,
-        "hash": "0d20e5378e0e5768ee6d161fe10c095df65b4a3b5bfe56772f6a3fa4c5637785",
+        "hash": "11079b69fa062bae6398547d9b63f8f77ad3d67b1d4542ed9452bc0e52896d73",
         "name": "District Court, E.D. Wisconsin",
         "notes": "Completed as part of initial version."
     },
     "wis": {
         "has_seal": true,
-        "hash": "4912fefe5a4d518ac76b7485386e486897f81d93075fea6475c71f8351f61493",
+        "hash": "b50e84e087544c1776ca001d8fb3338884487139e524813ea0d21d941eeb12ea",
         "name": "Wisconsin Supreme Court",
         "notes": "Completed as part of initial version."
     },
     "wisctapp": {
         "has_seal": true,
-        "hash": "241b3249a37180c82d790c4bb38859fc4bb5b0bb6ce25c5820a2b0de209b2604",
+        "hash": "7429e2c111f7e590c2e7036e32c5ffdfc239b86b80d95355295135111cedaa8b",
         "name": "Court of Appeals of Wisconsin",
         "notes": ""
     },
     "wiwb": {
         "has_seal": true,
-        "hash": "ffb682f970f5d0eff389be19b1a6593993d041be2cfb02e42209509aa7531863",
+        "hash": "63927a348f21e9f132baf30c3113d94c75542e87e90ee38ed9338df48a555511",
         "name": "United States Bankruptcy Court, W.D. Wisconsin",
         "notes": ""
     },
@@ -2025,13 +2025,13 @@
     },
     "wvnb": {
         "has_seal": true,
-        "hash": "a2fbf1c10d07420525381cc407fb124503921c5fc78cb20256a7af94c15792fd",
+        "hash": "6c1d563b02143696e6cfb10c5a8c56c2a710084bdef05671945f0f05ab045f78",
         "name": "United States District Court, N.D. West Virginia",
         "notes": ""
     },
     "wvnd": {
         "has_seal": true,
-        "hash": "3da35e998b686a2d130d664af27a6950c9043c26ce768bdd2630b79fdcb2dace",
+        "hash": "9f2d34e4479b5cb4e9f68f5c35eb5c64d77b75791f0a5b9a103dad2502c222fe",
         "name": "District Court, N.D. West Virginia",
         "notes": "Completed as part of initial version."
     },
@@ -2042,7 +2042,7 @@
     },
     "wvsd": {
         "has_seal": true,
-        "hash": "c40c1c45519d50337e79d98d221f56db69dedaa6706b961f437d0bf5b89c6f8a",
+        "hash": "e492037cd418a0d8b93123f9151cae694cc4147483d7e4a52e7ba582794981de",
         "name": "District Court, S.D. West Virginia.",
         "notes": "Completed as part of initial version."
     },
