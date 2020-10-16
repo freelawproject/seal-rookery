@@ -24,4 +24,5 @@ jobs:
         pip install -r requirements-dev.txt
     - name: Run tests
       run: |
-        python -m unittest -v test
+        python -m unittest -v test.SealGenerationTest
+        python -m unittest -v test.PackagingTests

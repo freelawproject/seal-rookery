@@ -167,5 +167,49 @@ class SealGenerationTest(unittest.TestCase):
         self.assertTrue("Failed to update seals!" in mock_stdout.getvalue())
 
 
+class CommandLineTests(unittest.TestCase):
+
+    def test_convert_images_tool_accepts_args(self):
+        """
+        Test we can pass command line args to the update-seals script.
+
+        Expected output looks like:
+            Updating seals: 1 of 249
+            ...
+            Updating seals: 249 of 249
+            Done:
+              0 seals updated
+              249 seals skipped
+            (0, 249)
+        :return:
+        """
+        import re
+
+        updated_pattern = re.compile("(\d+) seals updated")
+        skipped_pattern = re.compile("(\d+) seals skipped")
+
+        # run a forced update
+        results = subprocess.run(["update-seals", "-f"], capture_output=True)
+
+        changed, skipped = (
+            int(updated_pattern.findall(str(results))[0]),
+            int(skipped_pattern.findall(str(results))[0]),
+        )
+
+        self.assertTrue(changed > 0)
+        self.assertTrue(skipped == 0)
+        self.assertEqual(0, results.returncode)
+
+        # run a regular update, which should just skip seals just generated
+        results = subprocess.run(["update-seals"], capture_output=True)
+
+        changed, skipped = (
+            int(updated_pattern.findall(str(results))[0]),
+            int(skipped_pattern.findall(str(results))[0]),
+        )
+        self.assertTrue(changed == 0)
+        self.assertTrue(skipped > 0)
+        self.assertEqual(0, results.returncode)
+
 if __name__ == "__main__":
     unittest.main()
