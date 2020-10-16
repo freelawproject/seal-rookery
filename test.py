@@ -168,7 +168,6 @@ class SealGenerationTest(unittest.TestCase):
 
 
 class CommandLineTests(unittest.TestCase):
-
     def test_convert_images_tool_accepts_args(self):
         """
         Test we can pass command line args to the update-seals script.
@@ -210,6 +209,7 @@ class CommandLineTests(unittest.TestCase):
         self.assertTrue(changed == 0)
         self.assertTrue(skipped > 0)
         self.assertEqual(0, results.returncode)
+
 
 if __name__ == "__main__":
     unittest.main()
