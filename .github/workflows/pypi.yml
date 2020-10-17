@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: gitub.event.base_ref == "refs/head/master"
+    if: github.event.base_ref == "refs/head/master"
     runs-on: ubuntu-latest
     steps:
       - name: Echo
