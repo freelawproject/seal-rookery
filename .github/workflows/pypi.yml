@@ -36,6 +36,6 @@ deploy:
 #        TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
 #        TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
+        echo "Hello twine!"
 #        python setup.py sdist bdist_wheel
 #        twine upload dist/*
-        echo "Hello TWINE"
