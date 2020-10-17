@@ -2,7 +2,9 @@ name: PyPI
 on:
   push:
     tags:
-      - *           # Push events to v1.0, v1.1, and v1.9 tags
+      - 0.*.*          # Push events to v1.0, v1.1, and v1.9 tags
+      - 1.*.*          # Push events to v1.0, v1.1, and v1.9 tags
+      - 2.*.*           # Push events to v1.0, v1.1, and v1.9 tags
 
 jobs:
   say_hello:
