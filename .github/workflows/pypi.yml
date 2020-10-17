@@ -1,20 +1,15 @@
-name: PyPi
+name: PyPI
 on:
   push:
-    # Sequence of patterns matched against refs/heads
-    branches:
-      # Push events on main branch
-      - main
-      # Push events to branches matching refs/heads/releases/10
-      - 'pypi-action*'
-    # Sequence of patterns matched against refs/tags
     tags:
-      - *           # Push events to v1.0, v1.1, and v1.9 tags
+      - 0.*
+      - 1.*
 
 jobs:
-  say_hello:
+  build:
+    if: gitub.event.base_ref == "refs/head/master"
     runs-on: ubuntu-latest
     steps:
-    - run: |
-        echo "Hello non release ${{ github.event.inputs.name }}!"
-        echo "- in ${{ github.event.inputs.home }}!"
+      - name: Echo
+        run: echo "$GITHUB_CONTEXT"
+      - uses: actions/checkout@v2
