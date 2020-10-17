@@ -11,10 +11,10 @@ on:
     tags:
       - v.*   
 
-jobs:
-  say_hello:
-    runs-on: ubuntu-latest
-    steps:
-    - run: |
-        echo "Hello non release ${{ github.event.inputs.name }}!"
-        echo "- in ${{ github.event.inputs.home }}!"
+    jobs:
+      say_hello:
+        runs-on: ubuntu-latest
+        steps:
+        - run: |
+            echo "Hello non release ${{ github.event.inputs.name }}!"
+            echo "- in ${{ github.event.inputs.home }}!"
