@@ -144,6 +144,13 @@ For more information on testing checkout the Github workflows directory.
 
 Deployment
 ----------
+Deploying can be handled in two ways.
+
+1. Update the version info in setup.py.
+
+2. Commit to github with a tag in format v*.*.* (ex. v1.0.0)
+
+or
 
 1. Update the version info in setup.py.
 

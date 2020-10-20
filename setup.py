@@ -7,7 +7,7 @@ from setuptools.command.install_lib import install_lib as _install_lib
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = "0.9.32"
+VERSION = "0.10.0"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 NAME = "seal_rookery"
