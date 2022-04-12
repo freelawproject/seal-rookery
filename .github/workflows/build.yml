@@ -2,8 +2,8 @@ name: Upload
 
 on:
   push:
-    tags:
-      - v*.*.*
+#    tags:
+#      - v*.*.*
 
 jobs:
   upload:
