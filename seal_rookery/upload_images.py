@@ -56,7 +56,12 @@ def resize_image(original: str, size: str) -> str:
     :return: The path to the new resized image
     """
     new_filepath = original.replace("orig", size)
+    # print(original)
+    # print(new_filepath)
+    # print(os.path.exists(os.path.dirname(new_filepath)))
     if not os.path.exists(os.path.dirname(new_filepath)):
+        # print("oook")
+        # print(os.path.exists(os.path.dirname(new_filepath)))
         os.mkdir(os.path.dirname(new_filepath))
 
     svg = True if "svg" in original else False
@@ -139,20 +144,21 @@ def main(access_key: str, secret_key: str) -> None:
     validate_json()
 
     # Check for files we need to upload
-    seals_to_upload = find_new_seals(access_key, secret_key)
+    # seals_to_upload = find_new_seals(access_key, secret_key)
+    seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
         for size in sizes:
             if size == "orig":
                 aws_path = f"v2.1/orig/{seal.split('/')[-1]}"
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
-                upload(seal, aws_path, access_key, secret_key)
+                # upload(seal, aws_path, access_key, secret_key)
             else:
                 fn = seal.split('/')[-1].replace(".svg", ".png")
                 aws_path = f"v2.1/{size}/{fn}"
-                print(f"Uploading to: https://seals.free.law/{aws_path}")
                 new_path = resize_image(seal, size)
-                upload(new_path, aws_path, access_key, secret_key)
+                print(f"Uploading to: https://seals.free.law/{aws_path}")
+                # upload(new_path, aws_path, access_key, secret_key)
         break
 
 if __name__ == "__main__":
