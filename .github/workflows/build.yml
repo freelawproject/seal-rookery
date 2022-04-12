@@ -20,6 +20,7 @@ jobs:
           sudo apt-get install imagemagick -y
           sudo apt-get install python3-pip -y
       - name: Install req.
+        run: |
           pip3 install -r requirements-ci.txt
           pip3 install -r requirements-dev.txt
       - name: Upload Seals
