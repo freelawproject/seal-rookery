@@ -61,26 +61,26 @@ def resize_image(original: str, size: str) -> str:
 
     svg = True if "svg" in original else False
     if svg:
-        image = pyvips.Image.thumbnail(original, 200, height=int(size))
+        image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
     else:
         with open(original, "r+b") as f:
             with Image.open(f) as image:
                 width, height = image.size
-                if height < 1024:
-                    ratio_height = (1024 / width) * height
+                if height < int(size):
+                    ratio_height = (int(size) / width) * height
                     cover = resizeimage.resize_cover(
-                        image, [1024, ratio_height], validate=False
+                        image, [int(size), ratio_height], validate=False
                     )
                 else:
                     if width > height:
                         cover = resizeimage.resize_height(
-                            image, 1024, validate=False
+                            image, int(size), validate=False
                         )
                     else:
                         cover = resizeimage.resize_width(
-                            image, 1024, validate=False
+                            image, int(size), validate=False
                         )
                 cover.save(new_filepath, image.format)
     return new_filepath
@@ -119,7 +119,7 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
     s3 = session.resource("s3")
     bucket = s3.Bucket("seals.free.law")
     aws_seals = [
-        x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2/orig/")
+        x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2.1/orig/")
     ]
     local_seals = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
@@ -143,13 +143,17 @@ def main(access_key: str, secret_key: str) -> None:
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
         for size in sizes:
-            filepath = f"{ROOT_DIR}/seals/orig/{seal}"
-            aws_path = f"v2/{size}/{seal}"
-            if size != "orig":
-                filepath = resize_image(filepath, size)
-                aws_path = aws_path.replace(".svg", ".png")
-            upload(filepath, aws_path, access_key, secret_key)
-
+            if size == "orig":
+                aws_path = f"v2.1/orig/{seal.split('/')[-1]}"
+                print(f"Uploading to: https://seals.free.law/{aws_path}")
+                upload(seal, aws_path, access_key, secret_key)
+            else:
+                fn = seal.split('/')[-1].replace(".svg", ".png")
+                aws_path = f"v2.1/{size}/{fn}"
+                print(f"Uploading to: https://seals.free.law/{aws_path}")
+                new_path = resize_image(seal, size)
+                upload(new_path, aws_path, access_key, secret_key)
+        break
 
 if __name__ == "__main__":
     # This is mostly meant to be called from the github action but it could be
