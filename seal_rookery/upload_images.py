@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 import boto3
-# import pyvips
+import pyvips
 from boto3.s3.transfer import S3Transfer
 from PIL import Image
 from resizeimage import resizeimage
@@ -56,19 +56,14 @@ def resize_image(original: str, size: str) -> str:
     :return: The path to the new resized image
     """
     new_filepath = original.replace("orig", size)
-    # print(original)
-    print(new_filepath, "<------")
-    print(os.path.exists(os.path.dirname(new_filepath)))
     if not os.path.exists(os.path.dirname(new_filepath)):
-        # print("oook")
-        # print(os.path.exists(os.path.dirname(new_filepath)))
         os.mkdir(os.path.dirname(new_filepath))
 
     svg = True if "svg" in original else False
     if svg:
-        # image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
+        image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
-        # image.write_to_file(new_filepath)
+        image.write_to_file(new_filepath)
     else:
         with open(original, "r+b") as f:
             with Image.open(f) as image:
@@ -163,7 +158,6 @@ def main(access_key: str, secret_key: str) -> None:
                 resize_image(orig, size)
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
                 upload(fp, aws_path, access_key, secret_key)
-        break
 
 if __name__ == "__main__":
     # This is mostly meant to be called from the github action but it could be
