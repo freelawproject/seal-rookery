@@ -20,6 +20,7 @@ jobs:
           sudo apt-get install build-essential pkg-config libglib2.0-dev libexpat1-dev -y
           pip install -r requirements-ci.txt
       - name: Test install
+        working-directory: seal_rookery/
         run: |
           python3 upload_images.py
 #      - name: Upload portraits
