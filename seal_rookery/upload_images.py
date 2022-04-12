@@ -15,7 +15,7 @@ sizes = ["128", "256", "512", "1024", "orig"]
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 if ROOT_DIR.split("/")[-1] != "seal_rookery":
-    raise "Please run update from the judge_pics directory"
+    raise "Please run update from the seal_rookery directory"
 
 
 def upload(file_path, aws_path, access_key, secret_key) -> None:
@@ -83,7 +83,7 @@ def resize_image(original: str, size: str) -> str:
 
 
 def validate_json() -> bool:
-    """Validate the json file contains our new judges
+    """Validate the json file contains our new Seals
 
     :return: True if valid, else Raises an exception
     """
@@ -114,14 +114,14 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
     )
     s3 = session.resource("s3")
     bucket = s3.Bucket("seals.free.law")
-    aws_portraits = [
+    aws_seals = [
         x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2/orig/")
     ]
-    local_portraits = [
+    local_seals = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*.png")
     ]
-    judges_to_upload = set(aws_portraits) ^ set(local_portraits)
-    return sorted(list(judges_to_upload))
+    seals_to_upload = set(aws_seals) ^ set(local_seals)
+    return sorted(list(seals_to_upload))
 
 
 def main(access_key: str, secret_key: str) -> None:
@@ -131,7 +131,7 @@ def main(access_key: str, secret_key: str) -> None:
     :param secret_key: The s3 secret key
     :return: None
     """
-    # Check for duplicate judge files
+    # Check for duplicate seals files
     validate_json()
 
     # Check for files we need to upload
@@ -144,15 +144,13 @@ def main(access_key: str, secret_key: str) -> None:
             if size != "orig":
                 filepath = resize_image(filepath, size)
                 aws_path = aws_path.replace(".svg", ".png")
-            print(aws_path)
             upload(filepath, aws_path, access_key, secret_key)
-        break
 
 
 if __name__ == "__main__":
     # This is mostly meant to be called from the github action but it could be
     # called locally with the correct credentials.
-    parse = argparse.ArgumentParser(description="Create a new portrait")
+    parse = argparse.ArgumentParser(description="Create a new seal")
     parse.add_argument(
         "--access-key", "-a", help="The access key", required=True
     )
