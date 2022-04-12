@@ -158,11 +158,11 @@ def main(access_key: str, secret_key: str) -> None:
 
             if size == "orig":
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
-                # upload(orig, aws_path, access_key, secret_key)
+                upload(orig, aws_path, access_key, secret_key)
             else:
                 resize_image(orig, size)
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
-                # upload(fp, aws_path, access_key, secret_key)
+                upload(fp, aws_path, access_key, secret_key)
         break
 
 if __name__ == "__main__":
