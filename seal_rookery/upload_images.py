@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 import boto3
-import pyvips
+# import pyvips
 from boto3.s3.transfer import S3Transfer
 from PIL import Image
 from resizeimage import resizeimage
@@ -62,11 +62,11 @@ def resize_image(original: str, size: str) -> str:
     svg = True if "svg" in original else False
     if svg:
 
-        image = pyvips.Image.thumbnail(
-            original, int(size), height=int(size)
-        )
+        # image = pyvips.Image.thumbnail(
+        #     original, int(size), height=int(size)
+        # )
         new_filepath = new_filepath.replace(".svg", ".png")
-        image.write_to_file(new_filepath)
+        # image.write_to_file(new_filepath)
     else:
         with open(original, "r+b") as f:
             with Image.open(f) as image:
@@ -86,6 +86,8 @@ def resize_image(original: str, size: str) -> str:
                             image, int(size), validate=False
                         )
                 cover.save(new_filepath, image.format)
+    print(new_filepath)
+
     return new_filepath
 
 
@@ -143,9 +145,9 @@ def main(access_key: str, secret_key: str) -> None:
     validate_json()
 
     # Check for files we need to upload
-    # seals_to_upload = find_new_seals(access_key, secret_key)
-    seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
-    print(seals_to_upload)
+    seals_to_upload = find_new_seals(access_key, secret_key)
+    # seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
+    # print(seals_to_upload)
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
         print(f"Seal: {seal}")
@@ -157,9 +159,12 @@ def main(access_key: str, secret_key: str) -> None:
 
             if size == "orig":
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
+                print(orig)
                 upload(orig, aws_path, access_key, secret_key)
             else:
                 resize_image(orig, size)
+                aws_path = aws_path.replace(".svg", ".png")
+                fp = fp.replace(".svg", ".png")
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
                 upload(fp, aws_path, access_key, secret_key)
 
