@@ -35,11 +35,15 @@ def upload(file_path, aws_path, access_key, secret_key) -> None:
         aws_secret_access_key=secret_key,
     )
     transfer = S3Transfer(client)
+    if ".png" in file_path:
+        content_type = "image/png"
+    else:
+        content_type = "image/svg+xml"
     transfer.upload_file(
         file_path,
         bucket,
         aws_path,
-        extra_args={"ContentType": "image/png", "ACL": "public-read"},
+        extra_args={"ContentType": content_type, "ACL": "public-read"},
     )
     print(f"http://{bucket}.s3-us-west-2.amazonaws.com/{aws_path}")
 
@@ -118,7 +122,7 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
         x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2/orig/")
     ]
     local_seals = [
-        x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*.png")
+        x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
     ]
     seals_to_upload = set(aws_seals) ^ set(local_seals)
     return sorted(list(seals_to_upload))
