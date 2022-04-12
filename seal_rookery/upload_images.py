@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 import boto3
-import pyvips
+# import pyvips
 from boto3.s3.transfer import S3Transfer
 from PIL import Image
 from resizeimage import resizeimage
@@ -66,9 +66,9 @@ def resize_image(original: str, size: str) -> str:
 
     svg = True if "svg" in original else False
     if svg:
-        image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
+        # image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
-        image.write_to_file(new_filepath)
+        # image.write_to_file(new_filepath)
     else:
         with open(original, "r+b") as f:
             with Image.open(f) as image:
@@ -144,22 +144,25 @@ def main(access_key: str, secret_key: str) -> None:
     validate_json()
 
     # Check for files we need to upload
-    seals_to_upload = find_new_seals(access_key, secret_key)
-    # seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
+    # seals_to_upload = find_new_seals(access_key, secret_key)
+    seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
+    print(seals_to_upload)
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
         print(f"Seal: {seal}")
+        fn = seal.split("/")[-1]
         for size in sizes:
+            orig = f"{ROOT_DIR}/seals/orig/{fn}"
+            fp = f"{ROOT_DIR}/seals/{size}/{fn}"
+            aws_path = f"v2.1/{size}/{fn}"
+
             if size == "orig":
-                aws_path = f"v2.1/orig/{seal.split('/')[-1]}"
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
-                upload(seal, aws_path, access_key, secret_key)
+                # upload(orig, aws_path, access_key, secret_key)
             else:
-                fn = seal.split('/')[-1].replace(".svg", ".png")
-                aws_path = f"v2.1/{size}/{fn}"
-                new_path = resize_image(seal, size)
+                resize_image(orig, size)
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
-                upload(new_path, aws_path, access_key, secret_key)
+                # upload(fp, aws_path, access_key, secret_key)
         break
 
 if __name__ == "__main__":
