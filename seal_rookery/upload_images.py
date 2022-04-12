@@ -57,8 +57,8 @@ def resize_image(original: str, size: str) -> str:
     """
     new_filepath = original.replace("orig", size)
     # print(original)
-    # print(new_filepath)
-    # print(os.path.exists(os.path.dirname(new_filepath)))
+    print(new_filepath, "<------")
+    print(os.path.exists(os.path.dirname(new_filepath)))
     if not os.path.exists(os.path.dirname(new_filepath)):
         # print("oook")
         # print(os.path.exists(os.path.dirname(new_filepath)))
@@ -148,6 +148,7 @@ def main(access_key: str, secret_key: str) -> None:
     # seals_to_upload = sorted(glob.glob(f"{ROOT_DIR}/seals/orig/*"))
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
+        print(f"Seal: {seal}")
         for size in sizes:
             if size == "orig":
                 aws_path = f"v2.1/orig/{seal.split('/')[-1]}"
