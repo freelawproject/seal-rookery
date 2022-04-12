@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 
 import boto3
+import pyvips
 from boto3.s3.transfer import S3Transfer
 from PIL import Image
 from resizeimage import resizeimage
@@ -53,10 +54,31 @@ def resize_image(original: str, size: str) -> str:
     new_filepath = original.replace("orig", size)
     if not os.path.exists(os.path.dirname(new_filepath)):
         os.mkdir(os.path.dirname(new_filepath))
-    with open(original, "rb") as f:
-        img = Image.open(f)
-        img = resizeimage.resize_height(img, int(size), validate=False)
-        img.save(new_filepath, img.format)
+
+    svg = True if "svg" in original else False
+    if svg:
+        image = pyvips.Image.thumbnail(original, 200, height=int(size))
+        new_filepath = new_filepath.replace(".svg", ".png")
+        image.write_to_file(new_filepath)
+        print(new_filepath)
+    else:
+        with open(original, 'r+b') as f:
+            with Image.open(f) as image:
+                width, height = image.size
+                if height < 1024:
+                    ratio_height = (1024 / width) * height
+                    cover = resizeimage.resize_cover(image,
+                                                     [1024, ratio_height],
+                                                     validate=False)
+                else:
+                    if width > height:
+                        cover = resizeimage.resize_height(image, 1024,
+                                                          validate=False)
+                    else:
+                        cover = resizeimage.resize_width(image, 1024,
+                                                         validate=False)
+
+                cover.save(new_filepath, image.format)
     return new_filepath
 
 
