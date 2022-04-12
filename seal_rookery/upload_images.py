@@ -61,7 +61,10 @@ def resize_image(original: str, size: str) -> str:
 
     svg = True if "svg" in original else False
     if svg:
-        image = pyvips.Image.thumbnail(original, width=int(size), height=int(size))
+
+        image = pyvips.Image.thumbnail(
+            original, int(size), height=int(size)
+        )
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
     else:
@@ -119,7 +122,8 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
     s3 = session.resource("s3")
     bucket = s3.Bucket("seals.free.law")
     aws_seals = [
-        x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2.1/orig/")
+        x.key.split("/")[-1]
+        for x in bucket.objects.filter(Prefix="v2.1/orig/")
     ]
     local_seals = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
@@ -158,6 +162,7 @@ def main(access_key: str, secret_key: str) -> None:
                 resize_image(orig, size)
                 print(f"Uploading to: https://seals.free.law/{aws_path}")
                 upload(fp, aws_path, access_key, secret_key)
+
 
 if __name__ == "__main__":
     # This is mostly meant to be called from the github action but it could be
