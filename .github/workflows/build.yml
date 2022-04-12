@@ -16,8 +16,16 @@ jobs:
       - name: Install stuff
         run: |
           sudo apt-get update
+          sudo apt-get update --option "Acquire::Retries=3" --quiet=2 && \
+              apt-get install \
+                  --no-install-recommends \
+                  --assume-yes \
+                  --quiet=2 \
+                  # So we can use Python-slim
+                  build-essential gcc python-dev git \
+                  pkg-config libglib2.0-dev libexpat1-dev \
+                  libvips
           sudo apt-get install imagemagick -y
-          sudo apt-get install build-essential pkg-config libglib2.0-dev libexpat1-dev -y
           pip install -r requirements-ci.txt
       - name: Test install
         working-directory: seal_rookery/
