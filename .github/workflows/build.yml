@@ -19,6 +19,7 @@ jobs:
           sudo apt-get install build-essential gcc python-dev git pkg-config libglib2.0-dev libexpat1-dev libvips
           sudo apt-get install imagemagick -y
           pip install -r requirements-ci.txt
+          pip install -r requirements-dev.txt
       - name: Upload Seals
         working-directory: seal_rookery/
         run: |
