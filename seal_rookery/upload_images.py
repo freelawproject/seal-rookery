@@ -56,9 +56,9 @@ def resize_image(original: str, size: str) -> str:
     :return: The path to the new resized image
     """
     new_filepath = original.replace("orig", size)
-    # print(original)
-    # print(new_filepath)
-    # print(os.path.exists(os.path.dirname(new_filepath)))
+    print(original)
+    print(new_filepath)
+    print(os.path.exists(os.path.dirname(new_filepath)))
     if not os.path.exists(os.path.dirname(new_filepath)):
         # print("oook")
         # print(os.path.exists(os.path.dirname(new_filepath)))
