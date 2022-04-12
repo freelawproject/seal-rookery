@@ -61,24 +61,24 @@ def resize_image(original: str, size: str) -> str:
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
     else:
-        with open(original, 'r+b') as f:
+        with open(original, "r+b") as f:
             with Image.open(f) as image:
                 width, height = image.size
                 if height < 1024:
                     ratio_height = (1024 / width) * height
-                    cover = resizeimage.resize_cover(image,
-                                                     [1024, ratio_height],
-                                                     validate=False)
+                    cover = resizeimage.resize_cover(
+                        image, [1024, ratio_height], validate=False
+                    )
                 else:
                     if width > height:
-                        cover = resizeimage.resize_height(image, 1024,
-                                                          validate=False)
+                        cover = resizeimage.resize_height(
+                            image, 1024, validate=False
+                        )
                     else:
-                        cover = resizeimage.resize_width(image, 1024,
-                                                         validate=False)
-
+                        cover = resizeimage.resize_width(
+                            image, 1024, validate=False
+                        )
                 cover.save(new_filepath, image.format)
-    print(new_filepath)
     return new_filepath
 
 
@@ -90,7 +90,7 @@ def validate_json() -> bool:
     with Path(ROOT_DIR, "seals", "seals.json").open() as f:
         seals = json.load(f)
 
-    seals_in_json = [k for k, v in seals.items() if v['has_seal']]
+    seals_in_json = [k for k, v in seals.items() if v["has_seal"]]
 
     seals = [
         x.split("/")[-1][:-4] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
@@ -136,7 +136,6 @@ def main(access_key: str, secret_key: str) -> None:
 
     # Check for files we need to upload
     seals_to_upload = find_new_seals(access_key, secret_key)
-    print(seals_to_upload)
     # Generate new file sizes and upload them to the server
     for seal in list(seals_to_upload):
         for size in sizes:
@@ -144,8 +143,10 @@ def main(access_key: str, secret_key: str) -> None:
             aws_path = f"v2/{size}/{seal}"
             if size != "orig":
                 filepath = resize_image(filepath, size)
-                aws_path.replace("orig", size)
-            # upload(filepath, aws_path, access_key, secret_key)
+                aws_path = aws_path.replace(".svg", ".png")
+            print(aws_path)
+            upload(filepath, aws_path, access_key, secret_key)
+        break
 
 
 if __name__ == "__main__":

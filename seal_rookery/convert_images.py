@@ -61,9 +61,9 @@ def resize_image(orig, output, size, verbosity):
 
 def convert_image(image, count, total):
     if args.verbose:
-        sys.stdout.write(u"\nProcessing: {}".format(image))
+        sys.stdout.write("\nProcessing: {}".format(image))
     else:
-        sys.stdout.write(u"\rUpdating seals: {} of {}".format(count, total))
+        sys.stdout.write("\rUpdating seals: {} of {}".format(count, total))
         sys.stdout.flush()
     court_id = image.split(".")[0]
     final_name = "{}.png".format(court_id)
