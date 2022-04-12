@@ -1415,7 +1415,7 @@
         "notes": ""
     },
     "nywb": {
-        "has_seal": false,
+        "has_seal": true,
         "hash": "ac530b3987d371ca04910cc175edae910c4b15a5dad5af9cc57d4de43ffd24cc",
         "name": "United States Bankruptcy Court, W.D. New York",
         "notes": ""
@@ -1971,7 +1971,7 @@
         "notes": ""
     },
     "wawb": {
-        "has_seal": false,
+        "has_seal": true,
         "hash": "e77b07f777361d8200b53243281b798c931d8a0a6d913f41eabee543cd14695d",
         "name": "United States Bankruptcy Court, W.D. Washington",
         "notes": ""

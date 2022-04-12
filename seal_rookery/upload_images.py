@@ -60,7 +60,6 @@ def resize_image(original: str, size: str) -> str:
         image = pyvips.Image.thumbnail(original, 200, height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
-        print(new_filepath)
     else:
         with open(original, 'r+b') as f:
             with Image.open(f) as image:
@@ -79,6 +78,7 @@ def resize_image(original: str, size: str) -> str:
                                                          validate=False)
 
                 cover.save(new_filepath, image.format)
+    print(new_filepath)
     return new_filepath
 
 
