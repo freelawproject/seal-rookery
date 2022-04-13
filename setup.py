@@ -2,12 +2,11 @@ from __future__ import print_function
 
 import os
 
-from setuptools import setup, find_packages, Command
-from setuptools.command.install_lib import install_lib as _install_lib
+from setuptools import setup, find_packages
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = "2.1.4"
+VERSION = "2.1.5"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 NAME = "seal_rookery"
@@ -34,31 +33,6 @@ with open("README.rst") as f:
     README = f.read()
 
 
-class install_lib(_install_lib):
-    def run(self):
-        _install_lib.run(self)
-        print("========================================================")
-        print(' Run "update-seals -f" after install to generate seals! ')
-        print("========================================================")
-
-
-class convert(Command):
-    description = "run the image conversion process"
-
-    user_options = []
-
-    def initialize_options(self):
-        pass
-
-    def finalize_options(self):
-        pass
-
-    def run(self):
-        from seal_rookery import convert_images
-
-        convert_images.convert_images()
-
-
 setup(
     name=NAME,
     packages=find_packages(exclude=("tests",)),
@@ -78,14 +52,5 @@ setup(
     keywords=KEYWORDS,
     classifiers=CLASSIFIERS,
     test_suite="test",
-    cmdclass={
-        "convert": convert,
-        "install_lib": install_lib,
-    },
-    entry_points={
-        "console_scripts": [
-            "update-seals = seal_rookery.convert_images:main",
-        ],
-    },
     zip_safe=False,
 )
