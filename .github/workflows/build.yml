@@ -2,8 +2,8 @@ name: Upload
 
 on:
   push:
-    tags:
-      - v*.*.*
+#    tags:
+#      - v*.*.*
 
 jobs:
   upload:
@@ -19,6 +19,8 @@ jobs:
           sudo apt-get install build-essential gcc python-dev git pkg-config libglib2.0-dev libexpat1-dev libvips
           sudo apt-get install imagemagick -y
           sudo apt-get install python3-pip -y
+          sudo apt-get install python-pip -y
+          python -m pip install --upgrade pip
       - name: Install req.
         run: |
           pip3 install -r requirements-ci.txt
