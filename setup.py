@@ -35,9 +35,7 @@ setup(
     name=NAME,
     packages=find_packages(exclude=("tests",)),
     include_package_data=True,
-    package_data={
-        "seal_rookery": ["seals/*.json"]
-    },
+    package_data={"seal_rookery": ["seals/*.json"]},
     version=VERSION,
     description="A collection of court seals that can be used in any project.",
     long_description=README,
