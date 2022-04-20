@@ -1,0 +1,3 @@
+include README.rst LICENSE.txt requirements.txt
+include seal_rookery/seals/seals.json
+graft seal_rookery/seals/orig

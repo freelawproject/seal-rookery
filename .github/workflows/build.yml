@@ -1,0 +1,42 @@
+name: Upload
+
+on:
+  push:
+    tags:
+      - v*.*.*
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+         format: space-delimited
+         token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install stuff
+        run: |
+          sudo apt-get update
+          sudo apt-get install build-essential gcc python-dev git pkg-config libglib2.0-dev libexpat1-dev libvips
+          sudo apt-get install imagemagick -y
+          sudo apt-get install python3-pip -y
+          python -m pip install --upgrade pip
+      - name: Install req.
+        run: |
+          pip3 install -r requirements-ci.txt
+          pip3 install -r requirements-dev.txt
+      - name: Upload Seals
+        working-directory: seal_rookery/
+        run: |
+          python3 upload_images.py \
+          -a ${{ secrets.AWS_ACCESS_KEY }} \
+          -s ${{ secrets.AWS_SECRET_KEY }}
+      - name: Publish package
+        uses: casperdcl/deploy-pypi@v2
+        with:
+          password: ${{ secrets.pypi_token }}
+          build: true
