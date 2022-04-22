@@ -121,7 +121,7 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
     bucket = s3.Bucket("seals.free.law")
     aws_seals = [
         x.key.split("/")[-1]
-        for x in bucket.objects.filter(Prefix="v2.1/orig/")
+        for x in bucket.objects.filter(Prefix="v2/orig/")
     ]
     local_seals = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
@@ -150,7 +150,7 @@ def main(access_key: str, secret_key: str) -> None:
         for size in sizes:
             orig = f"{ROOT_DIR}/seals/orig/{fn}"
             fp = f"{ROOT_DIR}/seals/{size}/{fn}"
-            aws_path = f"v2.1/{size}/{fn}"
+            aws_path = f"v2/{size}/{fn}"
 
             if size == "orig":
                 print(f"Uploading to: https://seals.free.law/{aws_path}")

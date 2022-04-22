@@ -42,7 +42,7 @@ def seal(court: str, size: SIZES = ImageSizes.MEDIUM) -> Optional[str]:
     if size == ImageSizes.ORIGINAL:
         if glob.glob(f"{ROOT}/seals/orig/{court}.*"):
             file = glob.glob(f"{ROOT}/seals/orig/{court}.*")[0].split("/")[-1]
-            return f"https://seals.free.law/v2.1/{size.value}/{file}"
+            return f"https://seals.free.law/v2/{size.value}/{file}"
         return None
     else:
-        return f"https://seals.free.law/v2.1/{size.value}/{court}.png"
+        return f"https://seals.free.law/v2/{size.value}/{court}.png"

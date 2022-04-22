@@ -27,7 +27,7 @@ CLASSIFIERS = [
 URL = "https://github.com/freelawproject/seal-rookery"
 DOWNLOAD_URL = "%s/archive/%s.tar.gz" % (URL, VERSION)
 
-with open("README.rst") as f:
+with open("README.md") as f:
     README = f.read()
 
 
