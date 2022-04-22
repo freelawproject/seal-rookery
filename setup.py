@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = "2.2.0"
+VERSION = "2.2.1"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 NAME = "seal_rookery"
@@ -39,6 +39,7 @@ setup(
     version=VERSION,
     description="A collection of court seals that can be used in any project.",
     long_description=README,
+    long_description_content_type="text/markdown",
     author=AUTHOR,
     author_email=EMAIL,
     maintainer=AUTHOR,
