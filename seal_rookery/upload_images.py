@@ -120,8 +120,7 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
     s3 = session.resource("s3")
     bucket = s3.Bucket("seals.free.law")
     aws_seals = [
-        x.key.split("/")[-1]
-        for x in bucket.objects.filter(Prefix="v2/orig/")
+        x.key.split("/")[-1] for x in bucket.objects.filter(Prefix="v2/orig/")
     ]
     local_seals = [
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
