@@ -14,9 +14,18 @@ And then use that package to get the URL of a court's seal:
 
     >>> from seal_rookery.search import seal, ImageSizes
     >>> seal("ca9", ImageSizes.SMALL)
-    'https://seals.free.law/v2/256/ca9.png'
+    'https://seals.free.law/v2/128/ca9.png'
 
-You can request images in one of the following sizes:
+Now that you have the URL of the court's seal in a useful size, just embed it in your application. Perhaps:
+
+```html
+<img src="'https://seals.free.law/v2/128/ca9.png" 
+     height=128 />
+```
+
+One thing we don't currently do is provide a consistent width for the photos. This is because our sources are not consistent, and we opted to set the height consistently instead of the width. You can work around this by using the `width` attribute of the `img` tag instead of the `height` (in which case the browser will scale it for you), or by just ignoring the `width` attribute and letting the photo  have slightly varying widths on your page.
+
+You can request images in one of the following heights:
 
 ```python
 class ImageSizes(Enum):
@@ -29,7 +38,7 @@ class ImageSizes(Enum):
 
 Selecting `ImageSizes.ORIGINAL` will give you a link to the original image that we have in our collection. You'd want to use this to make custom sized images, say.
 
-For questions about the reliability, pricing, privacy, and security of the service see [the readme file for the judge-pics repository][jps].
+For questions about the reliability, pricing, versioning, privacy, and security of the service see [the readme file for the judge-pics repository][jps].
 
 
 ## Contributing
