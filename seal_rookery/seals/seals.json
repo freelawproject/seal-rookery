@@ -990,7 +990,7 @@
         "notes": "Completed as part of initial version."
     },
     "me": {
-        "has_seal": false,
+        "has_seal": true,
         "name": "Supreme Judicial Court of Maine",
         "notes": ""
     },
