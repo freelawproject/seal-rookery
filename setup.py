@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 SETUP_DIR = os.path.dirname(os.path.abspath(__file__))
 
-VERSION = "2.2.1"
+VERSION = "2.2.2"
 AUTHOR = "Free Law Project"
 EMAIL = "info@free.law"
 NAME = "seal_rookery"
