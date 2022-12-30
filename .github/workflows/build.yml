@@ -21,7 +21,7 @@ jobs:
       - name: Install stuff
         run: |
           sudo apt-get update
-          sudo apt-get install build-essential gcc python-dev git pkg-config libglib2.0-dev libexpat1-dev libvips
+          sudo apt-get install build-essential gcc git pkg-config libglib2.0-dev libexpat1-dev libvips
           sudo apt-get install imagemagick -y
           sudo apt-get install python3-pip -y
           python -m pip install --upgrade pip
