@@ -1042,7 +1042,8 @@
         "notes": ""
     },
     "miss": {
-        "has_seal": false,
+        "has_seal": true,
+        "hash": "e4311ca01414d21f31e4a3f36f961f2367f917ad7e01b83fdbca740412389830",
         "name": "Mississippi Supreme Court",
         "notes": ""
     },
@@ -1725,7 +1726,8 @@
         "notes": ""
     },
     "tenn": {
-        "has_seal": false,
+        "has_seal": true,
+        "hash": "cd539db94a9a9b65512dff8e26f6a0e71dac641f04c6a123da2b81f332a6454c",
         "name": "Tennessee Supreme Court",
         "notes": ""
     },
