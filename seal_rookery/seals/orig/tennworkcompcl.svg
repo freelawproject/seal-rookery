@@ -270,12 +270,12 @@
    d="m 378.127,281.676 c -20.57,4.617 -20.82,5.609 -39.055,-0.258 -4.461,-1.438 -4.25,-3.055 -2.781,-5.211 1.461,-2.164 12.008,-20.453 12.039,-36.141 0.023,-15.688 -16.109,-33.828 -16.109,-33.828 20.797,-5.781 28.617,-5.914 55.25,0.523 0,0 -16.734,17.594 -17.227,33.273 -0.508,15.68 9.43,34.312 10.82,36.523 1.392,2.205 1.642,4.08 -2.937,5.119 z"
    id="path107"
    style="fill:#b9b707" />
-		
+
 			<path
    d="m 351.237,279.637 c 1.555,-7.125 2.117,-12.68 3.594,-15.039 m 11.187,14.492 c 0,0 1.195,-14.281 0.758,-17.07 m -4.727,-30.664 c -0.094,5.961 -3.844,30.523 -1.539,35.328 m 9.414,-51.078 c -1.062,7.133 -4.875,36.062 -1.219,44.859 m -17.812,-45.578 c 3.211,7.203 7.234,37.453 -2.297,51.992"
    id="path109"
    style="fill:none;stroke:#7b6e0d;stroke-width:1.58580005;stroke-linecap:round;stroke-dasharray:4.7575, 3.9644, 2.3786, 3.1717" />
-		
+
 			<line
    x1="346.97101"
    y1="241.629"
@@ -283,7 +283,7 @@
    y2="242.18401"
    id="line111"
    style="fill:none;stroke:#000000;stroke-width:3.33010006;stroke-linecap:round" />
-		
+
 			<line
    x1="346.97101"
    y1="241.629"
@@ -291,7 +291,7 @@
    y2="242.18401"
    id="line113"
    style="fill:none;stroke:#404040;stroke-width:2.77509999;stroke-linecap:round" />
-		
+
 			<line
    x1="346.97101"
    y1="241.629"
@@ -299,7 +299,7 @@
    y2="242.18401"
    id="line115"
    style="fill:none;stroke:#808080;stroke-width:2.22020006;stroke-linecap:round" />
-		
+
 			<line
    x1="346.97101"
    y1="241.629"
@@ -307,7 +307,7 @@
    y2="242.18401"
    id="line117"
    style="fill:none;stroke:#bfbfbf;stroke-width:1.6652;stroke-linecap:round" />
-		
+
 			<line
    x1="346.97101"
    y1="241.629"
@@ -768,7 +768,7 @@
    y2="465.01999"
    id="line331"
    style="fill:#c9c5a5" />
-		
+
 			<line
    x1="398.159"
    y1="331.13699"
@@ -783,7 +783,7 @@
    y2="466.15302"
    id="line335"
    style="fill:#c9c5a5" />
-		
+
 			<line
    x1="399.29199"
    y1="329.99701"
@@ -915,7 +915,7 @@
    d="m 395.331,480.176 c 0,-7.695 0,-8.914 0,-13.375 0,-4.461 -7.273,-4.867 -7.273,0 0,4.867 0,12.969 0,12.969 l 7.273,0.406 z"
    id="path397"
    style="fill:#999999" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -923,7 +923,7 @@
    y2="330.76999"
    id="line399"
    style="fill:none;stroke:#685d0c;stroke-width:5.09719992;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -931,7 +931,7 @@
    y2="330.76999"
    id="line401"
    style="fill:none;stroke:#7e7530;stroke-width:4.51749992;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -939,7 +939,7 @@
    y2="330.76999"
    id="line403"
    style="fill:none;stroke:#968e55;stroke-width:3.9375999;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -947,7 +947,7 @@
    y2="330.76999"
    id="line405"
    style="fill:none;stroke:#aca67a;stroke-width:3.35770011;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -955,7 +955,7 @@
    y2="330.76999"
    id="line407"
    style="fill:none;stroke:#c3be9e;stroke-width:2.77800012;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -963,7 +963,7 @@
    y2="330.76999"
    id="line409"
    style="fill:none;stroke:#d9d6c2;stroke-width:2.19779992;stroke-linecap:round" />
-		
+
 			<line
    x1="436.776"
    y1="330.76999"
@@ -1028,7 +1028,7 @@
    d="m 351.596,419.184 c 6.219,0.57 20.258,-1.602 24.875,-6.234 5.086,-5.109 5.938,-10.5 6.227,-10.781 0.273,-0.289 14.492,-0.18 20.07,-6.234 3.391,-3.688 7.906,-12.484 9.047,-17.594 0,0 13.031,-0.609 22.891,-11.914 7.922,-9.078 6.5,-21.836 6.227,-26.094 l -89.337,78.851 z"
    id="path429"
    style="fill:none;stroke:#000000;stroke-width:1.61819994" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1036,7 +1036,7 @@
    y2="417.56699"
    id="line431"
    style="fill:none;stroke:#685d0c;stroke-width:5.09719992;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1044,7 +1044,7 @@
    y2="417.56699"
    id="line433"
    style="fill:none;stroke:#7e7530;stroke-width:4.51749992;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1052,7 +1052,7 @@
    y2="417.56699"
    id="line435"
    style="fill:none;stroke:#968e55;stroke-width:3.9375999;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1060,7 +1060,7 @@
    y2="417.56699"
    id="line437"
    style="fill:none;stroke:#aca67a;stroke-width:3.35770011;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1068,7 +1068,7 @@
    y2="417.56699"
    id="line439"
    style="fill:none;stroke:#c3be9e;stroke-width:2.77800012;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1076,7 +1076,7 @@
    y2="417.56699"
    id="line441"
    style="fill:none;stroke:#d9d6c2;stroke-width:2.19779992;stroke-linecap:round" />
-		
+
 			<line
    x1="440.229"
    y1="338.93399"
@@ -1154,7 +1154,7 @@
    d="m 405.104,367.356 c 0.281,2.273 3.875,9.57 6.711,10.984 m -36.391,14.828 c 0.273,2.844 6.133,10.133 8.117,9.57"
    id="path469"
    style="fill:none;stroke:#000000;stroke-width:1.61819994;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1162,7 +1162,7 @@
    y2="331.45801"
    id="line471"
    style="fill:none;stroke:#685d0c;stroke-width:5.09719992;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1170,7 +1170,7 @@
    y2="331.45801"
    id="line473"
    style="fill:none;stroke:#7e7530;stroke-width:4.51749992;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1178,7 +1178,7 @@
    y2="331.45801"
    id="line475"
    style="fill:none;stroke:#968e55;stroke-width:3.9375999;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1186,7 +1186,7 @@
    y2="331.45801"
    id="line477"
    style="fill:none;stroke:#aca67a;stroke-width:3.35770011;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1194,7 +1194,7 @@
    y2="331.45801"
    id="line479"
    style="fill:none;stroke:#c3be9e;stroke-width:2.77800012;stroke-linecap:round" />
-		
+
 			<line
    x1="400.659"
    y1="275.98099"
@@ -1209,7 +1209,7 @@
    y2="275.98099"
    id="line483"
    style="fill:#85bd68" />
-		
+
 			<line
    x1="400.659"
    y1="331.45801"
@@ -1217,7 +1217,7 @@
    y2="275.98099"
    id="line485"
    style="fill:none;stroke:#f0eee6;stroke-width:1.61819994;stroke-linecap:round" />
-		
+
 			<line
    x1="399.29199"
    y1="331.13699"
@@ -1232,7 +1232,7 @@
    y2="479.76999"
    id="line489"
    style="fill:#c9c5a5" />
-		
+
 			<line
    x1="399.29199"
    y1="332.26999"
@@ -3087,27 +3087,27 @@
    d="M 358.581,360.629"
    id="path1441"
    style="fill:#ffffff" />
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<path
    d="m 604.995,205.629 c -7.492,4.344 -12.266,11.43 -8.445,18.047 5.031,8.734 12.492,7.164 19.305,3.211 7.5,-4.344 12.32,-11.461 8.508,-18.078 -5.04,-8.734 -12.54,-7.141 -19.368,-3.18 z"
    id="path1473"
    style="fill:none;stroke:#000000;stroke-width:0" />
-		
-		
+
+
 	</g>
 </g>
 </svg>
