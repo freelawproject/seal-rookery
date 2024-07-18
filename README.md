@@ -19,7 +19,7 @@ And then use that package to get the URL of a court's seal:
 Now that you have the URL of the court's seal in a useful size, just embed it in your application. Perhaps:
 
 ```html
-<img src="https://seals.free.law/v2/128/ca9.png" 
+<img src="https://seals.free.law/v2/128/ca9.png"
      height=128 />
 ```
 

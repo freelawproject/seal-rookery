@@ -1042,7 +1042,8 @@
         "notes": ""
     },
     "miss": {
-        "has_seal": false,
+        "has_seal": true,
+        "hash": "e4311ca01414d21f31e4a3f36f961f2367f917ad7e01b83fdbca740412389830",
         "name": "Mississippi Supreme Court",
         "notes": ""
     },
@@ -1725,7 +1726,8 @@
         "notes": ""
     },
     "tenn": {
-        "has_seal": false,
+        "has_seal": true,
+        "hash": "48612a2a2d4d78f23fd5066e70ad1d09aa5533d77e86f3b588b8ab29eaeeb9bb",
         "name": "Tennessee Supreme Court",
         "notes": ""
     },
@@ -1747,6 +1749,18 @@
     "tennesseeb": {
         "has_seal": false,
         "name": "United States Bankruptcy Court, D. Tennessee",
+        "notes": ""
+    },
+    "tennworkcompcl": {
+        "has_seal": true,
+        "hash": "cd539db94a9a9b65512dff8e26f6a0e71dac641f04c6a123da2b81f332a6454c",
+        "name": "Tennessee Court of Workers' Compensation Claims",
+        "notes": ""
+    },
+    "tennworkcompapp": {
+        "has_seal": true,
+        "hash": "cd539db94a9a9b65512dff8e26f6a0e71dac641f04c6a123da2b81f332a6454c",
+        "name": "Tennessee Workers' Compensation Appeals Board",
         "notes": ""
     },
     "tex": {
