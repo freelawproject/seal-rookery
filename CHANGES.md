@@ -24,5 +24,5 @@
 - Added `CHANGES.md` file.
 - Implemented a workflow to check for new entries in `CHANGES.md`.
 
-### 2.2.5 (2024-07-18)  
-- Added **Mississippi** and **Tennessee** seals.  
+### 2.2.5 (2024-07-18)
+- Added **Mississippi** and **Tennessee** seals.
