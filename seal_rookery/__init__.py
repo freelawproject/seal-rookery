@@ -30,10 +30,16 @@ class _SealRookery(object):
         :return: dict of seals.json data, empty dict if not found
         """
         try:
-            with open(os.path.join(self.seals_root, "seals.json"), "r", encoding="utf-8") as f:
+            with open(
+                os.path.join(self.seals_root, "seals.json"),
+                "r",
+                encoding="utf-8",
+            ) as f:
                 return json.load(f)
         except IOError:
-            print(f"Seals json missing or not generated yet: {os.path.join(self.seals_root, 'seals.json')}")
+            print(
+                f"Seals json missing or not generated yet: {os.path.join(self.seals_root, 'seals.json')}"
+            )
             return json.loads("{}")
 
 
