@@ -10,7 +10,12 @@ repos:
     -   id: check-added-large-files
 
 -   repo: https://github.com/psf/black
-    rev: 23.11.0  # Use the latest stable version
+    rev: 25.1.0  # Use the latest stable version
     hooks:
     -   id: black
-        language_version: python3  # Ensures it runs with Python 3
+
+-   repo: https://github.com/PyCQA/isort
+    rev: 6.0.0
+    hooks:
+    -   id: isort
+        name: isort (python)
