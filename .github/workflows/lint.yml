@@ -3,14 +3,9 @@ name: Lint
 on: [push, pull_request]
 
 jobs:
-  lint:
+  pre-commit:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-          # Once codebase is updated, this can easily be changed to any specific version.
-          python-version: "3.8"
-
-      - name: Black Code Formatter
-        uses: psf/black@stable
+      - uses: pre-commit/action@v3.0.0

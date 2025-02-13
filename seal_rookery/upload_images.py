@@ -15,7 +15,7 @@ sizes = ["128", "256", "512", "1024", "orig"]
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 if ROOT_DIR.split("/")[-1] != "seal_rookery":
-    raise "Please run update from the seal_rookery directory"
+    raise RuntimeError("Please run update from the seal_rookery directory")
 
 
 def upload(file_path, aws_path, access_key, secret_key) -> None:
@@ -61,7 +61,6 @@ def resize_image(original: str, size: str) -> str:
 
     svg = True if "svg" in original else False
     if svg:
-
         image = pyvips.Image.thumbnail(original, int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
@@ -92,7 +91,7 @@ def validate_json() -> bool:
 
     :return: True if valid, else Raises an exception
     """
-    with Path(ROOT_DIR, "seals", "seals.json").open() as f:
+    with Path(ROOT_DIR, "seals", "seals.json").open(encoding="utf-8") as f:
         seals = json.load(f)
 
     seals_in_json = [k for k, v in seals.items() if v["has_seal"]]
@@ -104,7 +103,7 @@ def validate_json() -> bool:
     if not missing_seals:
         return True
 
-    raise Exception(f"Missing entry for: {' '.join(missing_seals)}")
+    raise ValueError(f"Missing entry for: {' '.join(missing_seals)}")
 
 
 def find_new_seals(access_key: str, secret_key: str) -> list:
