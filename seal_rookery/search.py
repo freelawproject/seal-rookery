@@ -8,7 +8,7 @@ from typing import Literal, Optional
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
-with Path(ROOT, "seals", "seals.json").open() as f:
+with Path(ROOT, "seals", "seals.json").open(encoding="utf-8") as f:
     seals = json.load(f)
 
 
