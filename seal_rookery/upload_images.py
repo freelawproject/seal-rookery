@@ -61,7 +61,6 @@ def resize_image(original: str, size: str) -> str:
 
     svg = True if "svg" in original else False
     if svg:
-
         image = pyvips.Image.thumbnail(original, int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
