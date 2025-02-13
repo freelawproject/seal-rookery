@@ -8,7 +8,7 @@
 
  - Remove support for python 3.7 and 3.8
  - Fixed pylint warnings and errors like missing encoding in open(), raising
- too general exception, unused import
+ too general exception, unused import, fix string formatting
  - Update workflow files to match new python versions
 
 ## Current Version
