@@ -36,7 +36,7 @@ def seal(court: str, size: SIZES = ImageSizes.MEDIUM) -> Optional[str]:
     :param size: The size of the seal you want a URL for..
     :return A URL to the image.
     """
-    if court not in seals.keys():
+    if court not in seals:
         return None
     if size == ImageSizes.ORIGINAL:
         if glob.glob(f"{ROOT}/seals/orig/{court}.*"):
