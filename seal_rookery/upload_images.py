@@ -59,30 +59,28 @@ def resize_image(original: str, size: str) -> str:
     if not os.path.exists(os.path.dirname(new_filepath)):
         os.mkdir(os.path.dirname(new_filepath))
 
-    svg = True if "svg" in original else False
-    if svg:
+    if "svg" in original:
         image = pyvips.Image.thumbnail(original, int(size), height=int(size))
         new_filepath = new_filepath.replace(".svg", ".png")
         image.write_to_file(new_filepath)
     else:
-        with open(original, "r+b") as f:
-            with Image.open(f) as image:
-                width, height = image.size
-                if height < int(size):
-                    ratio_height = (int(size) / width) * height
-                    cover = resizeimage.resize_cover(
-                        image, [int(size), ratio_height], validate=False
+        with open(original, "r+b") as f, Image.open(f) as image:
+            width, height = image.size
+            if height < int(size):
+                ratio_height = (int(size) / width) * height
+                cover = resizeimage.resize_cover(
+                    image, [int(size), ratio_height], validate=False
+                )
+            else:
+                if width > height:
+                    cover = resizeimage.resize_height(
+                        image, int(size), validate=False
                     )
                 else:
-                    if width > height:
-                        cover = resizeimage.resize_height(
-                            image, int(size), validate=False
-                        )
-                    else:
-                        cover = resizeimage.resize_width(
-                            image, int(size), validate=False
-                        )
-                cover.save(new_filepath, image.format)
+                    cover = resizeimage.resize_width(
+                        image, int(size), validate=False
+                    )
+            cover.save(new_filepath, image.format)
     return new_filepath
 
 
@@ -99,7 +97,7 @@ def validate_json() -> bool:
     seals = [
         x.split("/")[-1][:-4] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
     ]
-    missing_seals = sorted(list(set(seals_in_json) ^ set(seals)))
+    missing_seals = sorted(set(seals_in_json) ^ set(seals))
     if not missing_seals:
         return True
 
@@ -125,7 +123,7 @@ def find_new_seals(access_key: str, secret_key: str) -> list:
         x.split("/")[-1] for x in glob.glob(f"{ROOT_DIR}/seals/orig/*")
     ]
     seals_to_upload = set(aws_seals) ^ set(local_seals)
-    return sorted(list(seals_to_upload))
+    return sorted(seals_to_upload)
 
 
 def main(access_key: str, secret_key: str) -> None:

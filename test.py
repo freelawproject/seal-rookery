@@ -19,7 +19,6 @@ class PackagingTests(unittest.TestCase):
 
             self.assertTrue(seals_data["ca1"]["has_seal"])
 
-            # Avoid pylint warning
             self.assertIsNotNone(seals_root)
 
         except ImportError:

@@ -2,7 +2,7 @@ import json
 import os
 
 
-class _SealRookery(object):
+class _SealRookery:
     """
     Wrapper for turning seals information into method-backed properties
     allowing the file system hits to be deferred.
@@ -32,11 +32,10 @@ class _SealRookery(object):
         try:
             with open(
                 os.path.join(self.seals_root, "seals.json"),
-                "r",
                 encoding="utf-8",
             ) as f:
                 return json.load(f)
-        except IOError:
+        except OSError:
             print(
                 f"Seals json missing or not generated yet: {os.path.join(self.seals_root, 'seals.json')}"
             )
