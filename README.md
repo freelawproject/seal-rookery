@@ -6,7 +6,7 @@ Original files can be found in the `orig` directory and an index file can be fou
 
 ## Using this Project
 
-This system is exceedingly simple. To use this it, install the judge pics package from pypi:
+This system is exceedingly simple. To use this it, install the package from pypi:
 
     pip install seal-rookery
 
