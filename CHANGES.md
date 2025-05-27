@@ -4,7 +4,7 @@
 - N/A
 
 ## Upcoming Changes
-- N/A
+- Support Python 3.13
 
 ## Current Version
 
