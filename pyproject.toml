@@ -1,3 +1,42 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+  "setuptools",
+]
+
+[project]
+name = "seal-rookery"
+version = "2.3.1"
+description = "A collection of court seals that can be used in any project."
+readme = "README.md"
+keywords = [ "legal", "seals" ]
+license = "Unlicense"
+license-files = [ "LICENSE.txt" ]
+authors = [
+  { name = "Free Law Project", email = "info@free.law" },
+]
+requires-python = ">=3.9"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+urls.Repository = "https://github.com/freelawproject/seal-rookery"
+
+[tool.setuptools]
+packages = [ "seal_rookery" ]
+
 [tool.ruff]
 line-length = 79
 lint.select = [
