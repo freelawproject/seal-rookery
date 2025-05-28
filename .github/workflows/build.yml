@@ -15,9 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with:
-         format: space-delimited
-         token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install stuff
         run: |
           sudo apt-get update
