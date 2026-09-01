@@ -8,13 +8,15 @@ on:
 jobs:
   upload:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.9"]
 
     steps:
       - uses: actions/checkout@v4
+      # requirements-ci.txt needs Python >= 3.10 (see the Pillow note there).
+      # The matrix that used to sit here was never wired into setup-python, so
+      # this job silently ran on whatever the runner defaulted to.
       - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
       - name: Install stuff
         run: |
           sudo apt-get update

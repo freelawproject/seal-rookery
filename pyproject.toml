@@ -1,7 +1,15 @@
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
-  "setuptools",
+  # These floors exist only to keep known CVEs out of the build environment.
+  # Build requirements are not recorded in the built wheel, so they impose
+  # nothing on anyone installing seal-rookery.
+  #
+  # 78.1.1 fixes CVE-2024-6345 and CVE-2025-47273. 83.0.0 additionally fixes
+  # CVE-2026-59890, but it is also the first release to drop Python 3.9, which
+  # this project still supports, so it is only required from 3.10 upwards.
+  "setuptools>=78.1.1; python_version<'3.10'",
+  "setuptools>=83; python_version>='3.10'",
 ]
 
 [project]
