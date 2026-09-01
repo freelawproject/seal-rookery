@@ -2,4 +2,4 @@ boto3
 Pillow>=12.3.0
 botocore
 python-resize-image==1.1.20
-pyvips>=2.1.16
+pyvips>=3.2.0
