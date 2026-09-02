@@ -17,6 +17,10 @@
   - Relaxed `python-resize-image` from `==1.1.20` to `>=1.1.20`.
   - `boto3`, `botocore`, `pyvips` and `twine` have no advisories against any
     release and remain unconstrained.
+- Updated the pre-commit hooks (incorporates #42, which pre-commit.ci opened):
+  `pre-commit-hooks` v5.0.0 to v6.0.0 and `ruff-pre-commit` v0.11.11 to
+  v0.16.5. Also renamed the `ruff` hook to `ruff-check`; the newer
+  `ruff-pre-commit` keeps `ruff` only as a legacy alias.
 - The maintainer-only `requirements-ci.txt` can no longer be installed on
   Python 3.9: `Pillow>=12.3.0` is the oldest Pillow with no known CVEs, and it
   requires Python >= 3.10. The library itself is pure standard library and
