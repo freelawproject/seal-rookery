@@ -10,7 +10,10 @@
   - Added `setuptools` floors to `[build-system].requires`, which was
     previously unbounded, to keep CVE-2024-6345, CVE-2025-47273 and
     CVE-2026-59890 out of the build environment. Build requirements are not
-    recorded in the built wheel, so this imposes nothing on installers.
+    recorded in the built wheel, so this does not affect anyone installing
+    seal-rookery from PyPI. It does apply to a source build run with
+    `--no-build-isolation`, which already required setuptools >= 77 for the
+    PEP 639 license metadata; on Python 3.10+ that effective floor becomes 83.
   - Relaxed `python-resize-image` from `==1.1.20` to `>=1.1.20`.
   - `boto3`, `botocore`, `pyvips` and `twine` have no advisories against any
     release and remain unconstrained.

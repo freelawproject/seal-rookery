@@ -1,11 +1,14 @@
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = [
-  # These floors exist only to keep known CVEs out of the build environment.
-  # Build requirements are not recorded in the built wheel, so they impose
-  # nothing on anyone installing seal-rookery.
+  # These floors keep known CVEs out of the build environment. They are not
+  # recorded in the built wheel, so they constrain nobody installing
+  # seal-rookery from PyPI. They do apply to a source build run with
+  # --no-build-isolation, which already needed setuptools >= 77 for the PEP 639
+  # license fields below; on 3.10+ that effective floor moves to 83.
   #
-  # 78.1.1 fixes CVE-2024-6345 and CVE-2025-47273. 83.0.0 additionally fixes
+  # CVE-2024-6345 was fixed in 70.0.0 and CVE-2025-47273 in 78.1.1, so 78.1.1
+  # is the oldest release free of both. 83.0.0 additionally fixes
   # CVE-2026-59890, but it is also the first release to drop Python 3.9, which
   # this project still supports, so it is only required from 3.10 upwards.
   "setuptools>=78.1.1; python_version<'3.10'",
