@@ -5,6 +5,28 @@
 
 ## Upcoming Changes
 - Support Python 3.13
+- Raised dependency floors only where needed to purge known vulnerabilities,
+  and left everything else deliberately unconstrained:
+  - Added `setuptools` floors to `[build-system].requires`, which was
+    previously unbounded, to keep CVE-2024-6345, CVE-2025-47273 and
+    CVE-2026-59890 out of the build environment. Build requirements are not
+    recorded in the built wheel, so this does not affect anyone installing
+    seal-rookery from PyPI. It does apply to a source build run with
+    `--no-build-isolation`, which already required setuptools >= 77 for the
+    PEP 639 license metadata; on Python 3.10+ that effective floor becomes 83.
+  - Relaxed `python-resize-image` from `==1.1.20` to `>=1.1.20`.
+  - `boto3`, `botocore`, `pyvips` and `twine` have no advisories against any
+    release and remain unconstrained.
+- Updated the pre-commit hooks (incorporates #42, which pre-commit.ci opened):
+  `pre-commit-hooks` v5.0.0 to v6.0.0 and `ruff-pre-commit` v0.11.11 to
+  v0.16.5. Also renamed the `ruff` hook to `ruff-check`; the newer
+  `ruff-pre-commit` keeps `ruff` only as a legacy alias.
+- The maintainer-only `requirements-ci.txt` can no longer be installed on
+  Python 3.9: `Pillow>=12.3.0` is the oldest Pillow with no known CVEs, and it
+  requires Python >= 3.10. The library itself is pure standard library and
+  still supports 3.9. The upload workflow now pins Python 3.13 explicitly; it
+  previously carried a `python-version: ["3.9"]` matrix that was never passed
+  to `actions/setup-python`.
 
 ## Current Version
 
